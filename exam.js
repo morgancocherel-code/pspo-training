@@ -31,6 +31,7 @@
   const answerError = document.getElementById("answer-error");
   const validateButton = document.getElementById("validate-answer");
   const nextButton = document.getElementById("next-question");
+  const previousButton = document.getElementById("previous-question");
   const feedback = document.getElementById("answer-feedback");
   const feedbackTitle = document.getElementById("feedback-title");
   const feedbackDescription = document.getElementById("feedback-description");
@@ -50,6 +51,16 @@
   let score = 0;
   let validatedCount = 0;
   let validated = false;
+  const responses = exam.questions.map(() => ({ selected: [], validated: false }));
+  const questionsDialog = document.getElementById("questions-dialog");
+  const questionsList = document.getElementById("questions-list");
+  const openQuestionsButton = document.getElementById("open-questions");
+  const favorites = new Set();
+  const favoriteButton = document.getElementById("toggle-favorite");
+  const allFilter = document.getElementById("filter-all");
+  const favoritesFilter = document.getElementById("filter-favorites");
+  let favoritesOnly = false;
+  let finished = false;
 
   document.title = `${exam.title} — PSPO Practice`;
   document.getElementById("exam-title").textContent = exam.title;
@@ -80,6 +91,11 @@
     return Array.from(optionsFieldset.querySelectorAll("input:checked"), (input) => input.value);
   }
 
+  function isCorrectAnswer(question, selected) {
+    return selected.length === question.correctAnswers.length &&
+      selected.every((answer) => question.correctAnswers.includes(answer));
+  }
+
   function updateProgress() {
     progress.value = validatedCount;
     progressText.textContent = `Question ${questionIndex + 1} sur ${exam.questions.length}`;
@@ -88,10 +104,13 @@
 
   function renderQuestion(focusHeading) {
     const question = exam.questions[questionIndex];
-    validated = false;
-    validateButton.disabled = true;
+    const response = responses[questionIndex];
+    updateFavoriteButton();
+    validated = response.validated;
+    validateButton.disabled = response.selected.length === 0;
     validateButton.hidden = false;
     nextButton.hidden = true;
+    previousButton.hidden = questionIndex === 0;
     feedback.hidden = true;
     answerError.hidden = true;
     correctOptions.replaceChildren();
@@ -113,6 +132,7 @@
       input.type = question.selectionMode === "single" ? "radio" : "checkbox";
       input.name = "answer";
       input.value = option.id;
+      input.checked = response.selected.includes(option.id);
       const letter = document.createElement("span");
       letter.className = "option-letter";
       letter.textContent = option.id;
@@ -126,6 +146,9 @@
     nextButton.textContent = questionIndex === exam.questions.length - 1
       ? "Voir mon résultat →"
       : "Question suivante →";
+    if (validated) {
+      showFeedback();
+    }
     updateProgress();
     if (focusHeading) {
       questionTitle.focus();
@@ -133,6 +156,9 @@
   }
 
   form.addEventListener("change", () => {
+    if (!validated) {
+      responses[questionIndex].selected = selectedAnswers();
+    }
     validateButton.disabled = validated || selectedAnswers().length === 0;
     answerError.hidden = true;
   });
@@ -151,13 +177,24 @@
     }
 
     const question = exam.questions[questionIndex];
-    const correct = question.correctAnswers;
-    const isCorrect = selected.length === correct.length && selected.every((answer) => correct.includes(answer));
+    const isCorrect = isCorrectAnswer(question, selected);
     validated = true;
+    responses[questionIndex] = { selected, validated: true };
     validatedCount += 1;
     if (isCorrect) {
       score += 1;
     }
+
+    showFeedback();
+    updateProgress();
+    feedbackTitle.focus();
+  });
+
+  function showFeedback() {
+    const question = exam.questions[questionIndex];
+    const selected = responses[questionIndex].selected;
+    const correct = question.correctAnswers;
+    const isCorrect = isCorrectAnswer(question, selected);
 
     for (const input of optionsFieldset.querySelectorAll("input")) {
       input.disabled = true;
@@ -188,8 +225,168 @@
     validateButton.disabled = true;
     validateButton.hidden = true;
     nextButton.hidden = false;
-    updateProgress();
-    feedbackTitle.focus();
+  }
+
+  function renderErrorReview() {
+    const container = document.getElementById("review-questions");
+    container.replaceChildren();
+    let errorCount = 0;
+
+    exam.questions.forEach((question, index) => {
+      const selected = responses[index].selected;
+      const answered = responses[index].validated;
+      if (answered && isCorrectAnswer(question, selected)) {
+        return;
+      }
+      errorCount += 1;
+
+      const article = document.createElement("article");
+      article.className = "review-question";
+      const heading = document.createElement("h3");
+      heading.textContent = `Question ${index + 1} · Question source n° ${question.number}`;
+      const text = document.createElement("p");
+      text.className = "review-question-text";
+      text.textContent = question.question;
+      article.append(heading, text);
+      if (!answered) {
+        const notice = document.createElement("p");
+        notice.textContent = "Non répondue : cette question n'a pas été validée et compte comme incorrecte.";
+        article.append(notice);
+      }
+
+      for (const group of [
+        { title: "Votre réponse :", answers: selected, className: "review-selected" },
+        { title: "La bonne réponse :", answers: question.correctAnswers, className: "review-correct" },
+      ]) {
+        const section = document.createElement("div");
+        section.className = group.className;
+        const title = document.createElement("h4");
+        title.textContent = group.title;
+        const list = document.createElement("ul");
+        if (group.answers.length === 0) {
+          const item = document.createElement("li");
+          item.textContent = "Aucune réponse sélectionnée.";
+          list.append(item);
+        }
+        for (const option of question.options.filter((option) => group.answers.includes(option.id))) {
+          const item = document.createElement("li");
+          item.textContent = `${option.id}. ${option.text}`;
+          list.append(item);
+        }
+        section.append(title, list);
+        article.append(section);
+      }
+      container.append(article);
+    });
+
+    document.getElementById("review-summary").textContent = errorCount === 0
+      ? "Aucune erreur : vous avez répondu correctement à toutes les questions !"
+      : `${errorCount} question${errorCount > 1 ? "s" : ""} à revoir. Retrouvez votre sélection et le corrigé ci-dessous.`;
+  }
+
+  function goToQuestion(index) {
+    if (finished) {
+      return;
+    }
+    if (!validated) {
+      responses[questionIndex].selected = selectedAnswers();
+    }
+    questionIndex = index;
+    renderQuestion(true);
+  }
+
+  function updateFavoriteButton() {
+    const favorite = favorites.has(questionIndex);
+    favoriteButton.setAttribute("aria-pressed", String(favorite));
+    favoriteButton.setAttribute("aria-label", favorite
+      ? "Retirer cette question des favoris"
+      : "Ajouter cette question aux favoris");
+  }
+
+  favoriteButton.addEventListener("click", () => {
+    if (favorites.has(questionIndex)) {
+      favorites.delete(questionIndex);
+    } else {
+      favorites.add(questionIndex);
+    }
+    updateFavoriteButton();
+  });
+
+  function renderQuestionList() {
+    questionsList.replaceChildren();
+    allFilter.setAttribute("aria-pressed", String(!favoritesOnly));
+    favoritesFilter.setAttribute("aria-pressed", String(favoritesOnly));
+    document.getElementById("favorites-count").textContent = String(favorites.size);
+    document.getElementById("favorites-empty").hidden = !favoritesOnly || favorites.size > 0;
+    document.getElementById("questions-count").textContent =
+      `${validatedCount} / ${exam.questions.length} questions répondues`;
+    exam.questions.forEach((question, index) => {
+      if (favoritesOnly && !favorites.has(index)) {
+        return;
+      }
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "question-link";
+      if (index === questionIndex) {
+        button.setAttribute("aria-current", "step");
+      }
+      const title = document.createElement("span");
+      title.textContent = `Question ${index + 1}${favorites.has(index) ? " · Favori" : ""}`;
+      const status = document.createElement("span");
+      const answered = responses[index].validated;
+      status.className = `question-status ${answered ? "question-answered" : "question-unanswered"}`;
+      status.textContent = answered ? "✓ Répondue" : "○ Non répondue";
+      const preview = document.createElement("span");
+      preview.className = "question-preview";
+      preview.textContent = question.question;
+      const arrow = document.createElement("span");
+      arrow.className = "question-arrow";
+      arrow.setAttribute("aria-hidden", "true");
+      arrow.textContent = "→";
+      button.append(title, status, preview, arrow);
+      button.addEventListener("click", () => {
+        questionsDialog.close();
+        goToQuestion(index);
+      });
+      questionsList.append(button);
+    });
+  }
+
+  allFilter.addEventListener("click", () => {
+    favoritesOnly = false;
+    renderQuestionList();
+  });
+
+  favoritesFilter.addEventListener("click", () => {
+    favoritesOnly = true;
+    renderQuestionList();
+  });
+
+  openQuestionsButton.addEventListener("click", () => {
+    renderQuestionList();
+    questionsDialog.showModal();
+  });
+
+  document.getElementById("close-questions").addEventListener("click", () => {
+    questionsDialog.close();
+    openQuestionsButton.focus();
+  });
+
+  questionsDialog.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      event.preventDefault();
+      questionsDialog.close();
+      openQuestionsButton.focus();
+    }
+  });
+
+  document.getElementById("finish-exam").addEventListener("click", finishExam);
+
+  previousButton.addEventListener("click", () => {
+    if (questionIndex === 0) {
+      return;
+    }
+    goToQuestion(questionIndex - 1);
   });
 
   nextButton.addEventListener("click", () => {
@@ -197,11 +394,27 @@
       return;
     }
     if (questionIndex < exam.questions.length - 1) {
-      questionIndex += 1;
-      renderQuestion(true);
+      goToQuestion(questionIndex + 1);
       return;
     }
 
+    finishExam();
+  });
+
+  function finishExam() {
+    if (finished) {
+      return;
+    }
+    const unanswered = exam.questions.length - validatedCount;
+    if (unanswered > 0 && !confirm(
+      `${unanswered} question(s) non validée(s) compteront comme incorrectes. Terminer l'examen ?`,
+    )) {
+      return;
+    }
+    if (!validated) {
+      responses[questionIndex].selected = selectedAnswers();
+    }
+    finished = true;
     stopTimer();
     quiz.hidden = true;
     results.hidden = false;
@@ -210,8 +423,9 @@
     document.getElementById("result-description").textContent =
       `${Math.round((score / total) * 100)} % de bonnes réponses sur ${exam.title.toLowerCase()}.`;
     document.getElementById("restart-exam").href = `./exam.html?exam=${examNumber}`;
+    renderErrorReview();
     document.getElementById("results-title").focus();
-  });
+  }
 
   renderQuestion(false);
   updateTimer();

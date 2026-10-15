@@ -2595,7 +2595,7 @@ const PSPO_EXAMS = {
           },
           {
             "id": "B",
-            "text": "None of the above"
+            "text": "The Lead Developer"
           },
           {
             "id": "C",
@@ -2603,13 +2603,13 @@ const PSPO_EXAMS = {
           },
           {
             "id": "D",
-            "text": "The Lead Developer"
+            "text": "None of the above"
           }
         ],
         "selectionMode": "single",
         "requiredAnswerCount": 1,
         "correctAnswers": [
-          "B"
+          "D"
         ]
       },
       {
@@ -2790,16 +2790,16 @@ const PSPO_EXAMS = {
             "text": "The Innovation Rate, which is the ratio of new work to total work."
           },
           {
-            "id": "B",
-            "text": "All of the above."
-          },
-          {
             "id": "C",
             "text": "The On-Product Index, which measures the proportion of work related to the product to total work."
           },
           {
             "id": "D",
             "text": "Employee Net Promoter Scores, which measures the overall job satisfaction and company satisfaction of the developers."
+          },
+          {
+            "id": "B",
+            "text": "All of the above."
           }
         ],
         "selectionMode": "single",
@@ -3050,20 +3050,20 @@ const PSPO_EXAMS = {
             "text": "They help teams better understand and meet customer needs."
           },
           {
-            "id": "C",
-            "text": "All of the above."
-          },
-          {
             "id": "D",
             "text": "Smaller, more frequent releases are less risky."
           },
           {
-            "id": "E",
-            "text": "None of the above."
-          },
-          {
             "id": "F",
             "text": "They help teams to learn how to correct and eliminate errors."
+          },
+          {
+            "id": "C",
+            "text": "All of the above."
+          },
+          {
+            "id": "E",
+            "text": "None of the above."
           }
         ],
         "selectionMode": "single",
@@ -3252,6 +3252,131 @@ const PSPO_EXAMS = {
         "requiredAnswerCount": 1,
         "correctAnswers": [
           "B"
+        ]
+      },
+      {
+        "id": "exam-3-question-61",
+        "number": 61,
+        "origin": "image (24).png",
+        "question": "My job as a Product Owner should focus on the following:\n\n(choose the best two answers)",
+        "options": [
+          {
+            "id": "A",
+            "text": "Clearly communicating product progress and strategies to customers and stakeholders."
+          },
+          {
+            "id": "B",
+            "text": "Being with the Developers all the time, just in case they need me to clarify a requirement."
+          },
+          {
+            "id": "C",
+            "text": "Collaborating with customers and stakeholders to identify the most important product requirements."
+          },
+          {
+            "id": "D",
+            "text": "Writing clear, transparent User Stories."
+          }
+        ],
+        "selectionMode": "multiple",
+        "requiredAnswerCount": 2,
+        "correctAnswers": [
+          "A",
+          "C"
+        ]
+      },
+      {
+        "id": "exam-3-question-62",
+        "number": 62,
+        "origin": "image (28).png",
+        "question": "Who is responsible for tracking the remaining work for the Increment in the Sprint?\n\n(choose the best answer)",
+        "options": [
+          {
+            "id": "A",
+            "text": "The Developers."
+          },
+          {
+            "id": "B",
+            "text": "The Scrum Team."
+          },
+          {
+            "id": "C",
+            "text": "The Product Owner."
+          },
+          {
+            "id": "D",
+            "text": "The Project Manager."
+          },
+          {
+            "id": "E",
+            "text": "The Scrum Master."
+          }
+        ],
+        "selectionMode": "single",
+        "requiredAnswerCount": 1,
+        "correctAnswers": [
+          "A"
+        ]
+      },
+      {
+        "id": "exam-3-question-63",
+        "number": 63,
+        "origin": "image (27).png",
+        "question": "You work as a Product Owner for a small company and your Scrum Team employee retention rate has been falling. Data from exit interviews suggests that the Developers are:\n- Frustrated by interruptions and low-value meetings.\n- Feel that their work is not \"meaningful.\"\n\nYou need to address this quickly, since the cost to train new Developers is very high in a small organization like yours.\n\nTo increase the likelihood of improving the retention rate, what additional measurements should you consider when determining improvements?\n\n(choose the best answer)",
+        "options": [
+          {
+            "id": "A",
+            "text": "The Innovation Rate, which is the ratio of new work to total work."
+          },
+          {
+            "id": "B",
+            "text": "The On-Product Index, the ratio of product work to total work."
+          },
+          {
+            "id": "C",
+            "text": "Employee Net Promoter Scores."
+          },
+          {
+            "id": "D",
+            "text": "All of the above."
+          }
+        ],
+        "selectionMode": "single",
+        "requiredAnswerCount": 1,
+        "correctAnswers": [
+          "D"
+        ]
+      },
+      {
+        "id": "exam-3-question-64",
+        "number": 64,
+        "origin": "image (25).png",
+        "question": "Which of the following is required by Scrum?\n\n(choose all that apply)",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sprint Retrospective."
+          },
+          {
+            "id": "B",
+            "text": "Members must stand up at the Daily Scrum."
+          },
+          {
+            "id": "C",
+            "text": "Sprint Burndown Chart."
+          },
+          {
+            "id": "D",
+            "text": "Release Planning."
+          },
+          {
+            "id": "E",
+            "text": "All of the above."
+          }
+        ],
+        "selectionMode": "multiple",
+        "requiredAnswerCount": null,
+        "correctAnswers": [
+          "A"
         ]
       }
     ]

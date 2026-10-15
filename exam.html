@@ -50,10 +50,36 @@
             <span>Correction immédiate</span>
           </div>
           <progress id="exam-progress" value="0" max="1" aria-label="Questions validées"></progress>
+          <div class="question-toolbar">
+            <button class="questions-button" id="open-questions" type="button" aria-haspopup="dialog" aria-controls="questions-dialog">
+              <span aria-hidden="true">☷</span> Voir toutes les questions
+            </button>
+            <button class="secondary-button" id="finish-exam" type="button">Terminer l'examen</button>
+          </div>
+          <dialog id="questions-dialog" aria-labelledby="questions-dialog-title">
+            <div class="questions-dialog-header">
+              <h2 id="questions-dialog-title">Navigation des questions</h2>
+              <button class="secondary-button" id="close-questions" type="button" aria-label="Fermer la liste des questions">×</button>
+            </div>
+            <div class="question-filters" role="group" aria-label="Catégories de questions">
+              <button class="question-filter" id="filter-all" type="button" aria-pressed="true" aria-controls="questions-list">Toutes les questions</button>
+              <button class="question-filter" id="filter-favorites" type="button" aria-pressed="false" aria-controls="questions-list">Favoris <span id="favorites-count">0</span></button>
+            </div>
+            <p class="questions-help">Une question est « Répondue » après validation. Cliquez sur une ligne pour y accéder.</p>
+            <p class="questions-help">Les favoris sont conservés pendant cette session d'examen.</p>
+            <p id="questions-count"></p>
+            <p id="favorites-empty" class="questions-help" hidden>Aucun favori pour le moment. Utilisez le marque-page en haut d'une question pour la retrouver ici.</p>
+            <nav id="questions-list" aria-label="Navigation entre les questions"></nav>
+          </dialog>
           <p id="timer-notice" class="timer-notice" role="status" hidden>Temps écoulé. Vous pouvez continuer à répondre aux questions ; votre score sera calculé normalement.</p>
 
           <form id="answer-form" class="quiz-panel">
-            <p class="question-source" id="question-source"></p>
+            <div class="question-card-header">
+              <p class="question-source" id="question-source"></p>
+              <button class="favorite-button" id="toggle-favorite" type="button" aria-pressed="false" aria-label="Ajouter cette question aux favoris">
+                <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M5 3h14v18l-7-4-7 4z"></path></svg>
+              </button>
+            </div>
             <h2 id="question-title" tabindex="-1"></h2>
             <fieldset class="answer-options" id="answer-options">
               <legend id="answer-instructions"></legend>
@@ -66,6 +92,7 @@
               <ul id="correct-options"></ul>
             </section>
             <div class="quiz-actions">
+              <button class="secondary-button" id="previous-question" type="button" hidden>← Question précédente</button>
               <button class="primary-button" id="validate-answer" type="submit" disabled>Valider</button>
               <button class="primary-button" id="next-question" type="button" hidden>Question suivante →</button>
             </div>
@@ -74,10 +101,15 @@
 
         <section id="exam-results" class="quiz-panel results-panel" aria-labelledby="results-title" hidden>
           <p class="eyebrow">SESSION TERMINÉE</p>
-          <h1 id="results-title" tabindex="-1">Bien joué, vous êtes allé au bout !</h1>
+          <h1 id="results-title" tabindex="-1">Votre résultat</h1>
           <p class="result-score" id="result-score"></p>
           <p id="result-description"></p>
           <p class="result-rule">Pour une question à choix multiples, toutes les bonnes réponses et aucune autre doivent être sélectionnées.</p>
+          <section class="error-review" aria-labelledby="review-title">
+            <h2 id="review-title">Les questions à revoir</h2>
+            <p id="review-summary"></p>
+            <div id="review-questions"></div>
+          </section>
           <div class="result-actions">
             <a class="primary-button" id="restart-exam" href="./exam.html">Recommencer cet examen</a>
             <a class="secondary-button" href="./index.html">Choisir un autre examen</a>
