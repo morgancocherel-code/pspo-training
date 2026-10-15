@@ -1,0 +1,1309 @@
+{
+  "schemaVersion": 1,
+  "source": "PSPOII-Questions.xlsx",
+  "exams": [
+    {
+      "id": "exam-1",
+      "title": "Exam 1",
+      "sourceSheet": "Questions",
+      "questions": [
+        {
+          "id": "exam-1-question-1",
+          "number": 1,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "You are an experienced Product Owner and team leader. You want to ensure your vision inspires and creates motivation. Which of the below elements might you included in the Product Vision and strategy to maintain enthusiasm for the product among stakeholders? (choose all that apply)",
+          "options": [
+            {
+              "id": "A",
+              "text": "A description of how the product competes against others in the market."
+            },
+            {
+              "id": "B",
+              "text": "A description of how the product will generate revenue."
+            },
+            {
+              "id": "C",
+              "text": "A description of the product's users and what they want to achieve."
+            },
+            {
+              "id": "D",
+              "text": "A description of how your product will be used to achieve outcomes."
+            },
+            {
+              "id": "E",
+              "text": "A description of what value the product brings to the users and how it can be measured."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
+        },
+        {
+          "id": "exam-1-question-2",
+          "number": 2,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "Your organization has recently adopted Scrum. Management seeks to quantify the benefits gained by Scrum thus far. Which metrics are most useful in assessing if value is being delivered in terms of the features released and the organizations' adoption of Scrum. Which two metrics would be most suitable? (choose the best two options)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Expenditure."
+            },
+            {
+              "id": "B",
+              "text": "Customer satisfaction."
+            },
+            {
+              "id": "C",
+              "text": "Team velocity."
+            },
+            {
+              "id": "D",
+              "text": "Work efficiency."
+            },
+            {
+              "id": "E",
+              "text": "Time to market."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 2,
+          "correctAnswers": [
+            "B",
+            "E"
+          ]
+        },
+        {
+          "id": "exam-1-question-3",
+          "number": 3,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "If the Product Owner is struggling to find time to complete all of his/her work, what can he/she do to ensure the Product Owner accountabilities are met? (choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Divide the Product Owner role into ﾓBusiness Product Ownerﾔ and ﾓTechnical Product Owner\" roles to share the work."
+            },
+            {
+              "id": "B",
+              "text": "None of the above"
+            },
+            {
+              "id": "C",
+              "text": "Reduce the product into components, and assign a Product Owner to each, then assume the role of ﾓChief Product Ownerﾔ responsible for the integrated product."
+            },
+            {
+              "id": "D",
+              "text": "Delegate tasks to Developers, like detailing Product Backlog items, interviewing users, and analyzing data."
+            },
+            {
+              "id": "E",
+              "text": "All of the above."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "D"
+          ]
+        },
+        {
+          "id": "exam-1-question-4",
+          "number": 4,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "If Product Backlog items are not clear during Sprint Planning what might happen? (choose the best 2 answers)",
+          "options": [
+            {
+              "id": "A",
+              "text": "The team cancel the meeting so backlog refinement can be done first."
+            },
+            {
+              "id": "B",
+              "text": "Nothing, so long as the Product Owner gives the Developers a clear Sprint Goal."
+            },
+            {
+              "id": "C",
+              "text": "The Scrum Master has failed, the Scrum Master is changed and the Sprint is re-started."
+            },
+            {
+              "id": "D",
+              "text": "There will be no impact on Sprint Planning or the Sprint."
+            },
+            {
+              "id": "E",
+              "text": "The Developers will have difficulty creating a forecast of work for the Sprint without more clarity."
+            },
+            {
+              "id": "F",
+              "text": "Sprint Planning will take longer as the Product Owner needs to explain backlog items."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 2,
+          "correctAnswers": [
+            "E",
+            "F"
+          ]
+        },
+        {
+          "id": "exam-1-question-5",
+          "number": 5,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "When should the project plan be updated? (choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "The Product Backlog is the plan in Scrum. It is updated as new information and insights emerge."
+            },
+            {
+              "id": "B",
+              "text": "After the Daily Scrum to ensure an accurate daily overview of project progress."
+            },
+            {
+              "id": "C",
+              "text": "The project plan must be updated before to the Daily Scrum."
+            },
+            {
+              "id": "D",
+              "text": "Before the Sprint Planning to know how much work will have to be done in the Sprint."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "A"
+          ]
+        },
+        {
+          "id": "exam-1-question-6",
+          "number": 6,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "You have a furniture company that manufactures multiple products. You are considering the allocation of new investment funds for 2 products in particular. Product A has a wider target audience but experiences lower customer satisfaction, and Product B currently generates higher revenue. Given this information, which of the below investment approaches would you pick?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Explore increasing marketing efforts for Product B to grow its market share."
+            },
+            {
+              "id": "B",
+              "text": "Initially invest in both equally, regularly evaluating the effects of new investments and marketing campaigns for both products."
+            },
+            {
+              "id": "C",
+              "text": "Invest in Product A to enhance its market share, customer satisfaction, and revenue generation."
+            },
+            {
+              "id": "D",
+              "text": "All of the above."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "C"
+          ]
+        },
+        {
+          "id": "exam-1-question-7",
+          "number": 7,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "Why does Agile insist on frequent product releases? (choose the best option)",
+          "options": [
+            {
+              "id": "A",
+              "text": "All of the above."
+            },
+            {
+              "id": "B",
+              "text": "Smaller, more frequent releases are less risky."
+            },
+            {
+              "id": "C",
+              "text": "They help teams better understand and meet customer needs."
+            },
+            {
+              "id": "D",
+              "text": "They enable teams to inspect and adapt more frequently."
+            },
+            {
+              "id": "E",
+              "text": "They help teams to learn how to correct and eliminate errors."
+            },
+            {
+              "id": "F",
+              "text": "None of the above."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "A"
+          ]
+        },
+        {
+          "id": "exam-1-question-8",
+          "number": 8,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "What are the key advantages of a Product Owner sharing a well-defined Product Vision and ensuring everyone understands it properly? (select the top three answers)",
+          "options": [
+            {
+              "id": "A",
+              "text": "It keeps the Scrum Team focused and offers a reference point for their decisions."
+            },
+            {
+              "id": "B",
+              "text": "A Product Vision offers a comprehensive direction, ensuring that Sprints deliver significant value."
+            },
+            {
+              "id": "C",
+              "text": "A Product Vision enables the Sprint Review to assess incremental progress effectively."
+            },
+            {
+              "id": "D",
+              "text": "A Product Vision is not compulsory in Scrum, and it doesn't provide any direct advantages."
+            },
+            {
+              "id": "E",
+              "text": "A Product Vision helps the Scrum Team to commit to completing the remaining work in the Product Backlog."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 3,
+          "correctAnswers": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "id": "exam-1-question-9",
+          "number": 9,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "Who is accountable for ensuring the Product Goal is communicated and maintained? (choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Executive Sponsors."
+            },
+            {
+              "id": "B",
+              "text": "The Developers."
+            },
+            {
+              "id": "C",
+              "text": "The Product Owner."
+            },
+            {
+              "id": "D",
+              "text": "All of the above."
+            },
+            {
+              "id": "E",
+              "text": "Stakeholders."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "C"
+          ]
+        },
+        {
+          "id": "exam-1-question-10",
+          "number": 10,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "The company you work for desperately needs to boost the market share of one of its key products. The sales department is urging for a price reduction to lure more customers with attractive prices, while the accounts department is worried about a potential loss of profitability with reduced prices. What are the top four sources of information to consider when evaluating the sales leader's proposal to reduce the price?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Competitor pricing analysis."
+            },
+            {
+              "id": "B",
+              "text": "Assessment of the channel sales strategy."
+            },
+            {
+              "id": "C",
+              "text": "Examination of customer satisfaction levels."
+            },
+            {
+              "id": "D",
+              "text": "Company's earnings targets."
+            },
+            {
+              "id": "E",
+              "text": "Market share analysis."
+            },
+            {
+              "id": "F",
+              "text": "Identification of unaddressed customer needs."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 4,
+          "correctAnswers": [
+            "A",
+            "C",
+            "E",
+            "F"
+          ]
+        },
+        {
+          "id": "exam-1-question-11",
+          "number": 11,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "Which two Key Value Areas are primarily impacted when an individual or team switches tasks or encounters interruptions often? (choose the best two answers)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Current Value."
+            },
+            {
+              "id": "B",
+              "text": "Ability to Innovate."
+            },
+            {
+              "id": "C",
+              "text": "Time to Market."
+            },
+            {
+              "id": "D",
+              "text": "All of the above"
+            },
+            {
+              "id": "E",
+              "text": "Unrealized Value."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 2,
+          "correctAnswers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "id": "exam-1-question-12",
+          "number": 12,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "Which two Scrum Values are primarily impacted when an individual or team switches tasks or encounters interruptions often? (choose the best two answers)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Courage."
+            },
+            {
+              "id": "B",
+              "text": "Commitment."
+            },
+            {
+              "id": "C",
+              "text": "Openness."
+            },
+            {
+              "id": "D",
+              "text": "Focus."
+            },
+            {
+              "id": "E",
+              "text": "Respect."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 2,
+          "correctAnswers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "id": "exam-1-question-13",
+          "number": 13,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "Your company is trying to raise venture capital. Your CEO has asked you to speak with a potential stakeholder investor. This person wants to see data to assess the value your product is delivering. Which measures might give insight into this? (choose all that apply)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Market Share."
+            },
+            {
+              "id": "B",
+              "text": "Product profitability."
+            },
+            {
+              "id": "C",
+              "text": "The average selling price as compared to close competitors."
+            },
+            {
+              "id": "D",
+              "text": "Revenue per Employee."
+            },
+            {
+              "id": "E",
+              "text": "The weekly velocity of the Developers."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "exam-1-question-14",
+          "number": 14,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "The Sprint Backlog represents the Sprint forecast, but what is the best description of a Sprint forecast? (choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Useful for the stakeholders to know what tasks individual Developers are responsible for."
+            },
+            {
+              "id": "B",
+              "text": "The amount of work the Developers believe they can complete in that Sprint."
+            },
+            {
+              "id": "C",
+              "text": "A commitment by the Developers to deliver a particular set of Product Backlog items."
+            },
+            {
+              "id": "D",
+              "text": "A tool for management to monitor team performance and capacity."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "B"
+          ]
+        },
+        {
+          "id": "exam-1-question-15",
+          "number": 15,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "Why would you consider reducing investment in a product? (choose the best option)",
+          "options": [
+            {
+              "id": "A",
+              "text": "None of the above."
+            },
+            {
+              "id": "B",
+              "text": "When the Unrealized Value is extremely high."
+            },
+            {
+              "id": "C",
+              "text": "When the Current Value is extremely high."
+            },
+            {
+              "id": "D",
+              "text": "When the Current Value is extremely low."
+            },
+            {
+              "id": "E",
+              "text": "When the Unrealized Value is extremely low."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "E"
+          ]
+        },
+        {
+          "id": "exam-1-question-16",
+          "number": 16,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "A separate Product Owner and Product Backlog is needed for every: (choose the correct answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Product"
+            },
+            {
+              "id": "B",
+              "text": "Portfolio"
+            },
+            {
+              "id": "C",
+              "text": "Program"
+            },
+            {
+              "id": "D",
+              "text": "Project"
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "A"
+          ]
+        },
+        {
+          "id": "exam-1-question-17",
+          "number": 17,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "When a user's expectations of a product are not met, meaning their desired experience does not meet their actual experience, this is described as... (choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "The user satisfaction gap."
+            },
+            {
+              "id": "B",
+              "text": "Unattainable user expectations."
+            },
+            {
+              "id": "C",
+              "text": "A product failure."
+            },
+            {
+              "id": "D",
+              "text": "Expectation experience drift."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "A"
+          ]
+        },
+        {
+          "id": "exam-1-question-18",
+          "number": 18,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "You work for a bank that has many financial products such as investment funds, credit cards, high interest savings accounts and more. The issue is, when one of these products changes it impacts the return on investment (ROI) and this has a knock on effect to the other products the bank offers as investors compare ROI between the products. What can you do to reduce this issue?(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Form products that are as independent as possible and let each product determine their own release plans, but ensure coordination."
+            },
+            {
+              "id": "B",
+              "text": "Appoint one Product Owner to oversee all the products."
+            },
+            {
+              "id": "C",
+              "text": "To ensure consistency, create a centralized and coordinated multi-product development plan."
+            },
+            {
+              "id": "D",
+              "text": "All of the above."
+            },
+            {
+              "id": "E",
+              "text": "Ensure that the Program Office manages all releases of all products."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "A"
+          ]
+        },
+        {
+          "id": "exam-1-question-19",
+          "number": 19,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "Managing the Product Backlog involves which of the following? (choose all that apply)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Breaking large Product Backlog items into multiple smaller Product Backlog items."
+            },
+            {
+              "id": "B",
+              "text": "Ordering the items."
+            },
+            {
+              "id": "C",
+              "text": "Reducing or ideally eliminating dependencies between items"
+            },
+            {
+              "id": "D",
+              "text": "Forecasting the effort required of Product Backlog items."
+            },
+            {
+              "id": "E",
+              "text": "Reviewing the Product Backlog items with stakeholders."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
+        },
+        {
+          "id": "exam-1-question-20",
+          "number": 20,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "After a recent big release, you as the Product Owner look at the usage data per feature, new and old. To your surprise the data reveals that several features you and your stakeholders deemed crucial are actually among the least used by your customers. What steps would you take to investigate this situation? (select all that apply)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Consider removing the features that have never been used."
+            },
+            {
+              "id": "B",
+              "text": "Engage with some of your users to gain a better understanding of their needs."
+            },
+            {
+              "id": "C",
+              "text": "Conduct further analysis on the newly released features to determine if developers implemented them correctly."
+            },
+            {
+              "id": "D",
+              "text": "Immediately remove the least-used features."
+            },
+            {
+              "id": "E",
+              "text": "Design an experiment to identify the features users perceive as valuable."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ]
+        },
+        {
+          "id": "exam-1-question-21",
+          "number": 21,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "In the context of Scrum, how should budgeting and financial forecasting be approached? (choose the best two options)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Budgeting is unnecessary since the only required funding pertains to the operational costs of Scrum Teams."
+            },
+            {
+              "id": "B",
+              "text": "Regularly examine the results of delivered Sprint Increments to assess the value produced relative to the investment made."
+            },
+            {
+              "id": "C",
+              "text": "Establish a fixed budget and guarantee that the project is completed on schedule, within the defined scope, and adhering to the budget."
+            },
+            {
+              "id": "D",
+              "text": "Fund a single release through multiple Sprints, with each Sprint delivering shippable increments."
+            },
+            {
+              "id": "E",
+              "text": "Scrum is incompatible with traditional accounting practices, so the finance department should allocate a fixed cost per Sprint for each team."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 2,
+          "correctAnswers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "id": "exam-1-question-22",
+          "number": 22,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "In order to justify the price increase of a product, your primary objective should be to (choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reduce the number of features to improve ease of use."
+            },
+            {
+              "id": "B",
+              "text": "Enhance the product by adding more features."
+            },
+            {
+              "id": "C",
+              "text": "Lower the price temporarily before raising it higher than the original."
+            },
+            {
+              "id": "D",
+              "text": "Improve the value experienced by the customer."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "D"
+          ]
+        },
+        {
+          "id": "exam-1-question-23",
+          "number": 23,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "When should the Scrum Team do Product Backlog refinement? (choose the best 2 answers)",
+          "options": [
+            {
+              "id": "A",
+              "text": "The Product Owner takes the time between the Sprints to do it."
+            },
+            {
+              "id": "B",
+              "text": "Business Analysts will do the refinement work for the Scrum Team, usually 1- 2 Sprints ahead of the development Sprints."
+            },
+            {
+              "id": "C",
+              "text": "In the current Sprint if they have been unable to do it in preceding Sprints."
+            },
+            {
+              "id": "D",
+              "text": "During any Sprint as needed, ideally in advance of the upcoming Sprint."
+            },
+            {
+              "id": "E",
+              "text": "It must be done by Sprint 0."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 2,
+          "correctAnswers": [
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "exam-1-question-24",
+          "number": 24,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "The smallest amount of progress that can still be considered valuable enough to be released is one that: (choose the best option)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Adds a new feature."
+            },
+            {
+              "id": "B",
+              "text": "Delivers all Sprint Backlog items."
+            },
+            {
+              "id": "C",
+              "text": "Fixes at least one defect."
+            },
+            {
+              "id": "D",
+              "text": "Delivers a single new or improved outcome."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "D"
+          ]
+        },
+        {
+          "id": "exam-1-question-25",
+          "number": 25,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "Which of the below are mandatory in Scrum? (choose all that apply)",
+          "options": [
+            {
+              "id": "A",
+              "text": "None of the above."
+            },
+            {
+              "id": "B",
+              "text": "Feature burn-up."
+            },
+            {
+              "id": "C",
+              "text": "Critical Path Analysis."
+            },
+            {
+              "id": "D",
+              "text": "Burndown chart."
+            },
+            {
+              "id": "E",
+              "text": "Project Gantt chart."
+            },
+            {
+              "id": "F",
+              "text": "Refactoring."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": [
+            "A"
+          ]
+        },
+        {
+          "id": "exam-1-question-26",
+          "number": 26,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "Burndown charts are a visual aid to showing progress, what does it track? (choose the best option)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Accumulated cost."
+            },
+            {
+              "id": "B",
+              "text": "Accumulated business value delivered to the customer."
+            },
+            {
+              "id": "C",
+              "text": "Individual worker productivity."
+            },
+            {
+              "id": "D",
+              "text": "Work remaining across time."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "D"
+          ]
+        },
+        {
+          "id": "exam-1-question-27",
+          "number": 27,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "After examining your product's customer base, you discover that various customer types utilize your product in distinct ways. Given this insight, what is the best thing to do? (choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Take no action; focus on new features to attract new customers and boost sales."
+            },
+            {
+              "id": "B",
+              "text": "Retain a single product, ensuring that each release caters to every customer type."
+            },
+            {
+              "id": "C",
+              "text": "Maintain a single product but adopt different marketing strategies for each customer type."
+            },
+            {
+              "id": "D",
+              "text": "Consider developing separate products tailored to the needs of each customer type."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "D"
+          ]
+        },
+        {
+          "id": "exam-1-question-28",
+          "number": 28,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "As a Product Owner, you are faced with multiple stakeholders, each with at least one feature they consider crucial for the next release. You have verified that these feature requests are valid and could enhance your product. What is the best course of action? (Choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Prioritize the needs of the two most influential stakeholders and release once their requirements are met."
+            },
+            {
+              "id": "B",
+              "text": "Delay the release until all essential features are completed and integrated into the product."
+            },
+            {
+              "id": "C",
+              "text": "Escalate the situation to the steering committee for a decision."
+            },
+            {
+              "id": "D",
+              "text": "Release the product once you can deliver at least one valuable outcome, even if not all features have been implemented."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "D"
+          ]
+        },
+        {
+          "id": "exam-1-question-29",
+          "number": 29,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "Over the last few Sprints the Developers have struggled to get all their forecasted work done to meet the Sprint Goals. What should the Product Owner do to help the Developers to improve their forecasting for the next few Sprints? (choose all that apply)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Add more Developers to the team so they can get more done."
+            },
+            {
+              "id": "B",
+              "text": "Change low performing Developers for high performers."
+            },
+            {
+              "id": "C",
+              "text": "Bring this up in the next Sprint Retrospective to discuss why this happens and what changes will help to fix it."
+            },
+            {
+              "id": "D",
+              "text": "The Product Owner should spend more time with the Developers."
+            },
+            {
+              "id": "E",
+              "text": "Ask the Scrum Master to show the Developers techniques for improving their ability to forecast work."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": [
+            "C",
+            "D",
+            "E"
+          ]
+        },
+        {
+          "id": "exam-1-question-30",
+          "number": 30,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "What will the Product Owner most likely be doing during the Sprint? (choose be best 3)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Running the Daily Scrum."
+            },
+            {
+              "id": "B",
+              "text": "Reordering items in the Product Backlog."
+            },
+            {
+              "id": "C",
+              "text": "Prioritizing the Developers tasks in the Sprint Backlog."
+            },
+            {
+              "id": "D",
+              "text": "Updating the Sprint burndown chart."
+            },
+            {
+              "id": "E",
+              "text": "Gathering more information and opinions from stakeholders."
+            },
+            {
+              "id": "F",
+              "text": "Answer questions from the Developers about items in the current Sprint."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 3,
+          "correctAnswers": [
+            "B",
+            "E",
+            "F"
+          ]
+        },
+        {
+          "id": "exam-1-question-31",
+          "number": 31,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "Which of the following would be wrong for a Product Owner to do? Select the best answer.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Determine the timing for releasing the product Increment."
+            },
+            {
+              "id": "B",
+              "text": "Set the Sprint Goal without consulting the team."
+            },
+            {
+              "id": "C",
+              "text": "Set a Product Goal."
+            },
+            {
+              "id": "D",
+              "text": "Approve the work completed during the Sprint."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "B"
+          ]
+        },
+        {
+          "id": "exam-1-question-32",
+          "number": 32,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "As the Product Owner you monitor and share your product usage dashboard which shows usage rate by feature. The data shows a particular feature is seldom used. An influential stakeholder disputes the data, and insists that the particular feature is essential, despite indicated low usage rates. The stakeholder believes that measuring feature usage is a waste of time, as it is obvious that the feature should be useful. You have confirmed that the data is accurate. What should you do? (choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Remove the feature."
+            },
+            {
+              "id": "B",
+              "text": "Stop measuring feature usage to please the stakeholder."
+            },
+            {
+              "id": "C",
+              "text": "Continue measuring feature usage and use it to inform your decisions, but do not publish it."
+            },
+            {
+              "id": "D",
+              "text": "Keep measuring and openly share the data for transparency, and use it for decision-making."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "D"
+          ]
+        },
+        {
+          "id": "exam-1-question-33",
+          "number": 33,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "Which is the best description of the Sprint Backlog as a result of Sprint Planning? (choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is a list of the User Stories estimated in story points, and a list of corresponding tasks that are estimated in hours."
+            },
+            {
+              "id": "B",
+              "text": "It is a task list where every Developer has signed up for all the tasks that they intend to do in the Sprint."
+            },
+            {
+              "id": "C",
+              "text": "It must be ordered by the Product Owner."
+            },
+            {
+              "id": "D",
+              "text": "It is an exhaustive list of all tasks for the Sprint."
+            },
+            {
+              "id": "E",
+              "text": "It is a decomposition of Product Backlog items such that enough work is decomposed for at least the first days of the Sprint."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "E"
+          ]
+        },
+        {
+          "id": "exam-1-question-34",
+          "number": 34,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "Your organization has recently adopted Scrum. Management want to know which metrics are most useful in assessing how valuable the users find the product. Which two metrics would be most suitable?(choose the best two options)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Customer satisfaction."
+            },
+            {
+              "id": "B",
+              "text": "Frequency of use per feature."
+            },
+            {
+              "id": "C",
+              "text": "Number of features released per month"
+            },
+            {
+              "id": "D",
+              "text": "On-time release ratio."
+            },
+            {
+              "id": "E",
+              "text": "Team velocity."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 2,
+          "correctAnswers": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "exam-1-question-35",
+          "number": 35,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "Upon discovering that several features considered important have low usage, what actions should a Product Owner take to investigate this issue? (choose all that apply)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Spend more time communicating with users to sell the benefits of the features."
+            },
+            {
+              "id": "B",
+              "text": "Carry out experiments to gain a better understanding of what customers value."
+            },
+            {
+              "id": "C",
+              "text": "Disable seldom-used features and collect feedback."
+            },
+            {
+              "id": "D",
+              "text": "Examine whether underutilized features effectively address the intended problem."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "id": "exam-1-question-36",
+          "number": 36,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "A \"cone of uncertainty\" can be used for? (choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Representing the relative level of difficulty for predicting the velocity of individual team members."
+            },
+            {
+              "id": "B",
+              "text": "Visualizing the uncertainty of the potential value that a Scrum Team delivers over time."
+            },
+            {
+              "id": "C",
+              "text": "Determining whether to cut quality, similar to the \"Iron Triangle\" of project management."
+            },
+            {
+              "id": "D",
+              "text": "Rapidly identifying and prioritizing all uncertainties."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "B"
+          ]
+        },
+        {
+          "id": "exam-1-question-37",
+          "number": 37,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "If you are uncertain about customer needs and what the market wants, what should you do? (choose the best two answers)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Spend more time creating a risk management plan."
+            },
+            {
+              "id": "B",
+              "text": "Spend more time on validating your customer need assumptions."
+            },
+            {
+              "id": "C",
+              "text": "Release often with smaller releases."
+            },
+            {
+              "id": "D",
+              "text": "Consider developing a different product."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 2,
+          "correctAnswers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "id": "exam-1-question-38",
+          "number": 38,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "A new social media app has entered the market and is starting to steal customers away from your company's primary social media product. After studying this competition you realize they release new and useful features quicker than you can and their app store star rating is higher than yours. What is your best course of action? (choose the best option)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Improve your time to market and ability to innovate to respond faster."
+            },
+            {
+              "id": "B",
+              "text": "Decrease your product price to make it more appealing."
+            },
+            {
+              "id": "C",
+              "text": "Shift your product to a market with less competition."
+            },
+            {
+              "id": "D",
+              "text": "Enhance your next release with new features to improve current value, retain users and attract new ones."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "A"
+          ]
+        },
+        {
+          "id": "exam-1-question-39",
+          "number": 39,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "As a Product Owner in scaled Scrum with multiple Scrum teams, what approach would be most beneficial when you are unable to dedicate enough time to each team?(choose the best option)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hire additional Product Owners for every product component."
+            },
+            {
+              "id": "B",
+              "text": "All the above options are valid; the decision depends on the specific situation."
+            },
+            {
+              "id": "C",
+              "text": "Ensure all Scrum Teams have a thorough grasp of the Product Vision, so they can be guided by it if you delegate certain tasks to the Developers."
+            },
+            {
+              "id": "D",
+              "text": "Collaborate with the Program Management Office to receive the necessary support."
+            },
+            {
+              "id": "E",
+              "text": "Assemble a group of Proxy Product Owners from the current Scrum Team members."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "C"
+          ]
+        },
+        {
+          "id": "exam-1-question-40",
+          "number": 40,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "Scrum is about getting started, the right product will emerge eventually. True or False?",
+          "options": [
+            {
+              "id": "A",
+              "text": "False"
+            },
+            {
+              "id": "B",
+              "text": "True"
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "A"
+          ]
+        }
+      ]
+    }
+  ]
+}

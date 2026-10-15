@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <meta name="theme-color" content="#f7f7f2">
+    <title>Examen — PSPO Practice</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="exam.css">
+    <script src="exam-data.js" defer></script>
+    <script src="exam.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#quiz-main">Aller à la question</a>
+    <div class="page-shell quiz-shell">
+      <header class="site-header">
+        <a class="brand" href="./index.html" aria-label="PSPO Practice, accueil">
+          <span class="brand-mark" aria-hidden="true">P<span>.</span></span>
+          <span class="brand-name">PSPO<span>practice</span></span>
+        </a>
+        <a class="home-link" href="./index.html">← Retour aux examens</a>
+      </header>
+
+      <main id="quiz-main" class="quiz-main">
+        <section id="exam-error" class="quiz-panel error-panel" aria-labelledby="error-title">
+          <h1 id="error-title">Examen indisponible</h1>
+          <p id="error-message">Les données de l'examen n'ont pas été chargées. Vérifiez la présence des fichiers exam-data.js et exam.js à côté de cette page.</p>
+          <noscript><p>Activez JavaScript dans votre navigateur pour répondre aux questions.</p></noscript>
+          <a class="secondary-button" href="./index.html">Choisir un examen</a>
+        </section>
+
+        <section id="quiz" aria-labelledby="exam-title" hidden>
+          <div class="quiz-heading">
+            <div>
+              <p class="eyebrow">À VOUS DE JOUER</p>
+              <h1 id="exam-title"></h1>
+            </div>
+            <div class="quiz-header-meta">
+              <span class="timer-pill" id="timer-pill">
+                <span id="timer-label">Temps restant</span>
+                <span id="exam-timer" role="timer" aria-live="off">--:--</span>
+              </span>
+              <span class="score-pill" id="live-score"></span>
+            </div>
+          </div>
+
+          <div class="progress-header">
+            <p id="question-progress"></p>
+            <span>Correction immédiate</span>
+          </div>
+          <progress id="exam-progress" value="0" max="1" aria-label="Questions validées"></progress>
+          <p id="timer-notice" class="timer-notice" role="status" hidden>Temps écoulé. Vous pouvez continuer à répondre aux questions ; votre score sera calculé normalement.</p>
+
+          <form id="answer-form" class="quiz-panel">
+            <p class="question-source" id="question-source"></p>
+            <h2 id="question-title" tabindex="-1"></h2>
+            <fieldset class="answer-options" id="answer-options">
+              <legend id="answer-instructions"></legend>
+            </fieldset>
+            <p id="answer-error" class="answer-error" role="alert" hidden></p>
+            <section id="answer-feedback" class="answer-feedback" aria-labelledby="feedback-title" aria-live="polite" hidden>
+              <h3 id="feedback-title" tabindex="-1"></h3>
+              <p id="feedback-description"></p>
+              <p class="correction-label">Le corrigé :</p>
+              <ul id="correct-options"></ul>
+            </section>
+            <div class="quiz-actions">
+              <button class="primary-button" id="validate-answer" type="submit" disabled>Valider</button>
+              <button class="primary-button" id="next-question" type="button" hidden>Question suivante →</button>
+            </div>
+          </form>
+        </section>
+
+        <section id="exam-results" class="quiz-panel results-panel" aria-labelledby="results-title" hidden>
+          <p class="eyebrow">SESSION TERMINÉE</p>
+          <h1 id="results-title" tabindex="-1">Bien joué, vous êtes allé au bout !</h1>
+          <p class="result-score" id="result-score"></p>
+          <p id="result-description"></p>
+          <p class="result-rule">Pour une question à choix multiples, toutes les bonnes réponses et aucune autre doivent être sélectionnées.</p>
+          <div class="result-actions">
+            <a class="primary-button" id="restart-exam" href="./exam.html">Recommencer cet examen</a>
+            <a class="secondary-button" href="./index.html">Choisir un autre examen</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <span>Un point par question correctement répondue.</span>
+        <span>Outil personnel et non officiel.</span>
+      </footer>
+    </div>
+  </body>
+</html>

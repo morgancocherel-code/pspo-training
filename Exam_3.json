@@ -1,0 +1,684 @@
+{
+  "schemaVersion": 1,
+  "source": "PSPOII-Questions.xlsx",
+  "exams": [
+    {
+      "id": "exam-3",
+      "title": "Exam 3",
+      "sourceSheet": "Questions",
+      "questions": [
+        {
+          "id": "exam-3-question-41",
+          "number": 41,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "Who tells the Developers how to turn Product Backlog items into Increments of value?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The Product Owner"
+            },
+            {
+              "id": "B",
+              "text": "None of the above"
+            },
+            {
+              "id": "C",
+              "text": "The Scrum Master"
+            },
+            {
+              "id": "D",
+              "text": "The Lead Developer"
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "B"
+          ]
+        },
+        {
+          "id": "exam-3-question-42",
+          "number": 42,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "As the Product Owner you realise the last increment did not meet the full Definition of Done and you are concerned about its quality. What is the likely result? (choose all that apply)",
+          "options": [
+            {
+              "id": "A",
+              "text": "The indication of progress on the Product Backlog is not transparent."
+            },
+            {
+              "id": "B",
+              "text": "The incomplete Sprint Backlog items should be returned to the Product Backlog."
+            },
+            {
+              "id": "C",
+              "text": "The Increment should not be released."
+            },
+            {
+              "id": "D",
+              "text": "The project manager cannot effectively update the plan."
+            },
+            {
+              "id": "E",
+              "text": "The next Sprints velocity may be interrupted when quality issues are encountered."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ]
+        },
+        {
+          "id": "exam-3-question-43",
+          "number": 43,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "In Scrum every .... needs a Product Owner. Choose from the below to fill in the blank.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Project"
+            },
+            {
+              "id": "B",
+              "text": "Program"
+            },
+            {
+              "id": "C",
+              "text": "Product"
+            },
+            {
+              "id": "D",
+              "text": "Portfolio"
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "C"
+          ]
+        },
+        {
+          "id": "exam-3-question-44",
+          "number": 44,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "If Sprint Backlog items are not clear what might be the concerns? (choose the best 4 answers)",
+          "options": [
+            {
+              "id": "A",
+              "text": "The team might have different understandings and different basis for adaptation.ﾠ"
+            },
+            {
+              "id": "B",
+              "text": "Decisions made on those items may be bad decisions."
+            },
+            {
+              "id": "C",
+              "text": "The Developers will have difficulty creating a forecast of work for the Sprint without more clarity."
+            },
+            {
+              "id": "D",
+              "text": "There is no concern, the Developers do not need the items to be clear."
+            },
+            {
+              "id": "E",
+              "text": "The Scrum Master has failed, the Scrum Master is changed and the Sprint is re-started."
+            },
+            {
+              "id": "F",
+              "text": "Development time might be wasted."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 4,
+          "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "F"
+          ]
+        },
+        {
+          "id": "exam-3-question-45",
+          "number": 45,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "A new Scrum team has been ineffective at forecasting the effort required for their Sprint Backlog items. Due to items taking longer than predicted, they fear they will not be able to meet the Sprint Goal and inform yourself as the Product Owner. What first action should you take? (choose the best first option)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Inform management that more resources are needed."
+            },
+            {
+              "id": "B",
+              "text": "Try to reduce the scope of the Sprint, if possible, to still meet the Sprint Goal."
+            },
+            {
+              "id": "C",
+              "text": "Change the Sprint Goal to match what the Developers can deliver."
+            },
+            {
+              "id": "D",
+              "text": "End the Sprint, since the goal cannot be achieved."
+            },
+            {
+              "id": "E",
+              "text": "Skip Product Backlog refinement activities, to gain more development time in the Sprint."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "B"
+          ]
+        },
+        {
+          "id": "exam-3-question-46",
+          "number": 46,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "You release a feature that came from requirements provided to you from a key stakeholder. You find that the feature does not actually get used. You suspect the key stakeholder and other stakeholders do not understand the needs of the users as much as they think. Should you discuss this with them? (choose the correct answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "No. You should show that the feature hasn't been used yet, but suggest it might be used in the future."
+            },
+            {
+              "id": "B",
+              "text": "No. Look for new users who need this feature."
+            },
+            {
+              "id": "C",
+              "text": "Yes. If you share what you learned from the release, it may help them improve their understanding and ability to research what users actually need."
+            },
+            {
+              "id": "D",
+              "text": "Yes. They should realise their association with wasted effort."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "C"
+          ]
+        },
+        {
+          "id": "exam-3-question-47",
+          "number": 47,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "The Developers in the company you work at complain that they feel frustrated by constant interruptions and useless meetings, and much of their past work has resulted in being unneeded. You notice that some of your best Developers are leaving. What measurements should you consider for informing you on how to improve employee retention rates? (choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "The Innovation Rate, which is the ratio of new work to total work."
+            },
+            {
+              "id": "B",
+              "text": "All of the above."
+            },
+            {
+              "id": "C",
+              "text": "The On-Product Index, which measures the proportion of work related to the product to total work."
+            },
+            {
+              "id": "D",
+              "text": "Employee Net Promoter Scores, which measures the overall job satisfaction and company satisfaction of the developers."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "B"
+          ]
+        },
+        {
+          "id": "exam-3-question-48",
+          "number": 48,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "You are put in a difficult position by the Executive team. Your product is losing paying customers. The CEO believes new features delivered at a quicker rate will bring customers back. The marketing executive thinks the loss of customers is down to a shrinking market and increasing new feature releases will not make much difference at this point. Which action might you take? (choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Suggest voting to the stakeholders to decide which options should be considered."
+            },
+            {
+              "id": "B",
+              "text": "Collaborate with the Executive team to run a small experiment to make an informed decision."
+            },
+            {
+              "id": "C",
+              "text": "Acknowledge the views of the CEO but decline to add more features to the product."
+            },
+            {
+              "id": "D",
+              "text": "Agree with the CEO and add features to the Product Backlog as it might increase your customer base."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "B"
+          ]
+        },
+        {
+          "id": "exam-3-question-49",
+          "number": 49,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "During Sprint Planning the Product Owner insists on a large scope for the Sprint Goal. The Backlog items chosen are getting greater than the Developers believe they can meet in the Sprint. Which actions should be taken? (choose all that apply)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Do not start the Sprint and take a pause between Sprints to work on backlog refinement."
+            },
+            {
+              "id": "B",
+              "text": "Ask the Developers to work overtime for this Sprint and promise that it will not happen again."
+            },
+            {
+              "id": "C",
+              "text": "Change or remove selected Product Backlog items whilst considering the Sprint Goal."
+            },
+            {
+              "id": "D",
+              "text": "The Developers ensure that the Product Owner is aware, start the Sprint and monitor progress."
+            },
+            {
+              "id": "E",
+              "text": "Start the Sprint and recruit additional Developers to help."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": [
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "exam-3-question-50",
+          "number": 50,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "The user satisfaction gap is the difference between … (choose the best two answers)",
+          "options": [
+            {
+              "id": "A",
+              "text": "The current market share of the product."
+            },
+            {
+              "id": "B",
+              "text": "The user's actual experience."
+            },
+            {
+              "id": "C",
+              "text": "The user's desired experience."
+            },
+            {
+              "id": "D",
+              "text": "The total market size."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 2,
+          "correctAnswers": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "id": "exam-3-question-51",
+          "number": 51,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "Who has accountability for clearly expressing the Product Backlog Items?(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "The Scrum Master, with the option to enlist the Developers' assistance."
+            },
+            {
+              "id": "B",
+              "text": "The Scrum Master, with the option to enlist the Product Owner's assistance."
+            },
+            {
+              "id": "C",
+              "text": "The Developers."
+            },
+            {
+              "id": "D",
+              "text": "The Product Owner, who can designate a team member within the Scrum Team to handle the task."
+            },
+            {
+              "id": "E",
+              "text": "The Scrum Master."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "D"
+          ]
+        },
+        {
+          "id": "exam-3-question-52",
+          "number": 52,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "A new social media app has entered the market and is starting to steal customers away from your company's primary social media product. Your competition releases new and useful features quicker than you can and their customers are more satisfied. You realise you need to improve your T2M. How can you do this? (choose all that apply)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Removing internal communication bottlenecks."
+            },
+            {
+              "id": "B",
+              "text": "Taking control of and improve the delivery pipeline."
+            },
+            {
+              "id": "C",
+              "text": "Reducing the number of features in each product release."
+            },
+            {
+              "id": "D",
+              "text": "Use automation to improve speed."
+            },
+            {
+              "id": "E",
+              "text": "Removing activities that do not add value to the development and delivery process."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
+        },
+        {
+          "id": "exam-3-question-53",
+          "number": 53,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "How much information is actually needed to start a Sprint? (choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Just enough tasks for the Scrum Master and Product Owner to be confident in the Developer's understanding of the Sprint."
+            },
+            {
+              "id": "B",
+              "text": "Just enough to understand the design and architecture."
+            },
+            {
+              "id": "C",
+              "text": "Enough so the Developers can create a forecast of what they can do during the Sprint."
+            },
+            {
+              "id": "D",
+              "text": "All of the potential tasks. Sprint Planning cannot finish until all of the work is identified and estimated."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "C"
+          ]
+        },
+        {
+          "id": "exam-3-question-54",
+          "number": 54,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "The Scrum Master is inexperienced and suggests that Developers with rare skills should be involved with multiple Scrum teams. Which are likely outcomes from such a decision? (choose all that apply)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Dependencies are created."
+            },
+            {
+              "id": "B",
+              "text": "Employee costs are lower since expensive skilled employees are shared."
+            },
+            {
+              "id": "C",
+              "text": "Teams may become ﾓbottleneckedﾔ waiting for key Developers."
+            },
+            {
+              "id": "D",
+              "text": "More work gets done since people with specialisms are better utilized."
+            },
+            {
+              "id": "E",
+              "text": "Teams will not be cross-functional."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": [
+            "A",
+            "C",
+            "E"
+          ]
+        },
+        {
+          "id": "exam-3-question-55",
+          "number": 55,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "Why does Agile insist on frequent product releases? (choose the best option)",
+          "options": [
+            {
+              "id": "A",
+              "text": "They enable teams to inspect and adapt more frequently."
+            },
+            {
+              "id": "B",
+              "text": "They help teams better understand and meet customer needs."
+            },
+            {
+              "id": "C",
+              "text": "All of the above."
+            },
+            {
+              "id": "D",
+              "text": "Smaller, more frequent releases are less risky."
+            },
+            {
+              "id": "E",
+              "text": "None of the above."
+            },
+            {
+              "id": "F",
+              "text": "They help teams to learn how to correct and eliminate errors."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "C"
+          ]
+        },
+        {
+          "id": "exam-3-question-56",
+          "number": 56,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "Which of the following are true about Scrum? (Select all that apply).",
+          "options": [
+            {
+              "id": "A",
+              "text": "Each element of Scrum serves a distinct purpose and is crucial for the successful application of Scrum in building complex products."
+            },
+            {
+              "id": "B",
+              "text": "Scrum is founded on the principles of empiricism."
+            },
+            {
+              "id": "C",
+              "text": "Scrum is a framework designed to deliver value through adaptive solutions for complex problems."
+            },
+            {
+              "id": "D",
+              "text": "Scrum is similar to traditional processes, with the key difference being self-management replacing Project Managers."
+            },
+            {
+              "id": "E",
+              "text": "Scrum is a methodology that allows you to selectively implement components based on your organization's specific needs."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "id": "exam-3-question-57",
+          "number": 57,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "During the Sprint, what will the Product Owner be doing? (choose the best 3)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Running the Daily Scrum."
+            },
+            {
+              "id": "B",
+              "text": "Updating the Sprint burndown chart."
+            },
+            {
+              "id": "C",
+              "text": "Answer questions from the Developers about items in the current Sprint."
+            },
+            {
+              "id": "D",
+              "text": "Gathering more information and opinions from stakeholders."
+            },
+            {
+              "id": "E",
+              "text": "Prioritizing the Developers tasks in the Sprint Backlog."
+            },
+            {
+              "id": "F",
+              "text": "Reordering items in the Product Backlog."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 3,
+          "correctAnswers": [
+            "C",
+            "D",
+            "F"
+          ]
+        },
+        {
+          "id": "exam-3-question-58",
+          "number": 58,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "Managing the Product Backlog involves which of the following? (choose all that apply)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reducing or ideally eliminating dependencies between items"
+            },
+            {
+              "id": "B",
+              "text": "Reviewing the Product Backlog items with stakeholders."
+            },
+            {
+              "id": "C",
+              "text": "Breaking large Product Backlog items into multiple smaller Product Backlog items."
+            },
+            {
+              "id": "D",
+              "text": "Ordering the items by priority."
+            },
+            {
+              "id": "E",
+              "text": "Forecasting the effort required of Product Backlog items."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
+        },
+        {
+          "id": "exam-3-question-59",
+          "number": 59,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "Which of the below are true regarding the Product Backlog? (choose the best two answers)",
+          "options": [
+            {
+              "id": "A",
+              "text": "The Product Backlog should be visible to the Scrum Team and stakeholders."
+            },
+            {
+              "id": "B",
+              "text": "The Product Backlog is ordered by the Product Owner."
+            },
+            {
+              "id": "C",
+              "text": "The Product Backlog represents the input of all stakeholders and eliminates any need for the Developers to speak to stakeholders."
+            },
+            {
+              "id": "D",
+              "text": "All Product Backlog items must be expressed as user stories."
+            },
+            {
+              "id": "E",
+              "text": "Only the Product Owner can place items on the Product Backlog."
+            },
+            {
+              "id": "F",
+              "text": "All Product Backlog items must be identified before the first Sprint begins."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 2,
+          "correctAnswers": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "exam-3-question-60",
+          "number": 60,
+          "origin": "PSPOII-Questions.xlsx",
+          "question": "Which statement is the best description of the Sprint Review? (Choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "A meeting to retrospectively analyze the team's performance during the Sprint."
+            },
+            {
+              "id": "B",
+              "text": "A chance to evaluate the Sprint's outcome and decide on future adjustments."
+            },
+            {
+              "id": "C",
+              "text": "A showcase of the functionality accomplished in the Sprint."
+            },
+            {
+              "id": "D",
+              "text": "An examination of the work completed by the Developers during the Sprint."
+            },
+            {
+              "id": "E",
+              "text": "A planning session to decide on the scope of work for the next Sprint."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "B"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2448 @@
+{
+  "schemaVersion": 1,
+  "source": "Exam_PSPO2_Avec_Reponses.xlsx",
+  "exams": [
+    {
+      "id": "exam-1",
+      "title": "Exam 1",
+      "sourceSheet": "Exam_1_Sans_Reponse",
+      "questions": [
+        {
+          "id": "exam-1-question-1",
+          "number": 1,
+          "origin": "Exam Simon",
+          "question": "Your product's nearest competitor has lower market share, but has higher customer\nsatisfaction, though they lack some key features of your product. You are losing market share\nto them as customers discover them. They release 3 times faster than you, which is helping\nthem to win customers. What should you do first in response?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Lower your product's price to make it more attractive to new and existing customers."
+            },
+            {
+              "id": "B",
+              "text": "Find new markets for your product that your competitor is not yet in."
+            },
+            {
+              "id": "C",
+              "text": "Improve your time-to-market and rate of innovation to improve your responsiveness."
+            },
+            {
+              "id": "D",
+              "text": "Add features to your next release that you think will retain and win customers."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-2",
+          "number": 2,
+          "origin": "Exam Simon",
+          "question": "The Developers have struggled to get all of their forecasted work done during the last three\nSprints. As a Product Owner what steps could you take to help the Developers improve their\nability to deliver a done Increment?\n\n(choose the best two answers)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Add more people to the team so they can get more done."
+            },
+            {
+              "id": "B",
+              "text": "The Product Owner can spend more time with the Developers."
+            },
+            {
+              "id": "C",
+              "text": "Ask the Scrum Master to help the Developers learn techniques for improving\ntheir ability to forecast work."
+            },
+            {
+              "id": "D",
+              "text": "Ensure that all Developers are top performers."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 2,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-3",
+          "number": 3,
+          "origin": "Exam Simon",
+          "question": "What is a benefit of frequent product releases?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "They enable teams to inspect and adapt more frequently."
+            },
+            {
+              "id": "B",
+              "text": "They help teams better understand and meet customer needs."
+            },
+            {
+              "id": "C",
+              "text": "They help teams to learn how to correct and eliminate errors."
+            },
+            {
+              "id": "D",
+              "text": "Smaller, more frequent releases are less risky."
+            },
+            {
+              "id": "E",
+              "text": "All of the above."
+            },
+            {
+              "id": "F",
+              "text": "None of the above."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-4",
+          "number": 4,
+          "origin": "Exam Simon",
+          "question": "Personas can help to:\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Understand the needs of a set of users."
+            },
+            {
+              "id": "B",
+              "text": "Formulate hypotheses about product value."
+            },
+            {
+              "id": "C",
+              "text": "Understand market potential."
+            },
+            {
+              "id": "D",
+              "text": "Discover key buying triggers."
+            },
+            {
+              "id": "E",
+              "text": "All of the above."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-5",
+          "number": 5,
+          "origin": "Exam Simon",
+          "question": "You are the Product Owner for a product with diverse stakeholders with differing opinions that\nsometimes conflict.\n\nYour Director of Marketing strongly believes that you should add a major new feature to reach a\nnew market. Your CEO believes that the new feature is too expensive and thinks you should\nfocus on other features to make existing customers happier. The CEO says that as Product\nOwner it is ultimately your decision.\n\nYou think both perspectives have merit, but you cannot do both. How should you proceed?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Trust the CEO's opinion and focus on current customers, since you cannot afford\nunhappy customers."
+            },
+            {
+              "id": "B",
+              "text": "Trust the Director of Marketing's opinion and add the features; when revenues\nincrease, you will be vindicated."
+            },
+            {
+              "id": "C",
+              "text": "Devise an experiment that will help the company to better understand the new market\nand its potential."
+            },
+            {
+              "id": "D",
+              "text": "Better understand the positions of other stakeholders to gather more information,\nthen make a decision."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-6",
+          "number": 6,
+          "origin": "Exam Simon",
+          "question": "When should the Product Owner update the project plan?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "The Product Backlog is the plan in Scrum. It is updated as new information and\ninsights emerge."
+            },
+            {
+              "id": "B",
+              "text": "The project plan must be updated prior to the Sprint Retrospective."
+            },
+            {
+              "id": "C",
+              "text": "Before the Sprint Planning to know how much work will have to be done in the Sprint."
+            },
+            {
+              "id": "D",
+              "text": "After the Daily Scrum to ensure an accurate daily overview of project progress."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-7",
+          "number": 7,
+          "origin": "Exam Simon",
+          "question": "Given only the information in the following three statements:\n· Product A has a greater potential market than Product B.\n. Product A has lower customer satisfaction than Product B.\n. Product B produces more revenue at the present time.\n\nWhich investment strategies should you consider for these two products?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "For both products, continually measure the impact of any new investments or\nmarketing."
+            },
+            {
+              "id": "B",
+              "text": "Invest in Product A to increase its market share, customer satisfaction, and revenue."
+            },
+            {
+              "id": "C",
+              "text": "Investigate an increase in marketing for Product B to grow its market share."
+            },
+            {
+              "id": "D",
+              "text": "All of the above."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-8",
+          "number": 8,
+          "origin": "Exam Simon",
+          "question": "\nChoose the statement that best describes who is accountable for engaging the stakeholders to\nensure value is delivered.\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "The Product Owner is responsible, but engagement can be delegated."
+            },
+            {
+              "id": "B",
+              "text": "The project manager schedules all stakeholder interactions."
+            },
+            {
+              "id": "C",
+              "text": "The team manager is responsible for managing the time spent with stakeholders."
+            },
+            {
+              "id": "D",
+              "text": "The Developers are responsible for all stakeholder engagement."
+            },
+            {
+              "id": "E",
+              "text": "The business analyst since they are the Subject Matter Expert."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-9",
+          "number": 9,
+          "origin": "Exam Simon",
+          "question": "\nWhich of the following are characteristics of a Product Goal?\n\n(choose all that apply)",
+          "options": [
+            {
+              "id": "A",
+              "text": "It forms a contract with the business, allowing change to be better managed."
+            },
+            {
+              "id": "B",
+              "text": "It enhances focus."
+            },
+            {
+              "id": "C",
+              "text": "It communicates the target future state of the product."
+            },
+            {
+              "id": "D",
+              "text": "It has the approval of all stakeholders."
+            },
+            {
+              "id": "E",
+              "text": "It provides a long-term objective for the Scrum Team to plan against."
+            },
+            {
+              "id": "F",
+              "text": "It is a commitment contained in the Product Backlog."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-10",
+          "number": 10,
+          "origin": "Exam Simon",
+          "question": "The smallest product Increment that is valuable enough to release is one that:\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Delivers a single new or improved outcome."
+            },
+            {
+              "id": "B",
+              "text": "Adds a new feature."
+            },
+            {
+              "id": "C",
+              "text": "Fixes at least one defect."
+            },
+            {
+              "id": "D",
+              "text": "Delivers all \"must do\" Product Backlog items."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-11",
+          "number": 11,
+          "origin": "Exam Simon",
+          "question": "The primary accountability of a Product Owner is:\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Writing User Stories that the Scrum Team can fully understand."
+            },
+            {
+              "id": "B",
+              "text": "Maximizing the value of the work that the Scrum Team delivers."
+            },
+            {
+              "id": "C",
+              "text": "Interfacing between the Developers and the customers."
+            },
+            {
+              "id": "D",
+              "text": "Managing the Product Backlog."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-12",
+          "number": 12,
+          "origin": "Exam Simon",
+          "question": "In order to justify the price increase of a product, your primary objective should be to:\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reduce the price for a period of time before increasing it above the original price."
+            },
+            {
+              "id": "B",
+              "text": "Reduce the number of features to make the product easier to use."
+            },
+            {
+              "id": "C",
+              "text": "Improve the value experienced by the customer."
+            },
+            {
+              "id": "D",
+              "text": "Add more features to make the product more attractive."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-13",
+          "number": 13,
+          "origin": "Exam Simon",
+          "question": "When the Product Owner is too busy to work with all of the teams in a multi-team product\ndevelopment effort, which strategy will help them?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Add component team Product Owners,"
+            },
+            {
+              "id": "B",
+              "text": "Communicate a clear Product Goal and delegate some activities to the Developers."
+            },
+            {
+              "id": "C",
+              "text": "Enlist the Program Management Office to help coordinate work."
+            },
+            {
+              "id": "D",
+              "text": "Assign sub-Product Owners to each Scrum Team."
+            },
+            {
+              "id": "E",
+              "text": "All of the above."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-14",
+          "number": 14,
+          "origin": "Exam Simon",
+          "question": "Which of the following are true about the length of the Sprint?\n\n(choose all that apply)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sprint length is determined during Sprint Planning and should be long enough to\nmake sure the Developers can deliver what is to be accomplished in the\nupcoming Sprint."
+            },
+            {
+              "id": "B",
+              "text": "All Sprints must be 1 month or less."
+            },
+            {
+              "id": "C",
+              "text": "It is best to have Sprints of consistent length."
+            },
+            {
+              "id": "E",
+              "text": "Sprint length is determined during Sprint Planning and should hold the time it will\ntake to create the planned features in the upcoming Sprint, but does not include\ntime for any validation."
+            },
+            {
+              "id": "D",
+              "text": "The length of the Sprint should be proportional to the work that is done in\nbetween Sprints."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-15",
+          "number": 15,
+          "origin": "Exam Simon",
+          "question": "As an investor or shareholder, which of the following measures might give you insight about\nwhether a product is delivering value?\n\n(choose all that apply)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Revenue per Employee."
+            },
+            {
+              "id": "B",
+              "text": "Market Share."
+            },
+            {
+              "id": "C",
+              "text": "The average selling price as compared to close competitors."
+            },
+            {
+              "id": "D",
+              "text": "Product profitability."
+            },
+            {
+              "id": "E",
+              "text": "The weekly velocity of the Developers."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-16",
+          "number": 16,
+          "origin": "Exam Simon",
+          "question": "Which of the following statements about the Product Backlog are true?\n\n(choose the best two answers)",
+          "options": [
+            {
+              "id": "A",
+              "text": "All Product Backlog items must be expressed as user stories."
+            },
+            {
+              "id": "B",
+              "text": "The Product Backlog should be visible to the Scrum Team and stakeholders."
+            },
+            {
+              "id": "C",
+              "text": "Only the Product Owner can place items on the Product Backlog."
+            },
+            {
+              "id": "D",
+              "text": "All Product Backlog items for the current Sprint and the next Sprint must be\nidentified before the Sprint begins in case the Developer's velocity exceeds the\nselected Product Backlog items."
+            },
+            {
+              "id": "E",
+              "text": "The Product Backlog represents the input of all stakeholders and eliminates any\nneed for the Developers to speak to stakeholders."
+            },
+            {
+              "id": "F",
+              "text": "The Product Backlog is ordered by the Product Owner."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 2,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-17",
+          "number": 17,
+          "origin": "Exam Simon",
+          "question": "Sharing people with unique skills across multiple teams will likely result in which of the following conditions?\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Teams may wait more often, impeding the delivery of value."
+            },
+            {
+              "id": "B",
+              "text": "Costs are lower since expensive resources are shared."
+            },
+            {
+              "id": "C",
+              "text": "Teams do not have to develop deep technical skills."
+            },
+            {
+              "id": "D",
+              "text": "More work gets done since people are better utilized."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-18",
+          "number": 18,
+          "origin": "Exam Simon",
+          "question": "\nWho determines when it is appropriate to update the Sprint Backlog during a Sprint?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "The Project Manager."
+            },
+            {
+              "id": "B",
+              "text": "The Scrum Team."
+            },
+            {
+              "id": "C",
+              "text": "The Developers."
+            },
+            {
+              "id": "D",
+              "text": "The Product Owner."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-19",
+          "number": 19,
+          "origin": "Exam Simon",
+          "question": "A Product Owner is needed for every:\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Product."
+            },
+            {
+              "id": "B",
+              "text": "Portfolio."
+            },
+            {
+              "id": "C",
+              "text": "Program."
+            },
+            {
+              "id": "D",
+              "text": "All of the above."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-20",
+          "number": 20,
+          "origin": "Exam Simon",
+          "question": "A user satisfaction gap exists when there is a difference between:\n(choose the best two answers)",
+          "options": [
+            {
+              "id": "A",
+              "text": "The user's actual experience."
+            },
+            {
+              "id": "B",
+              "text": "The user's desired outcome."
+            },
+            {
+              "id": "C",
+              "text": "The total market size."
+            },
+            {
+              "id": "D",
+              "text": "The market share of the product."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 2,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-21",
+          "number": 21,
+          "origin": "Exam Simon",
+          "question": "You are a Product Owner for a product with a rapidly declining customer base.\n\nDespite data that indicates the decline is due to a shrinking market, rather than a lack of new\nfeatures, an influential stakeholder insists on adding more features to attract new customers.\nThe influential stakeholder also says that if you do not add new features you risk losing your\nmost profitable customer.\n\nWhich two of the following actions might you take?\n\n(choose the best two answers)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Acknowledge the views of the influential stakeholder but decline to add more\nfeatures to the product."
+            },
+            {
+              "id": "B",
+              "text": "Collaborate with other stakeholders and use a voting system to decide which\noptions should be considered."
+            },
+            {
+              "id": "C",
+              "text": "Agree with the stakeholder and add features to the Product Backlog as it might\nincrease your customer base."
+            },
+            {
+              "id": "D",
+              "text": "Collaborate with the stakeholder to run a small experiment to validate their\nopinion."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 2,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-22",
+          "number": 22,
+          "origin": "Exam Simon",
+          "question": "What are the attributes of a good Product Vision and Strategy?\n\n(choose all that apply)",
+          "options": [
+            {
+              "id": "A",
+              "text": "It describes what value means in the context of the product, and how it can be\nmeasured."
+            },
+            {
+              "id": "B",
+              "text": "It describes who will use the product and what they would like to achieve."
+            },
+            {
+              "id": "C",
+              "text": "It describes how the product compares to competitor products."
+            },
+            {
+              "id": "D",
+              "text": "It describes how people will use the product to achieve potential outcomes."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-23",
+          "number": 23,
+          "origin": "Exam Simon",
+          "question": "A separate Product Backlog is needed for every:\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Product."
+            },
+            {
+              "id": "B",
+              "text": "Scrum Team."
+            },
+            {
+              "id": "C",
+              "text": "Portfolio."
+            },
+            {
+              "id": "D",
+              "text": "Program."
+            },
+            {
+              "id": "E",
+              "text": "All of the above."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-24",
+          "number": 24,
+          "origin": "Exam Simon",
+          "question": "Who is responsible for the sizing of Product Backlog items?\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "The Developers, alone."
+            },
+            {
+              "id": "B",
+              "text": "The Scrum Master."
+            },
+            {
+              "id": "D",
+              "text": "The Product Owner with input from the Developers."
+            },
+            {
+              "id": "C",
+              "text": "The Developers after clarifying requirements with the Product Owner."
+            },
+            {
+              "id": "E",
+              "text": "The most senior people in the organization, including architects and subject matter\nexperts."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-25",
+          "number": 25,
+          "origin": "Exam Simon",
+          "question": "\nThe most important thing a Product Owner can do is:\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Function as the single source of truth for all requirements."
+            },
+            {
+              "id": "B",
+              "text": "Ensure that all stakeholder needs are met."
+            },
+            {
+              "id": "C",
+              "text": "Maximize the value delivered by the product."
+            },
+            {
+              "id": "D",
+              "text": "Determine the release schedule and contents."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-26",
+          "number": 26,
+          "origin": "Exam Simon",
+          "question": "Which of the following statements is true about the Product Vision?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "It evolves as the Scrum Team learns more about customers and their needs."
+            },
+            {
+              "id": "B",
+              "text": "It is the shared responsibility of the Scrum Team to develop and evolve."
+            },
+            {
+              "id": "C",
+              "text": "It must be completely free from discussions about strategic technology choices."
+            },
+            {
+              "id": "D",
+              "text": "All of the above."
+            },
+            {
+              "id": "E",
+              "text": "None of the above."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-27",
+          "number": 27,
+          "origin": "Exam Simon",
+          "question": "\nYou started measuring product feature usage in your last release. You are surprised to learn\nthat a sizable percentage of the features you thought were very important are never or rarely\nused\n\nWhich of the following actions could you take to further evaluate this unexpected result?\n\n(choose all that apply)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Spend more time talking to users to identify the impact they seek."
+            },
+            {
+              "id": "B",
+              "text": "Disable the features that have never been used and listen for feedback."
+            },
+            {
+              "id": "C",
+              "text": "Run experiments to increase your understanding of what customers find\nvaluable."
+            },
+            {
+              "id": "D",
+              "text": "Examine whether the rarely used features solve the intended problem."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-28",
+          "number": 28,
+          "origin": "Exam Simon",
+          "question": "The Developers inform the Product Owner during the Sprint that they are not likely to complete\neverything they forecasted. What would you expect a Product Owner to do?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "End the Sprint, since the goal cannot be achieved."
+            },
+            {
+              "id": "B",
+              "text": "Skip Product Backlog refinement activities."
+            },
+            {
+              "id": "C",
+              "text": "Change the Sprint Goal to match what the Developers can deliver."
+            },
+            {
+              "id": "D",
+              "text": "Reduce the scope of the Sprint, if possible, to still meet the Sprint Goal."
+            },
+            {
+              "id": "E",
+              "text": "Inform management that more resources are needed."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-29",
+          "number": 29,
+          "origin": "Exam Simon",
+          "question": "\nWhich of the following practices might help the Product Owner minimize waste in developing\nand sustaining the Product Backlog?\n(choose all that apply)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only fully describe the Product Backlog items near the top of the Product\nBacklog since they are more likely to be selected during Sprint Planning."
+            },
+            {
+              "id": "B",
+              "text": "Maintain newly gathered Product Backlog items in a separate Product Backlog\nuntil they are fully understood to avoid distracting the Developers."
+            },
+            {
+              "id": "C",
+              "text": "Write Product Backlog items with clearly expressed expected outcomes."
+            },
+            {
+              "id": "D",
+              "text": "As Product Owner, ask the Developers to refine several important Product\nBacklog items."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-30",
+          "number": 30,
+          "origin": "Exam Simon",
+          "question": "\nA Sprint forecast is:\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "A useful tool for management to understand team performance and capacity."
+            },
+            {
+              "id": "B",
+              "text": "A commitment the Developers makes to deliver a particular set of Product Backlog\nitems."
+            },
+            {
+              "id": "C",
+              "text": "The amount of work the Developers believe they can complete in that Sprint."
+            },
+            {
+              "id": "D",
+              "text": "Useful for the stakeholders to know what will be included in future releases."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-31",
+          "number": 31,
+          "origin": "Exam Simon",
+          "question": "An effective Product Owner must:\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ensure that every stakeholder need is met."
+            },
+            {
+              "id": "B",
+              "text": "Be the \"expert\" opinion for all Product Backlog items."
+            },
+            {
+              "id": "C",
+              "text": "Ensure that the team is as productive as possible."
+            },
+            {
+              "id": "D",
+              "text": "Be the single point of contact for all stakeholders."
+            },
+            {
+              "id": "E",
+              "text": "All of the above."
+            },
+            {
+              "id": "F",
+              "text": "None of the above."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-32",
+          "number": 32,
+          "origin": "Exam Simon",
+          "question": "You are the Product Owner at a small company with a single product. You have authority over\npricing, promotion, and how much is invested in new features or capabilities. Your product has:\n· High Current Value - as indicated by high customer satisfaction.\n· High Unrealized Value - as indicated by low market share.\n\nUsing those two data points, what is the first action you should take to increase the business\nperformance of the product?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Release an identical product to market, but give it a new product name."
+            },
+            {
+              "id": "B",
+              "text": "Drop the price for the product to attract a greater number of customers."
+            },
+            {
+              "id": "C",
+              "text": "Increase the number of product features to attract a greater number of customers."
+            },
+            {
+              "id": "D",
+              "text": "Improve the marketing of the product to attract a greater number of customers."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-33",
+          "number": 33,
+          "origin": "Exam Simon",
+          "question": "Managing a Product Backlog involves which of the following activities?\n\n(choose all that apply)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Forecasting the effort of Product Backlog items."
+            },
+            {
+              "id": "B",
+              "text": "Ordering the Product Backlog."
+            },
+            {
+              "id": "C",
+              "text": "Breaking large Product Backlog items into multiple smaller Product Backlog\nitems."
+            },
+            {
+              "id": "D",
+              "text": "Reducing or eliminating dependencies between Product Backlog items."
+            },
+            {
+              "id": "E",
+              "text": "Reviewing the Product Backlog with stakeholders."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-34",
+          "number": 34,
+          "origin": "Exam Simon",
+          "question": "As a Product Owner you become aware that the quality assurance criteria, defined in the\nDefinition of Done, were not met for the latest Increment. Which of the following statements are\ntrue?\n\n(choose the best four answers)",
+          "options": [
+            {
+              "id": "A",
+              "text": "The project manager cannot effectively update the plan."
+            },
+            {
+              "id": "B",
+              "text": "The incomplete Sprint Backlog items should be returned to the Product Backlog."
+            },
+            {
+              "id": "C",
+              "text": "The indication of progress on the Product Backlog is not transparent."
+            },
+            {
+              "id": "D",
+              "text": "The next Sprint may be interrupted when quality issues are encountered."
+            },
+            {
+              "id": "E",
+              "text": "The Scrum Team should not release the Increment."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 4,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-35",
+          "number": 35,
+          "origin": "Exam Simon",
+          "question": "Which of the following might the Scrum Team discuss during a Sprint Retrospective?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Methods of communication."
+            },
+            {
+              "id": "B",
+              "text": "The way the Scrum Team does Sprint Planning."
+            },
+            {
+              "id": "C",
+              "text": "Skills needed to improve the Scrum Team's ability to deliver."
+            },
+            {
+              "id": "D",
+              "text": "Its Definition of Done."
+            },
+            {
+              "id": "E",
+              "text": "All of the above."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-36",
+          "number": 36,
+          "origin": "Exam Simon",
+          "question": "Product A is a big revenue producer; it has:\n. High Current Value and Low Unrealized Value.\n\nProduct B is a new product with a lot of potential; it has:\n. Low Current Value and High Unrealized Value.\n\nUsing those two data points and taking a long-term view, which of the options below should you\npursue?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Weight your investment toward Product A; you do not want to risk losing customers."
+            },
+            {
+              "id": "B",
+              "text": "Weight your investment toward Product B; since it has more potential."
+            },
+            {
+              "id": "C",
+              "text": "Invest equally in both products."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-37",
+          "number": 37,
+          "origin": "Exam Simon",
+          "question": "Which of the following activities should a Product Owner never do?\n\n(choose the best answer)\n\n",
+          "options": [
+            {
+              "id": "A",
+              "text": "Establish a Product Goal."
+            },
+            {
+              "id": "B",
+              "text": "Dictate the Sprint Goal."
+            },
+            {
+              "id": "C",
+              "text": "Decide when to release the product Increment."
+            },
+            {
+              "id": "D",
+              "text": "Accept work done during the Sprint."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-38",
+          "number": 38,
+          "origin": "Exam Simon",
+          "question": "\nYou have been a Product Owner at a new company for a few weeks. It has become clear to you\nthat many people, both inside and outside the Scrum Team, expect close involvement in the\ndecisions that you, as a Product Owner, are accountable for.\n\nAs a result, you find that it takes too long to make decisions. Which of the following are\nreasonable options you could take?\n\n(choose the best three answers)\n",
+          "options": [
+            {
+              "id": "A",
+              "text": "Create and share a delegation board that displays your decision-making areas\nand work with your Scrum Team to clarify decision making accountability and\nresponsibility."
+            },
+            {
+              "id": "B",
+              "text": "Allow other members of the Scrum Team and stakeholders to continue making\ndecisions they are not accountable for; documenting which decisions do not\ndeliver the intended value."
+            },
+            {
+              "id": "C",
+              "text": "Demonstrate, with the help of data, how long it is taking you to make decisions\nand the impact that the long decision-making cycle has on delivering value to the\ncustomer."
+            },
+            {
+              "id": "D",
+              "text": "Work with your Scrum Master to better understand what next steps you can take\nto move the company's understanding of product ownership up in the maturity\ncurve towards Entrepreneur."
+            },
+            {
+              "id": "E",
+              "text": "Start making all the decisions without consulting the others who have expressed\ninterest."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 3,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-39",
+          "number": 39,
+          "origin": "Exam Simon",
+          "question": "If burndown charts are used to visualize progress, what do they track?\n\n(choose the best answer)\n",
+          "options": [
+            {
+              "id": "A",
+              "text": "Accumulated cost."
+            },
+            {
+              "id": "B",
+              "text": "Individual worker productivity."
+            },
+            {
+              "id": "C",
+              "text": "Work remaining across time."
+            },
+            {
+              "id": "D",
+              "text": "Accumulated business value delivered to the customer."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        },
+        {
+          "id": "exam-1-question-40",
+          "number": 40,
+          "origin": "Exam Simon",
+          "question": "Your stakeholders are very demanding and each of them has at least one feature that they say\nis essential for the next release. As the Product Owner, you have validated that the feature\nrequests are all valid requests and would likely add value to your product. What should you do?\n\n(choose the best answer)\n",
+          "options": [
+            {
+              "id": "A",
+              "text": "Escalate to the steering committee to make the call."
+            },
+            {
+              "id": "B",
+              "text": "Wait until all essential features are complete before releasing the product."
+            },
+            {
+              "id": "C",
+              "text": "Pick the two most influential stakeholders and satisfy their needs, then release."
+            },
+            {
+              "id": "D",
+              "text": "Release when you can satisfy at least a single outcome, even though not all features\nare implemented."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": null
+        }
+      ]
+    },
+    {
+      "id": "exam-2",
+      "title": "Exam 2",
+      "sourceSheet": "Exam_2_Sans_Réponse",
+      "questions": [
+        {
+          "id": "exam-2-question-1",
+          "number": 1,
+          "origin": "Exam Bruno",
+          "question": "The leading revenue-producing product in your portfolio has:\n. High Current Value\n. Low Unrealized Value\n\nThe product has been losing customers for several years and revenues are down. Using those\ntwo data points and the options below, what is the first action you should take?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Drop the price for the product to attract new customers."
+            },
+            {
+              "id": "B",
+              "text": "Maintain the product, but begin reducing investment; seek other opportunities\nfor future growth."
+            },
+            {
+              "id": "C",
+              "text": "Increase investment in the product to create greater interest and bring old\ncustomers back."
+            },
+            {
+              "id": "D",
+              "text": "Increase marketing for the product."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "B"
+          ]
+        },
+        {
+          "id": "exam-2-question-2",
+          "number": 2,
+          "origin": "Exam Bruno",
+          "question": "A Sprint forecast is:\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "The amount of work the Developers believe they can complete in that Sprint."
+            },
+            {
+              "id": "B",
+              "text": "A commitment the Developers makes to deliver a particular set of Product\nBacklog items."
+            },
+            {
+              "id": "C",
+              "text": "A useful tool for management to understand team performance and capacity."
+            },
+            {
+              "id": "D",
+              "text": "Useful for the stakeholders to know what will be included in future releases."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "A"
+          ]
+        },
+        {
+          "id": "exam-2-question-3",
+          "number": 3,
+          "origin": "Udemy",
+          "question": "Why does Agile insist on frequent product releases? (choose the best option)",
+          "options": [
+            {
+              "id": "A",
+              "text": "They help teams to learn how to correct and eliminate errors."
+            },
+            {
+              "id": "B",
+              "text": "They help teams better understand and meet customer needs."
+            },
+            {
+              "id": "C",
+              "text": "They enable teams to inspect and adapt more frequently."
+            },
+            {
+              "id": "D",
+              "text": "Smaller, more frequent releases are less risky."
+            },
+            {
+              "id": "E",
+              "text": "All of the above."
+            },
+            {
+              "id": "F",
+              "text": "None of the above."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "E"
+          ]
+        },
+        {
+          "id": "exam-2-question-4",
+          "number": 4,
+          "origin": "Udemy",
+          "question": "When should the Scrum Team do Product Backlog refinement? (choose the best 2 answers)\n",
+          "options": [
+            {
+              "id": "A",
+              "text": "During any Sprint as needed, ideally in advance of the upcoming Sprint."
+            },
+            {
+              "id": "B",
+              "text": "The Product Owner takes the time between the Sprints to do it."
+            },
+            {
+              "id": "C",
+              "text": "Business Analysts will do the refinement work for the Scrum Team, usually 1- 2 Sprints ahead\nof the development Sprints."
+            },
+            {
+              "id": "D",
+              "text": "In the current Sprint if they have been unable to do it in preceding Sprints."
+            },
+            {
+              "id": "E",
+              "text": "It must be done by Sprint 0."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 2,
+          "correctAnswers": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "id": "exam-2-question-5",
+          "number": 5,
+          "origin": "Exam Bruno",
+          "question": "You are the Product Owner for a product with diverse stakeholders with differing opinions that\nsometimes conflict.\n\nYour Director of Marketing strongly believes that you should add a major new feature to reach a\nnew market. Your CEO believes that the new feature is too expensive and thinks you should\nfocus on other features to make existing customers happier. The CEO says that as Product\nOwner it is ultimately your decision.\n\nYou think both perspectives have merit, but you cannot do both. How should you proceed?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Trust the CEO's opinion and focus on current customers, since you cannot\nafford unhappy customers."
+            },
+            {
+              "id": "B",
+              "text": "Better understand the positions of other stakeholders to gather more\ninformation, then make a decision."
+            },
+            {
+              "id": "C",
+              "text": "Devise an experiment that will help the company to better understand the new\nmarket and its potential."
+            },
+            {
+              "id": "D",
+              "text": "Trust the Director of Marketing's opinion and add the features; when revenues\nincrease, you will be vindicated."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "C"
+          ]
+        },
+        {
+          "id": "exam-2-question-6",
+          "number": 6,
+          "origin": "Udemy",
+          "question": "As a Product Owner in scaled Scrum with multiple Scrum teams, what approach would be most beneficial when you are unable to dedicate enough time to each team?(choose the best option)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ensure all Scrum Teams have a thorough grasp of the Product Vision, so they can be\nguided by it if you delegate certain tasks to the Developers."
+            },
+            {
+              "id": "B",
+              "text": "Hire additional Product Owners for every product component."
+            },
+            {
+              "id": "C",
+              "text": "All the above options are valid; the decision depends on the specific situation."
+            },
+            {
+              "id": "D",
+              "text": "Assemble a group of Proxy Product Owners from the current Scrum Team members."
+            },
+            {
+              "id": "E",
+              "text": "Collaborate with the Program Management Office to receive the necessary support."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "A"
+          ]
+        },
+        {
+          "id": "exam-2-question-7",
+          "number": 7,
+          "origin": "Exam Bruno",
+          "question": "What is the role of the Product Owner in crafting the Sprint Goal?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "The Product Owner defines the scope for a Sprint and therefore also the Sprint\nGoal."
+            },
+            {
+              "id": "B",
+              "text": "The Product Owner should come to the Sprint Planning with a clearly defined\nSprint Goal."
+            },
+            {
+              "id": "C",
+              "text": "The Product Owner has no role in it. This is the Developers responsibility."
+            },
+            {
+              "id": "D",
+              "text": "The Product Owner must work with stakeholders to set each Sprint's Goal."
+            },
+            {
+              "id": "E",
+              "text": "The Product Owner collaborates as a member of the Scrum Team to define a\nSprint Goal."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "E"
+          ]
+        },
+        {
+          "id": "exam-2-question-8",
+          "number": 8,
+          "origin": "Exam Bruno",
+          "question": "What might indicate to a Product Owner that they need to work more with the Scrum Team?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "People frequently leave the Scrum Team."
+            },
+            {
+              "id": "B",
+              "text": "They are not working full time with the Scrum Team."
+            },
+            {
+              "id": "C",
+              "text": "The acceptance criteria for the Product Backlog items do not appear to be\ncomplete."
+            },
+            {
+              "id": "D",
+              "text": "The Increment presented at the Sprint Review does not reflect their\nexpectations."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "D"
+          ]
+        },
+        {
+          "id": "exam-2-question-9",
+          "number": 9,
+          "origin": "Exam Bruno",
+          "question": "When many Scrum Teams are working on the same product, should all of their Increments be\ncombined every Sprint?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes, otherwise the Product Owner and stakeholders are unable to accurately\ninspect the Increment."
+            },
+            {
+              "id": "B",
+              "text": "Yes, but only for Scrum Teams whose work has dependencies."
+            },
+            {
+              "id": "C",
+              "text": "No, each Scrum Team stands alone."
+            },
+            {
+              "id": "D",
+              "text": "No, that is far too hard and must be done in a hardening Sprint."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "A"
+          ]
+        },
+        {
+          "id": "exam-2-question-10",
+          "number": 10,
+          "origin": "Exam Bruno",
+          "question": "Given only the information in the following three statements:\n. Product A has a greater potential market than Product B.\n. Product A has lower customer satisfaction than Product B.\n. Product B produces more revenue at the present time.\n\nWhich investment strategies should you consider for these two products?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "For both products, continually measure the impact of any new investments or\nmarketing."
+            },
+            {
+              "id": "B",
+              "text": "Invest in Product A to increase its market share, customer satisfaction, and\nrevenue."
+            },
+            {
+              "id": "C",
+              "text": "Investigate an increase in marketing for Product B to grow its market share."
+            },
+            {
+              "id": "D",
+              "text": "All of the above."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "D"
+          ]
+        },
+        {
+          "id": "exam-2-question-11",
+          "number": 11,
+          "origin": "Exam Bruno",
+          "question": "Which of the following statements is true about the Product Vision?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "It evolves as the Scrum Team learns more about customers and their needs."
+            },
+            {
+              "id": "B",
+              "text": "It is the shared responsibility of the Scrum Team to develop and evolve."
+            },
+            {
+              "id": "C",
+              "text": "It must be completely free from discussions about strategic technology choices."
+            },
+            {
+              "id": "D",
+              "text": "All of the above."
+            },
+            {
+              "id": "E",
+              "text": "None of the above."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "A"
+          ]
+        },
+        {
+          "id": "exam-2-question-12",
+          "number": 12,
+          "origin": "Exam Bruno",
+          "question": "You are a Product Owner for a product with a rapidly declining customer base.\n\nDespite data that indicates the decline is due to a shrinking market, rather than a lack of new\nfeatures, an influential stakeholder insists on adding more features to attract new customers.\nThe influential stakeholder also says that if you do not add new features you risk losing your\nmost profitable customer.\n\nWhich two of the following actions might you take?\n\n(choose the best two answers)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Collaborate with the stakeholder to run a small experiment to validate their\nopinion."
+            },
+            {
+              "id": "B",
+              "text": "Agree with the stakeholder and add features to the Product Backlog as it might\nincrease your customer base."
+            },
+            {
+              "id": "C",
+              "text": "Acknowledge the views of the influential stakeholder but decline to add more\nfeatures to the product."
+            },
+            {
+              "id": "D",
+              "text": "Collaborate with other stakeholders and use a voting system to decide which\noptions should be considered."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 2,
+          "correctAnswers": [
+            "A",
+            "C"
+          ]
+        },
+        {
+          "id": "exam-2-question-13",
+          "number": 13,
+          "origin": "Exam Bruno",
+          "question": "You have been a Product Owner at a new company for a few weeks. It has become clear to you\nthat many people, both inside and outside the Scrum Team, expect close involvement in the\ndecisions that you, as a Product Owner, are accountable for.\n\nAs a result, you find that it takes too long to make decisions. Which of the following are\nreasonable options you could take?\n\n(choose the best three answers)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Start making all the decisions you are accountable for without consulting the\nothers who have expressed interest."
+            },
+            {
+              "id": "B",
+              "text": "Work with your Scrum Master to better understand what next steps you can\ntake to move the company's understanding of product ownership up in the\nmaturity curve towards Entrepreneur."
+            },
+            {
+              "id": "C",
+              "text": "Demonstrate, with the help of data, how long it is taking you to make decisions\nand the impact that the long decision-making cycle has on delivering value to\nthe customer."
+            },
+            {
+              "id": "D",
+              "text": "Create and share a delegation board that displays your decision-making areas\nand work with your Scrum Team to clarify decision making accountability and\nresponsibility."
+            },
+            {
+              "id": "E",
+              "text": "Allow other members of the Scrum Team to continue as the decision makers,\nbut keep a list of decisions that do not deliver their intended value."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 3,
+          "correctAnswers": [
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "exam-2-question-14",
+          "number": 14,
+          "origin": "Exam Bruno",
+          "question": "Who is accountable for maintaining and communicating the Product Goal?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "The Product Owner."
+            },
+            {
+              "id": "B",
+              "text": "The Developers."
+            },
+            {
+              "id": "C",
+              "text": "Executive Sponsors."
+            },
+            {
+              "id": "D",
+              "text": "Stakeholders."
+            },
+            {
+              "id": "E",
+              "text": "All of the above."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "A"
+          ]
+        },
+        {
+          "id": "exam-2-question-15",
+          "number": 15,
+          "origin": "Exam Bruno",
+          "question": "When the Product Owner is too busy to work with all of the teams in a multi-team product\ndevelopment effort, which strategy will help them?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Add component team Product Owners."
+            },
+            {
+              "id": "B",
+              "text": "Communicate a clear Product Goal and delegate some activities to the\nDevelopers."
+            },
+            {
+              "id": "C",
+              "text": "Enlist the Program Management Office to help coordinate work."
+            },
+            {
+              "id": "D",
+              "text": "Assign sub-Product Owners to each Scrum Team."
+            },
+            {
+              "id": "E",
+              "text": "All of the above."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "B"
+          ]
+        },
+        {
+          "id": "exam-2-question-16",
+          "number": 16,
+          "origin": "Exam Bruno",
+          "question": "You started measuring product feature usage in your last release. You are surprised to learn\nthat a sizable percentage of the features you thought were very important are never or rarely\nused.\n\nWhich of the following actions could you take to further evaluate this unexpected result?\n\n(choose all that apply)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Spend more time talking to Users to identify the impact they seek."
+            },
+            {
+              "id": "B",
+              "text": "Disable the features that have never been used and listen for feedback."
+            },
+            {
+              "id": "C",
+              "text": "Run experiments to increase your understanding of what customers find\nvaluable."
+            },
+            {
+              "id": "D",
+              "text": "Examine whether the rarely used features solve the intended problem."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "exam-2-question-17",
+          "number": 17,
+          "origin": "Exam Bruno",
+          "question": "When should the Product Owner update the project plan?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Scrum forbids having a project plan."
+            },
+            {
+              "id": "B",
+              "text": "The Product Backlog is the plan in Scrum. It is updated as new information and\ninsights emerge."
+            },
+            {
+              "id": "C",
+              "text": "After the Daily Scrum to ensure an accurate daily overview of project progress."
+            },
+            {
+              "id": "D",
+              "text": "Before the Sprint Planning to know how much work will have to be done in the\nSprint."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "B"
+          ]
+        },
+        {
+          "id": "exam-2-question-18",
+          "number": 18,
+          "origin": "Exam Bruno",
+          "question": "Your executive leadership team believes that your product can achieve higher market share.\n\n. The Sales Leader is pressuring you to reduce the price of the product to attract more\ncustomers.\n. The Director of Finance is concerned that reducing the price will merely reduce the\nproduct's profitability.\n\nWhat sources of information should you consider when deciding whether to drop the price as\nthe Sales Leader is suggesting?\n\n(choose the best four answers)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Customer satisfaction."
+            },
+            {
+              "id": "B",
+              "text": "Market share."
+            },
+            {
+              "id": "C",
+              "text": "Company earnings targets."
+            },
+            {
+              "id": "D",
+              "text": "Channel sales strategy."
+            },
+            {
+              "id": "E",
+              "text": "Unmet customer needs."
+            },
+            {
+              "id": "F",
+              "text": "Competitor pricing."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 4,
+          "correctAnswers": [
+            "A",
+            "B",
+            "E",
+            "F"
+          ]
+        },
+        {
+          "id": "exam-2-question-19",
+          "number": 19,
+          "origin": "Exam Bruno",
+          "question": "Which of the following statements about the Product Backlog are true?\n\n(choose the best two answers)",
+          "options": [
+            {
+              "id": "A",
+              "text": "All Product Backlog items must be expressed as user stories."
+            },
+            {
+              "id": "B",
+              "text": "The Product Backlog represents the input of all stakeholders and eliminates\nany need for the Developers to speak to stakeholders."
+            },
+            {
+              "id": "C",
+              "text": "All Product Backlog items must be identified before the first Sprint begins."
+            },
+            {
+              "id": "D",
+              "text": "The Product Backlog should be visible to the Scrum Team and stakeholders."
+            },
+            {
+              "id": "E",
+              "text": "The Product Backlog is ordered by the Product Owner."
+            },
+            {
+              "id": "F",
+              "text": "Only the Product Owner can place items on the Product Backlog."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 2,
+          "correctAnswers": [
+            "D",
+            "E"
+          ]
+        },
+        {
+          "id": "exam-2-question-20",
+          "number": 20,
+          "origin": "Exam Bruno",
+          "question": "You are a Product Owner for a product that publishes customer usage rates by feature.\n\nAn influential stakeholder does not believe the data showing the usage rates, and insists that a\nparticular feature is essential, despite data showing low usage rates. The stakeholder believes\nthat measuring feature usage is a waste of time.\n\nAs Product Owner you have confirmed that the data is accurate and believe that the data is\nvaluable to help you and your team. What should you do?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Continue to measure and publish the data, to provide openness and\ntransparency, and use it to inform your decisions."
+            },
+            {
+              "id": "B",
+              "text": "Stop measuring feature usage to appease the stakeholder."
+            },
+            {
+              "id": "C",
+              "text": "Continue measuring feature usage and use it to inform your decisions, but do\nnot publish it."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "A"
+          ]
+        },
+        {
+          "id": "exam-2-question-21",
+          "number": 21,
+          "origin": "Exam Bruno",
+          "question": "After examining your product's customer base, you discover that various customer types utilize your product in distinct ways. Given this insight, what is the best thing to do? (choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Retain a single product, ensuring that each release caters to every customer type."
+            },
+            {
+              "id": "B",
+              "text": "Maintain a single product but adopt different marketing strategies for each customer type."
+            },
+            {
+              "id": "C",
+              "text": "Take no action; focus on new features to attract new customers and boost sales."
+            },
+            {
+              "id": "D",
+              "text": "Consider developing separate products tailored to the needs of each customer type."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "D"
+          ]
+        },
+        {
+          "id": "exam-2-question-22",
+          "number": 22,
+          "origin": "Exam Bruno",
+          "question": "Your stakeholders are very demanding and each of them has at least one feature that they say\nis essential for the next release. As the Product Owner, you have validated that the feature\nrequests are all valid requests and would likely add value to your product. What should you do?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Release when you can satisfy at least a single outcome, even though not all\nfeatures are implemented."
+            },
+            {
+              "id": "B",
+              "text": "Wait until all essential features are complete before releasing the product."
+            },
+            {
+              "id": "C",
+              "text": "Escalate to the steering committee to make the call."
+            },
+            {
+              "id": "D",
+              "text": "Pick the two most influential stakeholders and satisfy their needs, then release."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "A"
+          ]
+        },
+        {
+          "id": "exam-2-question-23",
+          "number": 23,
+          "origin": "Exam Bruno",
+          "question": "Product A is a big revenue producer; it has:\n. High Current Value and Low Unrealized Value.\n\nProduct B is a new product with a lot of potential; it has:\n. Low Current Value and High Unrealized Value.\n\nUsing those two data points and taking a long-term view, which of the options below should you\npursue?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Weight your investment toward Product B; since it has more potential."
+            },
+            {
+              "id": "B",
+              "text": "Invest equally in both products."
+            },
+            {
+              "id": "C",
+              "text": "Weight your investment toward Product A; you do not want to risk losing\ncustomers."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "A"
+          ]
+        },
+        {
+          "id": "exam-2-question-24",
+          "number": 24,
+          "origin": "Exam Bruno",
+          "question": "An Increment is valuable if:\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is likely to increase customer satisfaction."
+            },
+            {
+              "id": "B",
+              "text": "It was completed more quickly than forecasted during the Sprint."
+            },
+            {
+              "id": "C",
+              "text": "It meets the business analyst's specifications."
+            },
+            {
+              "id": "D",
+              "text": "It is delivered when the Product Owner expects it."
+            },
+            {
+              "id": "E",
+              "text": "It has all the features that the Product Owner wanted in that Sprint."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "A"
+          ]
+        },
+        {
+          "id": "exam-2-question-25",
+          "number": 25,
+          "origin": "Exam Bruno",
+          "question": "A \"cone of uncertainty\" can be used to do what?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Visualize the uncertainty of the potential value that a Scrum Team delivers over\ntime"
+            },
+            {
+              "id": "B",
+              "text": "Represent the relative level of difficulty for predicting the velocity of individual\nteam members."
+            },
+            {
+              "id": "C",
+              "text": "Determine whether to cut quality, similar to the \"Iron Triangle\" of project\nmanagement."
+            },
+            {
+              "id": "D",
+              "text": "Rapidly identify and prioritize all uncertainties."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "A"
+          ]
+        },
+        {
+          "id": "exam-2-question-26",
+          "number": 26,
+          "origin": "Exam Bruno",
+          "question": "What are the attributes of a good Product Vision and Strategy?\n\n(choose all that apply)",
+          "options": [
+            {
+              "id": "A",
+              "text": "It describes who will use the product and what they would like to achieve."
+            },
+            {
+              "id": "B",
+              "text": "It describes how people will use the product to achieve outcomes."
+            },
+            {
+              "id": "C",
+              "text": "It describes how the product will generate revenue."
+            },
+            {
+              "id": "D",
+              "text": "It describes how the product compares to competitor products."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "exam-2-question-27",
+          "number": 27,
+          "origin": "Exam Bruno",
+          "question": "When does the second Sprint start?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Once the architectural changes for the second Sprint have been approved by\nthe senior architect."
+            },
+            {
+              "id": "B",
+              "text": "After the customer completes acceptance testing of the first Sprint."
+            },
+            {
+              "id": "C",
+              "text": "After the Product Backlog for the second Sprint has been selected."
+            },
+            {
+              "id": "D",
+              "text": "Immediately after the first Sprint."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "D"
+          ]
+        },
+        {
+          "id": "exam-2-question-28",
+          "number": 28,
+          "origin": "Udemy",
+          "question": "The Scrum Master is inexperienced and suggests that Developers with rare skills should be involved with multiple Scrum teams. Which are likely outcomes from such a decision? (choose all that apply)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Teams may become bottleneckedt waiting for key Developers."
+            },
+            {
+              "id": "B",
+              "text": "More work gets done since people with specialisms are better utilized."
+            },
+            {
+              "id": "C",
+              "text": "Employee costs are lower since expensive skilled employees are shared."
+            },
+            {
+              "id": "D",
+              "text": "Dependencies are created."
+            },
+            {
+              "id": "E",
+              "text": "Teams will not be cross-functional."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": [
+            "A",
+            "D",
+            "E"
+          ]
+        },
+        {
+          "id": "exam-2-question-29",
+          "number": 29,
+          "origin": "Udemy",
+          "question": "If Sprint Backlog items are not clear what might be the concerns? (choose the best 4 answers)\n",
+          "options": [
+            {
+              "id": "A",
+              "text": "The Scrum Master has failed, the Scrum Master is changed and the Sprint is re-started."
+            },
+            {
+              "id": "B",
+              "text": "The team might have different understandings and different basis for adaptation."
+            },
+            {
+              "id": "C",
+              "text": "Development time might be wasted."
+            },
+            {
+              "id": "D",
+              "text": "The Developers will have difficulty creating a forecast of work for the Sprint without\nmore clarity."
+            },
+            {
+              "id": "E",
+              "text": "Decisions made on those items may be bad decisions."
+            },
+            {
+              "id": "F",
+              "text": "There is no concern, the Developers do not need the items to be clear."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 4,
+          "correctAnswers": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
+        },
+        {
+          "id": "exam-2-question-30",
+          "number": 30,
+          "origin": "Exam Bruno",
+          "question": "You have more ideas for new products than you have money to invest. What should you do?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Invest in the proposals that have the highest projected Current Value for the\nnext year."
+            },
+            {
+              "id": "B",
+              "text": "Fund small experiments to test the proposed ideas and assumptions, then\nevaluate results."
+            },
+            {
+              "id": "C",
+              "text": "Invest in all of them, but at proportionally lowered amounts, and see how they\nall perform."
+            },
+            {
+              "id": "D",
+              "text": "Rank proposals by market potential (Unrealized Value) and fully fund as many\nas you can."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "B"
+          ]
+        },
+        {
+          "id": "exam-2-question-31",
+          "number": 31,
+          "origin": "Exam Bruno",
+          "question": "Complete this sentence: The more uncertain you are about customer needs or market desires\n\n(choose the best two answers)",
+          "options": [
+            {
+              "id": "A",
+              "text": "the smaller each release should be."
+            },
+            {
+              "id": "B",
+              "text": "the more you should focus on validating customer needs."
+            },
+            {
+              "id": "C",
+              "text": "the more important a risk management plan becomes."
+            },
+            {
+              "id": "D",
+              "text": "the more likely it is that you should invest in a different product."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 2,
+          "correctAnswers": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "exam-2-question-32",
+          "number": 32,
+          "origin": "Exam Bruno",
+          "question": "Organizations should reduce their investment in a product when the product's:\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Unrealized Value is very small."
+            },
+            {
+              "id": "B",
+              "text": "Current Value is very low."
+            },
+            {
+              "id": "C",
+              "text": "Current Value is very high."
+            },
+            {
+              "id": "D",
+              "text": "Unrealized Value is very large."
+            },
+            {
+              "id": "E",
+              "text": "None of the above."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "A"
+          ]
+        },
+        {
+          "id": "exam-2-question-33",
+          "number": 33,
+          "origin": "Exam Bruno",
+          "question": "How small should a \"ready\" Product Backlog item be?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "No bigger than 8 story points."
+            },
+            {
+              "id": "B",
+              "text": "It should fit on a small index card."
+            },
+            {
+              "id": "C",
+              "text": "No longer than one day."
+            },
+            {
+              "id": "D",
+              "text": "Small enough for a single team member to complete in a Sprint."
+            },
+            {
+              "id": "E",
+              "text": "Small enough to build in 1 Sprint."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "E"
+          ]
+        },
+        {
+          "id": "exam-2-question-34",
+          "number": 34,
+          "origin": "Exam Bruno",
+          "question": "The Definition of Done is used to:\n\n(choose the best three answers)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Increase transparency."
+            },
+            {
+              "id": "B",
+              "text": "Describe the purpose, objective, and timebox of each Scrum event."
+            },
+            {
+              "id": "C",
+              "text": "Create a shared understanding of when work is complete."
+            },
+            {
+              "id": "D",
+              "text": "Describe the work that must be done before the Sprint can be declared\ncomplete."
+            },
+            {
+              "id": "E",
+              "text": "Inform the Developers on how many Product Backlog items to select in a\nSprint."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 3,
+          "correctAnswers": [
+            "A",
+            "C",
+            "E"
+          ]
+        },
+        {
+          "id": "exam-2-question-35",
+          "number": 35,
+          "origin": "Udemy",
+          "question": "Which of the following are true about Scrum? (Select all that apply).",
+          "options": [
+            {
+              "id": "A",
+              "text": "Scrum is a framework designed to deliver value through adaptive solutions for complex\nproblems."
+            },
+            {
+              "id": "B",
+              "text": "Scrum is founded on the principles of empiricism."
+            },
+            {
+              "id": "C",
+              "text": "Scrum is similar to traditional processes, with the key difference being self-\nmanagement replacing Project Managers."
+            },
+            {
+              "id": "D",
+              "text": "Scrum is a methodology that allows you to selectively implement components based on\nyour organization's specific needs."
+            },
+            {
+              "id": "E",
+              "text": "Each element of Scrum serves a distinct purpose and is crucial for the successful\napplication of Scrum in building complex products."
+            }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": [
+            "A",
+            "B",
+            "E"
+          ]
+        },
+        {
+          "id": "exam-2-question-36",
+          "number": 36,
+          "origin": "Udemy",
+          "question": "Which is the best description of the Sprint Backlog as a result of Sprint Planning? (choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is a decomposition of Product Backlog items such that enough work is decomposed\nfor at least the first days of the Sprint."
+            },
+            {
+              "id": "B",
+              "text": "It must be ordered by the Product Owner."
+            },
+            {
+              "id": "C",
+              "text": "It is a task list where every Developer has signed up for all the tasks that they intend to\ndo in the Sprint."
+            },
+            {
+              "id": "D",
+              "text": "It is a list of the User Stories estimated in story points, and a list of corresponding tasks\nthat are estimated in hours."
+            },
+            {
+              "id": "E",
+              "text": "It is an exhaustive list of all tasks for the Sprint."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "A"
+          ]
+        },
+        {
+          "id": "exam-2-question-37",
+          "number": 37,
+          "origin": "Exam Bruno",
+          "question": "What strategy can help a Product Owner who is stretched too thin to do all the things they need\nto do?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Break the product into components, each with their own Product Owner, and\ncreate a \"Chief Product Owner\" role who is responsible for the integrated\nproduct."
+            },
+            {
+              "id": "B",
+              "text": "Split the Product Owner role into \"Business Product Owner\" and \"Technical\nProduct Owner\" roles to spread the work."
+            },
+            {
+              "id": "C",
+              "text": "Delegate tasks like detailing Product Backlog items, interviewing users, and\nanalyzing data to Developers."
+            },
+            {
+              "id": "D",
+              "text": "All of the above."
+            },
+            {
+              "id": "E",
+              "text": "None of the above."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "C"
+          ]
+        },
+        {
+          "id": "exam-2-question-38",
+          "number": 38,
+          "origin": "Exam Bruno",
+          "question": "The most important thing a Product Owner can do is:\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Function as the single source of truth for all requirements."
+            },
+            {
+              "id": "B",
+              "text": "Ensure that all stakeholder needs are met."
+            },
+            {
+              "id": "C",
+              "text": "Determine the release schedule and contents."
+            },
+            {
+              "id": "D",
+              "text": "Maximize the value delivered by the product."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "D"
+          ]
+        },
+        {
+          "id": "exam-2-question-39",
+          "number": 39,
+          "origin": "Exam Bruno",
+          "question": "Who owns the Sprint Backlog?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "The Scrum Master."
+            },
+            {
+              "id": "B",
+              "text": "The Product Owner."
+            },
+            {
+              "id": "C",
+              "text": "The Developers."
+            },
+            {
+              "id": "D",
+              "text": "The Scrum Team."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "C"
+          ]
+        },
+        {
+          "id": "exam-2-question-40",
+          "number": 40,
+          "origin": "Exam Bruno",
+          "question": "Which of the following activities should a Product Owner never do?\n\n(choose the best answer)",
+          "options": [
+            {
+              "id": "A",
+              "text": "Decide when to release the product Increment."
+            },
+            {
+              "id": "B",
+              "text": "Accept work done during the Sprint."
+            },
+            {
+              "id": "C",
+              "text": "Dictate the Sprint Goal."
+            },
+            {
+              "id": "D",
+              "text": "Establish a Product Goal."
+            }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": [
+            "C"
+          ]
+        }
+      ]
+    }
+  ]
+}
