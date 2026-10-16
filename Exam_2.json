@@ -1347,16 +1347,16 @@
               "text": "Hire additional Product Owners for every product component."
             },
             {
-              "id": "C",
-              "text": "All the above options are valid; the decision depends on the specific situation."
-            },
-            {
               "id": "D",
               "text": "Assemble a group of Proxy Product Owners from the current Scrum Team members."
             },
             {
               "id": "E",
               "text": "Collaborate with the Program Management Office to receive the necessary support."
+            },
+            {
+              "id": "C",
+              "text": "All the above options are valid; the decision depends on the specific situation."
             }
           ],
           "selectionMode": "single",

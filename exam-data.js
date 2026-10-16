@@ -87,10 +87,6 @@ const PSPO_EXAMS = {
             "text": "Divide the Product Owner role into ﾓBusiness Product Ownerﾔ and ﾓTechnical Product Owner\" roles to share the work."
           },
           {
-            "id": "B",
-            "text": "None of the above"
-          },
-          {
             "id": "C",
             "text": "Reduce the product into components, and assign a Product Owner to each, then assume the role of ﾓChief Product Ownerﾔ responsible for the integrated product."
           },
@@ -101,6 +97,10 @@ const PSPO_EXAMS = {
           {
             "id": "E",
             "text": "All of the above."
+          },
+          {
+            "id": "B",
+            "text": "None of the above"
           }
         ],
         "selectionMode": "single",
@@ -212,10 +212,6 @@ const PSPO_EXAMS = {
         "question": "Why does Agile insist on frequent product releases? (choose the best option)",
         "options": [
           {
-            "id": "A",
-            "text": "All of the above."
-          },
-          {
             "id": "B",
             "text": "Smaller, more frequent releases are less risky."
           },
@@ -230,6 +226,10 @@ const PSPO_EXAMS = {
           {
             "id": "E",
             "text": "They help teams to learn how to correct and eliminate errors."
+          },
+          {
+            "id": "A",
+            "text": "All of the above."
           },
           {
             "id": "F",
@@ -296,12 +296,12 @@ const PSPO_EXAMS = {
             "text": "The Product Owner."
           },
           {
-            "id": "D",
-            "text": "All of the above."
-          },
-          {
             "id": "E",
             "text": "Stakeholders."
+          },
+          {
+            "id": "D",
+            "text": "All of the above."
           }
         ],
         "selectionMode": "single",
@@ -369,12 +369,12 @@ const PSPO_EXAMS = {
             "text": "Time to Market."
           },
           {
-            "id": "D",
-            "text": "All of the above"
-          },
-          {
             "id": "E",
             "text": "Unrealized Value."
+          },
+          {
+            "id": "D",
+            "text": "All of the above"
           }
         ],
         "selectionMode": "multiple",
@@ -490,10 +490,6 @@ const PSPO_EXAMS = {
         "question": "Why would you consider reducing investment in a product? (choose the best option)",
         "options": [
           {
-            "id": "A",
-            "text": "None of the above."
-          },
-          {
             "id": "B",
             "text": "When the Unrealized Value is extremely high."
           },
@@ -508,6 +504,10 @@ const PSPO_EXAMS = {
           {
             "id": "E",
             "text": "When the Unrealized Value is extremely low."
+          },
+          {
+            "id": "A",
+            "text": "None of the above."
           }
         ],
         "selectionMode": "single",
@@ -593,12 +593,12 @@ const PSPO_EXAMS = {
             "text": "To ensure consistency, create a centralized and coordinated multi-product development plan."
           },
           {
-            "id": "D",
-            "text": "All of the above."
-          },
-          {
             "id": "E",
             "text": "Ensure that the Program Office manages all releases of all products."
+          },
+          {
+            "id": "D",
+            "text": "All of the above."
           }
         ],
         "selectionMode": "single",
@@ -813,10 +813,6 @@ const PSPO_EXAMS = {
         "question": "Which of the below are mandatory in Scrum? (choose all that apply)",
         "options": [
           {
-            "id": "A",
-            "text": "None of the above."
-          },
-          {
             "id": "B",
             "text": "Feature burn-up."
           },
@@ -835,6 +831,10 @@ const PSPO_EXAMS = {
           {
             "id": "F",
             "text": "Refactoring."
+          },
+          {
+            "id": "A",
+            "text": "None of the above."
           }
         ],
         "selectionMode": "multiple",
@@ -1258,10 +1258,6 @@ const PSPO_EXAMS = {
             "text": "Hire additional Product Owners for every product component."
           },
           {
-            "id": "B",
-            "text": "All the above options are valid; the decision depends on the specific situation."
-          },
-          {
             "id": "C",
             "text": "Ensure all Scrum Teams have a thorough grasp of the Product Vision, so they can be guided by it if you delegate certain tasks to the Developers."
           },
@@ -1272,6 +1268,10 @@ const PSPO_EXAMS = {
           {
             "id": "E",
             "text": "Assemble a group of Proxy Product Owners from the current Scrum Team members."
+          },
+          {
+            "id": "B",
+            "text": "All the above options are valid; the decision depends on the specific situation."
           }
         ],
         "selectionMode": "single",
@@ -1481,16 +1481,16 @@ const PSPO_EXAMS = {
             "text": "Hire additional Product Owners for every product component."
           },
           {
-            "id": "C",
-            "text": "All the above options are valid; the decision depends on the specific situation."
-          },
-          {
             "id": "D",
             "text": "Assemble a group of Proxy Product Owners from the current Scrum Team members."
           },
           {
             "id": "E",
             "text": "Collaborate with the Program Management Office to receive the necessary support."
+          },
+          {
+            "id": "C",
+            "text": "All the above options are valid; the decision depends on the specific situation."
           }
         ],
         "selectionMode": "single",

@@ -96,6 +96,16 @@
       selected.every((answer) => question.correctAnswers.includes(answer));
   }
 
+  function updateSelectionLimit() {
+    const question = exam.questions[questionIndex];
+    const limitReached = question.selectionMode === "multiple" &&
+      question.requiredAnswerCount !== null &&
+      selectedAnswers().length >= question.requiredAnswerCount;
+    for (const input of optionsFieldset.querySelectorAll("input")) {
+      input.disabled = validated || (limitReached && !input.checked);
+    }
+  }
+
   function updateProgress() {
     progress.value = validatedCount;
     progressText.textContent = `Question ${questionIndex + 1} sur ${exam.questions.length}`;
@@ -120,7 +130,7 @@
     if (question.selectionMode === "single") {
       instructions.textContent = "Sélectionnez une seule réponse.";
     } else if (question.requiredAnswerCount !== null) {
-      instructions.textContent = `Sélectionnez ${question.requiredAnswerCount} réponses. Toutes les bonnes réponses sont nécessaires pour obtenir le point.`;
+      instructions.textContent = `Sélectionnez ${question.requiredAnswerCount} réponses. Décochez une réponse pour changer votre sélection une fois la limite atteinte. Toutes les bonnes réponses sont nécessaires pour obtenir le point.`;
     } else {
       instructions.textContent = "Sélectionnez toutes les réponses qui conviennent. Aucune réponse incorrecte ne doit être cochée.";
     }
@@ -149,6 +159,7 @@
     if (validated) {
       showFeedback();
     }
+    updateSelectionLimit();
     updateProgress();
     if (focusHeading) {
       questionTitle.focus();
@@ -159,6 +170,7 @@
     if (!validated) {
       responses[questionIndex].selected = selectedAnswers();
     }
+    updateSelectionLimit();
     validateButton.disabled = validated || selectedAnswers().length === 0;
     answerError.hidden = true;
   });
