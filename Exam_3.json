@@ -739,6 +739,147 @@
           "selectionMode": "multiple",
           "requiredAnswerCount": null,
           "correctAnswers": ["A"]
+        },
+        {
+          "id": "exam-3-question-65",
+          "number": 65,
+          "origin": "image (31).png",
+          "question": "What percent of the time should a Product Owner dedicate to the Scrum Team?\n\n(choose the best two answers)",
+          "options": [
+            { "id": "A", "text": "Enough time to avoid the waste that is created by delaying answers to the Developers." },
+            { "id": "B", "text": "Enough time to ensure that the product Increment is valuable and useful." },
+            { "id": "C", "text": "40%, or more if the stakeholders agree." },
+            { "id": "D", "text": "Just enough time to keep the Developers from complaining." },
+            { "id": "E", "text": "As much as the stakeholders want to budget. Business analysts take over the role the rest of the time." },
+            { "id": "F", "text": "100%." }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 2,
+          "correctAnswers": ["A", "B"]
+        },
+        {
+          "id": "exam-3-question-66",
+          "number": 66,
+          "origin": "image (30).png",
+          "question": "Which of the following are the Developers NOT responsible for?\n\n(choose the best answer)",
+          "options": [
+            { "id": "A", "text": "Monitoring and optimizing the work required to meet the Sprint Goal at least daily." },
+            { "id": "B", "text": "Selecting the Product Owner." },
+            { "id": "C", "text": "Planning how to meet a Sprint Goal." },
+            { "id": "D", "text": "Monitoring and increasing productivity." },
+            { "id": "E", "text": "Resolving internal conflicts." }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": ["B"]
+        },
+        {
+          "id": "exam-3-question-67",
+          "number": 67,
+          "origin": "image (5).jpg",
+          "question": "Your product's Current Value is low and your most recent three releases have failed to improve the Current Value, but the Unrealized Value of the product is high.\n- Your product cost ratio is 85%, meaning that you have a very low capacity to deliver new features.\n- Your time-to-market is also quite long.\n\nAs a Product Owner focused on the long-term viability of your product, which strategy should you pursue?\n\n(choose the best answer)",
+          "options": [
+            { "id": "A", "text": "Drop the product; since you have not been able to improve customer satisfaction, it is better to focus on some other opportunity." },
+            { "id": "B", "text": "Focus on identifying and delivering high-value features with the limited capacity you have, trying to win customers and increase revenue." },
+            { "id": "C", "text": "Seek out and eliminate the sources of waste to improve your Product Cost Ratio and Time to Market, building a foundation for future innovation." }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": ["C"]
+        },
+        {
+          "id": "exam-3-question-68",
+          "number": 68,
+          "origin": "image (29).png",
+          "question": "Which of the following are feedback loops in Scrum?\n\n(choose all that apply)",
+          "options": [
+            { "id": "A", "text": "Daily Scrum." },
+            { "id": "B", "text": "Sprint Retrospective." },
+            { "id": "C", "text": "Sprint Review." },
+            { "id": "D", "text": "Release planning." }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": ["A", "B", "C"]
+        },
+        {
+          "id": "exam-3-question-69",
+          "number": 69,
+          "origin": "image (26).png",
+          "question": "Which of the following two items are NOT topics of discussion within a Sprint Retrospective?\n\n(choose two answers)",
+          "options": [
+            { "id": "A", "text": "Team relations." },
+            { "id": "B", "text": "Sprint Backlog for the next Sprint." },
+            { "id": "C", "text": "Definition of Done." },
+            { "id": "D", "text": "Process improvements." },
+            { "id": "E", "text": "Functionality implemented as a result of the Sprint." }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 2,
+          "correctAnswers": ["B", "E"]
+        },
+        {
+          "id": "exam-3-question-70",
+          "number": 70,
+          "origin": "Capture d'\u00e9cran 2026-10-16 170629.png",
+          "question": "What things might a Product Owner focus on to ensure the product is useful and delivers value?\n\n(choose all that apply)",
+          "options": [
+            { "id": "A", "text": "How swiftly and easily the product can be consumed and used by the customers." },
+            { "id": "B", "text": "The size of the product in \"lines of code\"." },
+            { "id": "C", "text": "How much of the functionality of the product is being utilized." },
+            { "id": "D", "text": "Direct customer feedback." },
+            { "id": "E", "text": "Minimizing changes to project scope." }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": null,
+          "correctAnswers": ["A", "C", "D"]
+        },
+        {
+          "id": "exam-3-question-71",
+          "number": 71,
+          "origin": "Capture d'\u00e9cran 2026-10-16 172240.png",
+          "question": "Which question does the Scrum Guide say the Developers must answer at the Daily Scrum?\n\n(choose the best answer)",
+          "options": [
+            { "id": "A", "text": "What work did I do yesterday to help the team achieve its goal?" },
+            { "id": "B", "text": "What work am I going to do today to help the team achieve its goal?" },
+            { "id": "C", "text": "What impediments are in my way or in the way of the team?" },
+            { "id": "D", "text": "How many hours did I spend on the project yesterday?" },
+            { "id": "E", "text": "None of the above." }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": ["E"]
+        },
+        {
+          "id": "exam-3-question-72",
+          "number": 72,
+          "origin": "Capture d'\u00e9cran 2026-10-16 171351.png",
+          "question": "The timebox for the Sprint Review is:\n\n(choose the best answer)",
+          "options": [
+            { "id": "A", "text": "15 minutes." },
+            { "id": "B", "text": "Any length of time needed." },
+            { "id": "C", "text": "4 hours for a 4-week Sprint. Usually shorter for shorter Sprints." },
+            { "id": "D", "text": "At the end of every Sprint." }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": ["C"]
+        },
+        {
+          "id": "exam-3-question-73",
+          "number": 73,
+          "origin": "image (32).png",
+          "question": "What are the accountabilities of a Tester on a Scrum Team?\n\n(choose the best two answers)",
+          "options": [
+            { "id": "A", "text": "Finding bugs to assure quality." },
+            { "id": "B", "text": "Everyone on the Scrum Team is accountable for the quality of the product." },
+            { "id": "C", "text": "There is no specific tester role." },
+            { "id": "D", "text": "Checking the work of the Developers." },
+            { "id": "E", "text": "Creating code coverage reports for the test manager." }
+          ],
+          "selectionMode": "multiple",
+          "requiredAnswerCount": 2,
+          "correctAnswers": ["B", "C"]
         }
       ]
     }
