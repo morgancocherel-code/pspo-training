@@ -1,7 +1,7 @@
 import { readFileSync, writeFileSync } from "node:fs";
 
 // Les scripts classiques permettent de lire les examens depuis file://, sans fetch.
-// Après une modification des JSON : node generate-exam-data.mjs
+// Régénère exam-data.js et Exam_All.json : node generate-exam-data.mjs
 const sources = [
   { number: 1, id: "exam-1" },
   { number: 2, id: "exam-2" },
@@ -86,6 +86,11 @@ writeFileSync(
   new URL("exam-data.js", import.meta.url),
   "// Généré depuis les JSON : node generate-exam-data.mjs\n" +
     `const PSPO_EXAMS = ${JSON.stringify(exams, null, 2)};\n`,
+  "utf8",
+);
+writeFileSync(
+  new URL("Exam_All.json", import.meta.url),
+  JSON.stringify({ schemaVersion: 1, exams: Object.values(exams) }, null, 2) + "\n",
   "utf8",
 );
 console.log(

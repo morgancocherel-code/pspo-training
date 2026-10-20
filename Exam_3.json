@@ -880,6 +880,21 @@
           "selectionMode": "multiple",
           "requiredAnswerCount": 2,
           "correctAnswers": ["B", "C"]
+        },
+        {
+          "id": "exam-3-question-74",
+          "number": 74,
+          "origin": "image.png",
+          "question": "Which of the following would likely be the least effective way to enhance the agility of your future product development?\n\n(choose the least effective approach)",
+          "options": [
+            { "id": "A", "text": "Consider whether there is a significantly large enough market for your product." },
+            { "id": "B", "text": "Lean on your organizational efficiency and existing architecture to build your product aligned to the current organization." },
+            { "id": "C", "text": "Clearly understand the producer, buyer/consumer relationship." },
+            { "id": "D", "text": "Form a holistic view of how the customer sees your product." }
+          ],
+          "selectionMode": "single",
+          "requiredAnswerCount": 1,
+          "correctAnswers": ["B"]
         }
       ]
     }
