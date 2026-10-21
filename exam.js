@@ -61,6 +61,8 @@
   const allFilter = document.getElementById("filter-all");
   const favoritesFilter = document.getElementById("filter-favorites");
   let favoritesOnly = false;
+  let reviewFilter = "all";
+  const reviewFilterButtons = document.querySelectorAll("[data-review-filter]");
   let finished = false;
 
   document.title = `${exam.title} — PSPO Practice`;
@@ -265,23 +267,52 @@
     nextButton.hidden = false;
   }
 
+  reviewFilterButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      reviewFilter = button.dataset.reviewFilter;
+      renderErrorReview();
+    });
+  });
+
   function renderErrorReview() {
     const container = document.getElementById("review-questions");
     container.replaceChildren();
-    let errorCount = 0;
+    const correctCount = responses.filter((response, index) =>
+      response.validated && isCorrectAnswer(exam.questions[index], response.selected)).length;
+    const counts = {
+      all: exam.questions.length,
+      correct: correctCount,
+      incorrect: exam.questions.length - correctCount,
+      favorites: favorites.size,
+    };
+    const labels = {
+      all: "Toutes les questions",
+      correct: "Correctes",
+      incorrect: "Incorrectes",
+      favorites: "Favoris",
+    };
+    reviewFilterButtons.forEach((button) => {
+      const filter = button.dataset.reviewFilter;
+      button.textContent = `${labels[filter]} (${counts[filter]})`;
+      button.setAttribute("aria-pressed", String(filter === reviewFilter));
+    });
 
     exam.questions.forEach((question, index) => {
       const selected = responses[index].selected;
       const answered = responses[index].validated;
-      if (answered && isCorrectAnswer(question, selected)) {
+      const correct = answered && isCorrectAnswer(question, selected);
+      if (
+        (reviewFilter === "correct" && !correct) ||
+        (reviewFilter === "incorrect" && correct) ||
+        (reviewFilter === "favorites" && !favorites.has(index))
+      ) {
         return;
       }
-      errorCount += 1;
 
       const article = document.createElement("article");
       article.className = "review-question";
       const heading = document.createElement("h3");
-      heading.textContent = `Question ${index + 1} · Question source n° ${question.number}`;
+      heading.textContent = `Question ${index + 1} · Question source n° ${question.number} · ${correct ? "Correcte" : "Incorrecte"}${favorites.has(index) ? " · Favori" : ""}`;
       const text = document.createElement("p");
       text.className = "review-question-text";
       text.textContent = question.question;
@@ -293,7 +324,7 @@
       }
 
       for (const group of [
-        { title: "Votre réponse :", answers: selected, className: "review-selected" },
+        { title: "Votre réponse :", answers: selected, className: correct ? "review-correct" : "review-selected" },
         { title: "La bonne réponse :", answers: question.correctAnswers, className: "review-correct" },
       ]) {
         const section = document.createElement("div");
@@ -318,9 +349,14 @@
       container.append(article);
     });
 
-    document.getElementById("review-summary").textContent = errorCount === 0
-      ? "Aucune erreur : vous avez répondu correctement à toutes les questions !"
-      : `${errorCount} question${errorCount > 1 ? "s" : ""} à revoir. Retrouvez votre sélection et le corrigé ci-dessous.`;
+    const visibleCount = counts[reviewFilter];
+    document.getElementById("review-summary").textContent = visibleCount === 0
+      ? ({
+        correct: "Aucune réponse correcte.",
+        incorrect: "Aucune erreur : vous avez répondu correctement à toutes les questions !",
+        favorites: "Aucune question mise en favori pendant cet examen.",
+      })[reviewFilter]
+      : `${visibleCount} question${visibleCount > 1 ? "s" : ""} affichée${visibleCount > 1 ? "s" : ""}. Retrouvez votre sélection et le corrigé ci-dessous.`;
   }
 
   function goToQuestion(index) {

@@ -107,8 +107,14 @@
           <p id="result-description"></p>
           <p class="result-rule">Pour une question à choix multiples, toutes les bonnes réponses et aucune autre doivent être sélectionnées.</p>
           <section class="error-review" aria-labelledby="review-title">
-            <h2 id="review-title">Les questions à revoir</h2>
-            <p id="review-summary"></p>
+            <h2 id="review-title">Le détail des réponses</h2>
+            <div id="review-filters" class="question-filters" role="group" aria-label="Filtrer les résultats">
+              <button class="question-filter" type="button" data-review-filter="all" aria-pressed="true" aria-controls="review-questions">Toutes les questions</button>
+              <button class="question-filter" type="button" data-review-filter="correct" aria-pressed="false" aria-controls="review-questions">Correctes</button>
+              <button class="question-filter" type="button" data-review-filter="incorrect" aria-pressed="false" aria-controls="review-questions">Incorrectes</button>
+              <button class="question-filter" type="button" data-review-filter="favorites" aria-pressed="false" aria-controls="review-questions">Favoris</button>
+            </div>
+            <p id="review-summary" role="status"></p>
             <div id="review-questions"></div>
           </section>
           <div class="result-actions">
