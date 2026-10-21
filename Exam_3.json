@@ -214,22 +214,22 @@
               "text": "The Innovation Rate, which is the ratio of new work to total work."
             },
             {
-              "id": "C",
+              "id": "B",
               "text": "The On-Product Index, which measures the proportion of work related to the product to total work."
             },
             {
-              "id": "D",
+              "id": "C",
               "text": "Employee Net Promoter Scores, which measures the overall job satisfaction and company satisfaction of the developers."
             },
             {
-              "id": "B",
+              "id": "D",
               "text": "All of the above."
             }
           ],
           "selectionMode": "single",
           "requiredAnswerCount": 1,
           "correctAnswers": [
-            "B"
+            "D"
           ]
         },
         {
@@ -474,26 +474,26 @@
               "text": "They help teams better understand and meet customer needs."
             },
             {
-              "id": "D",
+              "id": "C",
               "text": "Smaller, more frequent releases are less risky."
             },
             {
-              "id": "F",
+              "id": "D",
               "text": "They help teams to learn how to correct and eliminate errors."
             },
             {
-              "id": "C",
+              "id": "E",
               "text": "All of the above."
             },
             {
-              "id": "E",
+              "id": "F",
               "text": "None of the above."
             }
           ],
           "selectionMode": "single",
           "requiredAnswerCount": 1,
           "correctAnswers": [
-            "C"
+            "E"
           ]
         },
         {

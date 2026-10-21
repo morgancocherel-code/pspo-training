@@ -405,11 +405,11 @@
               "text": "It is best to have Sprints of consistent length."
             },
             {
-              "id": "E",
+              "id": "D",
               "text": "Sprint length is determined during Sprint Planning and should hold the time it will\ntake to create the planned features in the upcoming Sprint, but does not include\ntime for any validation."
             },
             {
-              "id": "D",
+              "id": "E",
               "text": "The length of the Sprint should be proportional to the work that is done in\nbetween Sprints."
             }
           ],
@@ -691,11 +691,11 @@
               "text": "The Scrum Master."
             },
             {
-              "id": "D",
+              "id": "C",
               "text": "The Product Owner with input from the Developers."
             },
             {
-              "id": "C",
+              "id": "D",
               "text": "The Developers after clarifying requirements with the Product Owner."
             },
             {
@@ -1347,15 +1347,15 @@
               "text": "Hire additional Product Owners for every product component."
             },
             {
-              "id": "D",
+              "id": "C",
               "text": "Assemble a group of Proxy Product Owners from the current Scrum Team members."
             },
             {
-              "id": "E",
+              "id": "D",
               "text": "Collaborate with the Program Management Office to receive the necessary support."
             },
             {
-              "id": "C",
+              "id": "E",
               "text": "All the above options are valid; the decision depends on the specific situation."
             }
           ],

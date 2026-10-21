@@ -46,6 +46,9 @@ for (const { number, id } of sources) {
 
     const optionIds = new Set();
     for (const option of question.options) {
+      if (option.id !== String.fromCharCode(65 + optionIds.size)) {
+        throw new Error(`${context} : les lettres des propositions doivent suivre l'ordre A, B, C...`);
+      }
       if (
         typeof option.id !== "string" ||
         !option.id.trim() ||

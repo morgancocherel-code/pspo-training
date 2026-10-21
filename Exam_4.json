@@ -230,8 +230,8 @@
             { "id": "A", "text": "Sprint length is determined during Sprint Planning and should be long enough to make sure the Developers can deliver what is to be accomplished in the upcoming Sprint." },
             { "id": "B", "text": "All Sprints must be 1 month or less." },
             { "id": "C", "text": "It is best to have Sprints of consistent length." },
-            { "id": "E", "text": "Sprint length is determined during Sprint Planning and should hold the time it will take to create the planned features in the upcoming Sprint, but does not include time for any validation." },
-            { "id": "D", "text": "The length of the Sprint should be proportional to the work that is done in between Sprints." }
+            { "id": "D", "text": "Sprint length is determined during Sprint Planning and should hold the time it will take to create the planned features in the upcoming Sprint, but does not include time for any validation." },
+            { "id": "E", "text": "The length of the Sprint should be proportional to the work that is done in between Sprints." }
           ],
           "selectionMode": "multiple",
           "requiredAnswerCount": null,
@@ -394,14 +394,14 @@
           "options": [
             { "id": "A", "text": "The Developers, alone." },
             { "id": "B", "text": "The Scrum Master." },
-            { "id": "D", "text": "The Product Owner with input from the Developers." },
-            { "id": "C", "text": "The Developers after clarifying requirements with the Product Owner." },
+            { "id": "C", "text": "The Product Owner with input from the Developers." },
+            { "id": "D", "text": "The Developers after clarifying requirements with the Product Owner." },
             { "id": "E", "text": "The most senior people in the organization, including architects and subject matter experts." }
           ],
           "selectionMode": "single",
           "requiredAnswerCount": 1,
-          "correctAnswers": ["C"],
-          "markedAnswers": ["C"]
+          "correctAnswers": ["D"],
+          "markedAnswers": ["D"]
         },
         {
           "id": "exam-photo-question-25",

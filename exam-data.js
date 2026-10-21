@@ -87,26 +87,26 @@ const PSPO_EXAMS = {
             "text": "Divide the Product Owner role into ﾓBusiness Product Ownerﾔ and ﾓTechnical Product Owner\" roles to share the work."
           },
           {
-            "id": "C",
+            "id": "B",
             "text": "Reduce the product into components, and assign a Product Owner to each, then assume the role of ﾓChief Product Ownerﾔ responsible for the integrated product."
           },
           {
-            "id": "D",
+            "id": "C",
             "text": "Delegate tasks to Developers, like detailing Product Backlog items, interviewing users, and analyzing data."
           },
           {
-            "id": "E",
+            "id": "D",
             "text": "All of the above."
           },
           {
-            "id": "B",
+            "id": "E",
             "text": "None of the above"
           }
         ],
         "selectionMode": "single",
         "requiredAnswerCount": 1,
         "correctAnswers": [
-          "D"
+          "C"
         ]
       },
       {
@@ -212,23 +212,23 @@ const PSPO_EXAMS = {
         "question": "Why does Agile insist on frequent product releases? (choose the best option)",
         "options": [
           {
-            "id": "B",
+            "id": "A",
             "text": "Smaller, more frequent releases are less risky."
           },
           {
-            "id": "C",
+            "id": "B",
             "text": "They help teams better understand and meet customer needs."
           },
           {
-            "id": "D",
+            "id": "C",
             "text": "They enable teams to inspect and adapt more frequently."
           },
           {
-            "id": "E",
+            "id": "D",
             "text": "They help teams to learn how to correct and eliminate errors."
           },
           {
-            "id": "A",
+            "id": "E",
             "text": "All of the above."
           },
           {
@@ -239,7 +239,7 @@ const PSPO_EXAMS = {
         "selectionMode": "single",
         "requiredAnswerCount": 1,
         "correctAnswers": [
-          "A"
+          "E"
         ]
       },
       {
@@ -296,11 +296,11 @@ const PSPO_EXAMS = {
             "text": "The Product Owner."
           },
           {
-            "id": "E",
+            "id": "D",
             "text": "Stakeholders."
           },
           {
-            "id": "D",
+            "id": "E",
             "text": "All of the above."
           }
         ],
@@ -369,11 +369,11 @@ const PSPO_EXAMS = {
             "text": "Time to Market."
           },
           {
-            "id": "E",
+            "id": "D",
             "text": "Unrealized Value."
           },
           {
-            "id": "D",
+            "id": "E",
             "text": "All of the above"
           }
         ],
@@ -490,30 +490,30 @@ const PSPO_EXAMS = {
         "question": "Why would you consider reducing investment in a product? (choose the best option)",
         "options": [
           {
-            "id": "B",
+            "id": "A",
             "text": "When the Unrealized Value is extremely high."
           },
           {
-            "id": "C",
+            "id": "B",
             "text": "When the Current Value is extremely high."
           },
           {
-            "id": "D",
+            "id": "C",
             "text": "When the Current Value is extremely low."
           },
           {
-            "id": "E",
+            "id": "D",
             "text": "When the Unrealized Value is extremely low."
           },
           {
-            "id": "A",
+            "id": "E",
             "text": "None of the above."
           }
         ],
         "selectionMode": "single",
         "requiredAnswerCount": 1,
         "correctAnswers": [
-          "E"
+          "D"
         ]
       },
       {
@@ -593,11 +593,11 @@ const PSPO_EXAMS = {
             "text": "To ensure consistency, create a centralized and coordinated multi-product development plan."
           },
           {
-            "id": "E",
+            "id": "D",
             "text": "Ensure that the Program Office manages all releases of all products."
           },
           {
-            "id": "D",
+            "id": "E",
             "text": "All of the above."
           }
         ],
@@ -813,34 +813,34 @@ const PSPO_EXAMS = {
         "question": "Which of the below are mandatory in Scrum? (choose all that apply)",
         "options": [
           {
-            "id": "B",
+            "id": "A",
             "text": "Feature burn-up."
           },
           {
-            "id": "C",
+            "id": "B",
             "text": "Critical Path Analysis."
           },
           {
-            "id": "D",
+            "id": "C",
             "text": "Burndown chart."
           },
           {
-            "id": "E",
+            "id": "D",
             "text": "Project Gantt chart."
           },
           {
-            "id": "F",
+            "id": "E",
             "text": "Refactoring."
           },
           {
-            "id": "A",
+            "id": "F",
             "text": "None of the above."
           }
         ],
         "selectionMode": "multiple",
         "requiredAnswerCount": null,
         "correctAnswers": [
-          "A"
+          "F"
         ]
       },
       {
@@ -1258,26 +1258,26 @@ const PSPO_EXAMS = {
             "text": "Hire additional Product Owners for every product component."
           },
           {
-            "id": "C",
+            "id": "B",
             "text": "Ensure all Scrum Teams have a thorough grasp of the Product Vision, so they can be guided by it if you delegate certain tasks to the Developers."
           },
           {
-            "id": "D",
+            "id": "C",
             "text": "Collaborate with the Program Management Office to receive the necessary support."
           },
           {
-            "id": "E",
+            "id": "D",
             "text": "Assemble a group of Proxy Product Owners from the current Scrum Team members."
           },
           {
-            "id": "B",
+            "id": "E",
             "text": "All the above options are valid; the decision depends on the specific situation."
           }
         ],
         "selectionMode": "single",
         "requiredAnswerCount": 1,
         "correctAnswers": [
-          "C"
+          "B"
         ]
       },
       {
@@ -1481,15 +1481,15 @@ const PSPO_EXAMS = {
             "text": "Hire additional Product Owners for every product component."
           },
           {
-            "id": "D",
+            "id": "C",
             "text": "Assemble a group of Proxy Product Owners from the current Scrum Team members."
           },
           {
-            "id": "E",
+            "id": "D",
             "text": "Collaborate with the Program Management Office to receive the necessary support."
           },
           {
-            "id": "C",
+            "id": "E",
             "text": "All the above options are valid; the decision depends on the specific situation."
           }
         ],
@@ -2790,22 +2790,22 @@ const PSPO_EXAMS = {
             "text": "The Innovation Rate, which is the ratio of new work to total work."
           },
           {
-            "id": "C",
+            "id": "B",
             "text": "The On-Product Index, which measures the proportion of work related to the product to total work."
           },
           {
-            "id": "D",
+            "id": "C",
             "text": "Employee Net Promoter Scores, which measures the overall job satisfaction and company satisfaction of the developers."
           },
           {
-            "id": "B",
+            "id": "D",
             "text": "All of the above."
           }
         ],
         "selectionMode": "single",
         "requiredAnswerCount": 1,
         "correctAnswers": [
-          "B"
+          "D"
         ]
       },
       {
@@ -3050,26 +3050,26 @@ const PSPO_EXAMS = {
             "text": "They help teams better understand and meet customer needs."
           },
           {
-            "id": "D",
+            "id": "C",
             "text": "Smaller, more frequent releases are less risky."
           },
           {
-            "id": "F",
+            "id": "D",
             "text": "They help teams to learn how to correct and eliminate errors."
           },
           {
-            "id": "C",
+            "id": "E",
             "text": "All of the above."
           },
           {
-            "id": "E",
+            "id": "F",
             "text": "None of the above."
           }
         ],
         "selectionMode": "single",
         "requiredAnswerCount": 1,
         "correctAnswers": [
-          "C"
+          "E"
         ]
       },
       {
@@ -4177,11 +4177,11 @@ const PSPO_EXAMS = {
             "text": "It is best to have Sprints of consistent length."
           },
           {
-            "id": "E",
+            "id": "D",
             "text": "Sprint length is determined during Sprint Planning and should hold the time it will take to create the planned features in the upcoming Sprint, but does not include time for any validation."
           },
           {
-            "id": "D",
+            "id": "E",
             "text": "The length of the Sprint should be proportional to the work that is done in between Sprints."
           }
         ],
@@ -4533,11 +4533,11 @@ const PSPO_EXAMS = {
             "text": "The Scrum Master."
           },
           {
-            "id": "D",
+            "id": "C",
             "text": "The Product Owner with input from the Developers."
           },
           {
-            "id": "C",
+            "id": "D",
             "text": "The Developers after clarifying requirements with the Product Owner."
           },
           {
@@ -4548,10 +4548,10 @@ const PSPO_EXAMS = {
         "selectionMode": "single",
         "requiredAnswerCount": 1,
         "correctAnswers": [
-          "C"
+          "D"
         ],
         "markedAnswers": [
-          "C"
+          "D"
         ]
       },
       {
