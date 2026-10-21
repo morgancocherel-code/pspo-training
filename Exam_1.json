@@ -80,6 +80,7 @@
         },
         {
           "id": "exam-1-question-3",
+          "explanationUrl": "https://scrumprep.com/answering-if-the-product-owner-is-struggling-to-find-time-to-complete-all-of-his-her-work-what-can-he-she-do-to-ensure-the-product-owner-accountabilities-are-met/",
           "number": 3,
           "origin": "PSPOII-Questions.xlsx",
           "question": "If the Product Owner is struggling to find time to complete all of his/her work, what can he/she do to ensure the Product Owner accountabilities are met? (choose the best answer)",
@@ -209,6 +210,7 @@
         },
         {
           "id": "exam-1-question-7",
+          "explanationUrl": "https://scrumprep.com/answering-what-is-a-benefit-of-frequent-product-releases/",
           "number": 7,
           "origin": "PSPOII-Questions.xlsx",
           "question": "Why does Agile insist on frequent product releases? (choose the best option)",
@@ -281,6 +283,7 @@
         },
         {
           "id": "exam-1-question-9",
+          "explanationUrl": "https://scrumprep.com/answering-who-is-accountable-for-maintaining-and-communicating-the-product-goal/",
           "number": 9,
           "origin": "PSPOII-Questions.xlsx",
           "question": "Who is accountable for ensuring the Product Goal is communicated and maintained? (choose the best answer)",
@@ -354,6 +357,7 @@
         },
         {
           "id": "exam-1-question-11",
+          "explanationUrl": "https://scrumprep.com/answering-measuring-the-number-of-times-per-day-a-team-switches-tasks-or-faces-interruptions-will-help-you-to-better-understand-which-key-value-areas/",
           "number": 11,
           "origin": "PSPOII-Questions.xlsx",
           "question": "Which two Key Value Areas are primarily impacted when an individual or team switches tasks or encounters interruptions often? (choose the best two answers)",
@@ -487,6 +491,7 @@
         },
         {
           "id": "exam-1-question-15",
+          "explanationUrl": "https://scrumprep.com/answering-organizations-should-reduce-their-investment-in-a-product-when-the-products/",
           "number": 15,
           "origin": "PSPOII-Questions.xlsx",
           "question": "Why would you consider reducing investment in a product? (choose the best option)",
@@ -578,6 +583,7 @@
         },
         {
           "id": "exam-1-question-18",
+          "explanationUrl": "https://scrumprep.com/answering-you-work-for-a-large-financial-institution-your-products-have-many-interdependencies-you-have-mobile-web-and-atm-product-interfaces-to-financial-products-like-savings-checking-credi/",
           "number": 18,
           "origin": "PSPOII-Questions.xlsx",
           "question": "You work for a bank that has many financial products such as investment funds, credit cards, high interest savings accounts and more. The issue is, when one of these products changes it impacts the return on investment (ROI) and this has a knock on effect to the other products the bank offers as investors compare ROI between the products. What can you do to reduce this issue?(choose the best answer)",
@@ -611,6 +617,7 @@
         },
         {
           "id": "exam-1-question-19",
+          "explanationUrl": "https://scrumprep.com/answering-managing-a-product-backlog-involves-which-of-the-following-activities/",
           "number": 19,
           "origin": "PSPOII-Questions.xlsx",
           "question": "Managing the Product Backlog involves which of the following? (choose all that apply)",
@@ -718,6 +725,7 @@
         },
         {
           "id": "exam-1-question-22",
+          "explanationUrl": "https://scrumprep.com/answering-in-order-to-justify-the-price-increase-of-a-product-your-primary-objective-should-be-to/",
           "number": 22,
           "origin": "PSPOII-Questions.xlsx",
           "question": "In order to justify the price increase of a product, your primary objective should be to (choose the best answer)",
@@ -847,6 +855,7 @@
         },
         {
           "id": "exam-1-question-26",
+          "explanationUrl": "https://scrumprep.com/answering-if-burndown-charts-are-used-to-visualize-progress-what-do-they-track-3/",
           "number": 26,
           "origin": "PSPOII-Questions.xlsx",
           "question": "Burndown charts are a visual aid to showing progress, what does it track? (choose the best option)",

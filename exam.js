@@ -36,6 +36,7 @@
   const feedbackTitle = document.getElementById("feedback-title");
   const feedbackDescription = document.getElementById("feedback-description");
   const correctOptions = document.getElementById("correct-options");
+  const explanation = document.getElementById("answer-explanation");
   const progress = document.getElementById("exam-progress");
   const progressText = document.getElementById("question-progress");
   const liveScore = document.getElementById("live-score");
@@ -211,6 +212,20 @@
     feedbackTitle.focus();
   });
 
+  function appendExplanationLink(container, question) {
+    if (!question.explanationUrl) {
+      return;
+    }
+    const paragraph = document.createElement("p");
+    const link = document.createElement("a");
+    link.href = question.explanationUrl;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = "Lire l'explication sur ScrumPrep (en anglais, nouvel onglet)";
+    paragraph.append(link);
+    container.append(paragraph);
+  }
+
   function showFeedback() {
     const question = exam.questions[questionIndex];
     const selected = responses[questionIndex].selected;
@@ -236,6 +251,8 @@
       correctOptions.append(item);
     }
 
+    explanation.replaceChildren();
+    appendExplanationLink(explanation, question);
     feedback.className = `answer-feedback ${isCorrect ? "feedback-correct" : "feedback-incorrect"}`;
     feedbackTitle.textContent = isCorrect ? "Bonne réponse !" : "Pas tout à fait.";
     feedbackDescription.textContent = isCorrect
@@ -297,6 +314,7 @@
         section.append(title, list);
         article.append(section);
       }
+      appendExplanationLink(article, question);
       container.append(article);
     });
 

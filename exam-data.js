@@ -78,6 +78,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-1-question-3",
+        "explanationUrl": "https://scrumprep.com/answering-if-the-product-owner-is-struggling-to-find-time-to-complete-all-of-his-her-work-what-can-he-she-do-to-ensure-the-product-owner-accountabilities-are-met/",
         "number": 3,
         "origin": "PSPOII-Questions.xlsx",
         "question": "If the Product Owner is struggling to find time to complete all of his/her work, what can he/she do to ensure the Product Owner accountabilities are met? (choose the best answer)",
@@ -207,6 +208,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-1-question-7",
+        "explanationUrl": "https://scrumprep.com/answering-what-is-a-benefit-of-frequent-product-releases/",
         "number": 7,
         "origin": "PSPOII-Questions.xlsx",
         "question": "Why does Agile insist on frequent product releases? (choose the best option)",
@@ -279,6 +281,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-1-question-9",
+        "explanationUrl": "https://scrumprep.com/answering-who-is-accountable-for-maintaining-and-communicating-the-product-goal/",
         "number": 9,
         "origin": "PSPOII-Questions.xlsx",
         "question": "Who is accountable for ensuring the Product Goal is communicated and maintained? (choose the best answer)",
@@ -352,6 +355,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-1-question-11",
+        "explanationUrl": "https://scrumprep.com/answering-measuring-the-number-of-times-per-day-a-team-switches-tasks-or-faces-interruptions-will-help-you-to-better-understand-which-key-value-areas/",
         "number": 11,
         "origin": "PSPOII-Questions.xlsx",
         "question": "Which two Key Value Areas are primarily impacted when an individual or team switches tasks or encounters interruptions often? (choose the best two answers)",
@@ -485,6 +489,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-1-question-15",
+        "explanationUrl": "https://scrumprep.com/answering-organizations-should-reduce-their-investment-in-a-product-when-the-products/",
         "number": 15,
         "origin": "PSPOII-Questions.xlsx",
         "question": "Why would you consider reducing investment in a product? (choose the best option)",
@@ -576,6 +581,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-1-question-18",
+        "explanationUrl": "https://scrumprep.com/answering-you-work-for-a-large-financial-institution-your-products-have-many-interdependencies-you-have-mobile-web-and-atm-product-interfaces-to-financial-products-like-savings-checking-credi/",
         "number": 18,
         "origin": "PSPOII-Questions.xlsx",
         "question": "You work for a bank that has many financial products such as investment funds, credit cards, high interest savings accounts and more. The issue is, when one of these products changes it impacts the return on investment (ROI) and this has a knock on effect to the other products the bank offers as investors compare ROI between the products. What can you do to reduce this issue?(choose the best answer)",
@@ -609,6 +615,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-1-question-19",
+        "explanationUrl": "https://scrumprep.com/answering-managing-a-product-backlog-involves-which-of-the-following-activities/",
         "number": 19,
         "origin": "PSPOII-Questions.xlsx",
         "question": "Managing the Product Backlog involves which of the following? (choose all that apply)",
@@ -716,6 +723,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-1-question-22",
+        "explanationUrl": "https://scrumprep.com/answering-in-order-to-justify-the-price-increase-of-a-product-your-primary-objective-should-be-to/",
         "number": 22,
         "origin": "PSPOII-Questions.xlsx",
         "question": "In order to justify the price increase of a product, your primary objective should be to (choose the best answer)",
@@ -845,6 +853,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-1-question-26",
+        "explanationUrl": "https://scrumprep.com/answering-if-burndown-charts-are-used-to-visualize-progress-what-do-they-track-3/",
         "number": 26,
         "origin": "PSPOII-Questions.xlsx",
         "question": "Burndown charts are a visual aid to showing progress, what does it track? (choose the best option)",
@@ -1339,6 +1348,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-2-question-2",
+        "explanationUrl": "https://scrumprep.com/answering-a-sprint-forecast-is/",
         "number": 2,
         "origin": "Exam Bruno",
         "question": "A Sprint forecast is:\n\n(choose the best answer)",
@@ -1368,6 +1378,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-2-question-3",
+        "explanationUrl": "https://scrumprep.com/answering-what-is-a-benefit-of-frequent-product-releases/",
         "number": 3,
         "origin": "Udemy",
         "question": "Why does Agile insist on frequent product releases? (choose the best option)",
@@ -1439,6 +1450,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-2-question-5",
+        "explanationUrl": "https://scrumprep.com/answering-you-are-the-product-owner-for-a-product-with-diverse-stakeholders-with-differing-opinions-that-sometimes-conflict/",
         "number": 5,
         "origin": "Exam Bruno",
         "question": "You are the Product Owner for a product with diverse stakeholders with differing opinions that\nsometimes conflict.\n\nYour Director of Marketing strongly believes that you should add a major new feature to reach a\nnew market. Your CEO believes that the new feature is too expensive and thinks you should\nfocus on other features to make existing customers happier. The CEO says that as Product\nOwner it is ultimately your decision.\n\nYou think both perspectives have merit, but you cannot do both. How should you proceed?\n\n(choose the best answer)",
@@ -1501,6 +1513,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-2-question-7",
+        "explanationUrl": "https://scrumprep.com/answering-what-is-the-role-of-the-product-owner-in-crafting-the-sprint-goal/",
         "number": 7,
         "origin": "Exam Bruno",
         "question": "What is the role of the Product Owner in crafting the Sprint Goal?\n\n(choose the best answer)",
@@ -1534,6 +1547,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-2-question-8",
+        "explanationUrl": "https://scrumprep.com/answering-what-might-indicate-to-a-product-owner-that-they-need-to-work-more-with-the-scrum-team-2/",
         "number": 8,
         "origin": "Exam Bruno",
         "question": "What might indicate to a Product Owner that they need to work more with the Scrum Team?\n\n(choose the best answer)",
@@ -1621,6 +1635,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-2-question-11",
+        "explanationUrl": "https://scrumprep.com/answering-which-of-the-following-statements-is-true-about-the-product-vision/",
         "number": 11,
         "origin": "Exam Bruno",
         "question": "Which of the following statements is true about the Product Vision?\n\n(choose the best answer)",
@@ -1654,6 +1669,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-2-question-12",
+        "explanationUrl": "https://scrumprep.com/answering-you-are-a-product-owner-for-a-product-with-a-rapidly-declining-customer-base-one-very-influential-stakeholder-emphasizes-the-need-to-add-more-features-to-the-product-to-focus-on-captur/",
         "number": 12,
         "origin": "Exam Bruno",
         "question": "You are a Product Owner for a product with a rapidly declining customer base.\n\nDespite data that indicates the decline is due to a shrinking market, rather than a lack of new\nfeatures, an influential stakeholder insists on adding more features to attract new customers.\nThe influential stakeholder also says that if you do not add new features you risk losing your\nmost profitable customer.\n\nWhich two of the following actions might you take?\n\n(choose the best two answers)",
@@ -1719,6 +1735,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-2-question-14",
+        "explanationUrl": "https://scrumprep.com/answering-who-is-accountable-for-maintaining-and-communicating-the-product-goal/",
         "number": 14,
         "origin": "Exam Bruno",
         "question": "Who is accountable for maintaining and communicating the Product Goal?\n\n(choose the best answer)",
@@ -1752,6 +1769,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-2-question-15",
+        "explanationUrl": "https://scrumprep.com/answering-when-the-product-owner-is-too-busy-to-work-with-all-of-the-teams-in-a-multi-team-product-development-effort-which-strategy-will-help-them/",
         "number": 15,
         "origin": "Exam Bruno",
         "question": "When the Product Owner is too busy to work with all of the teams in a multi-team product\ndevelopment effort, which strategy will help them?\n\n(choose the best answer)",
@@ -1785,6 +1803,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-2-question-16",
+        "explanationUrl": "https://scrumprep.com/answering-you-started-measuring-product-feature-usage-in-your-last-release-you-are-surprised-to-learn-that-a-sizable-percentage-of-the-features-you-thought-were-very-important-are-never-or-rarely/",
         "number": 16,
         "origin": "Exam Bruno",
         "question": "You started measuring product feature usage in your last release. You are surprised to learn\nthat a sizable percentage of the features you thought were very important are never or rarely\nused.\n\nWhich of the following actions could you take to further evaluate this unexpected result?\n\n(choose all that apply)",
@@ -1817,6 +1836,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-2-question-17",
+        "explanationUrl": "https://scrumprep.com/answering-when-should-the-product-owner-update-the-project-plan-2/",
         "number": 17,
         "origin": "Exam Bruno",
         "question": "When should the Product Owner update the project plan?\n\n(choose the best answer)",
@@ -1846,6 +1866,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-2-question-18",
+        "explanationUrl": "https://scrumprep.com/answering-your-executive-leadership-team-believes-that-your-product-can-achieve-higher-market-share/",
         "number": 18,
         "origin": "Exam Bruno",
         "question": "Your executive leadership team believes that your product can achieve higher market share.\n\n. The Sales Leader is pressuring you to reduce the price of the product to attract more\ncustomers.\n. The Director of Finance is concerned that reducing the price will merely reduce the\nproduct's profitability.\n\nWhat sources of information should you consider when deciding whether to drop the price as\nthe Sales Leader is suggesting?\n\n(choose the best four answers)",
@@ -1886,6 +1907,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-2-question-19",
+        "explanationUrl": "https://scrumprep.com/answering-which-of-the-following-statements-about-the-product-backlog-are-true/",
         "number": 19,
         "origin": "Exam Bruno",
         "question": "Which of the following statements about the Product Backlog are true?\n\n(choose the best two answers)",
@@ -1924,6 +1946,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-2-question-20",
+        "explanationUrl": "https://scrumprep.com/answering-you-are-a-product-owner-for-a-product-that-publishes-customer-usage-rates-by-feature/",
         "number": 20,
         "origin": "Exam Bruno",
         "question": "You are a Product Owner for a product that publishes customer usage rates by feature.\n\nAn influential stakeholder does not believe the data showing the usage rates, and insists that a\nparticular feature is essential, despite data showing low usage rates. The stakeholder believes\nthat measuring feature usage is a waste of time.\n\nAs Product Owner you have confirmed that the data is accurate and believe that the data is\nvaluable to help you and your team. What should you do?\n\n(choose the best answer)",
@@ -1978,6 +2001,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-2-question-22",
+        "explanationUrl": "https://scrumprep.com/answering-your-stakeholders-are-very-demanding-and-each-of-them-has-at-least-one-feature-that-they-say-is-essential-for-the-next-release-as-the-product-owner-you-have-validated-that-the-feature-re/",
         "number": 22,
         "origin": "Exam Bruno",
         "question": "Your stakeholders are very demanding and each of them has at least one feature that they say\nis essential for the next release. As the Product Owner, you have validated that the feature\nrequests are all valid requests and would likely add value to your product. What should you do?\n\n(choose the best answer)",
@@ -2094,6 +2118,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-2-question-26",
+        "explanationUrl": "https://scrumprep.com/answering-what-are-the-attributes-of-a-good-product-vision-and-strategy/",
         "number": 26,
         "origin": "Exam Bruno",
         "question": "What are the attributes of a good Product Vision and Strategy?\n\n(choose all that apply)",
@@ -2230,6 +2255,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-2-question-30",
+        "explanationUrl": "https://scrumprep.com/answering-you-have-more-ideas-for-new-products-than-you-have-money-to-invest-what-should-you-do/",
         "number": 30,
         "origin": "Exam Bruno",
         "question": "You have more ideas for new products than you have money to invest. What should you do?\n\n(choose the best answer)",
@@ -2259,6 +2285,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-2-question-31",
+        "explanationUrl": "https://scrumprep.com/answering-complete-this-sentence-the-more-uncertain-you-are-about-customer-needs-or-market-desires-____________/",
         "number": 31,
         "origin": "Exam Bruno",
         "question": "Complete this sentence: The more uncertain you are about customer needs or market desires\n\n(choose the best two answers)",
@@ -2289,6 +2316,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-2-question-32",
+        "explanationUrl": "https://scrumprep.com/answering-organizations-should-reduce-their-investment-in-a-product-when-the-products/",
         "number": 32,
         "origin": "Exam Bruno",
         "question": "Organizations should reduce their investment in a product when the product's:\n\n(choose the best answer)",
@@ -2322,6 +2350,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-2-question-33",
+        "explanationUrl": "https://scrumprep.com/answering-how-small-should-a-ready-product-backlog-item-be-2/",
         "number": 33,
         "origin": "Exam Bruno",
         "question": "How small should a \"ready\" Product Backlog item be?\n\n(choose the best answer)",
@@ -2458,6 +2487,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-2-question-37",
+        "explanationUrl": "https://scrumprep.com/answering-if-a-product-owner-finds-themselves-with-more-work-to-do-than-they-can-give-attention-to-what-strategy-can-help-them-achieve-the-things-that-need-to-be-done/",
         "number": 37,
         "origin": "Exam Bruno",
         "question": "What strategy can help a Product Owner who is stretched too thin to do all the things they need\nto do?\n\n(choose the best answer)",
@@ -2491,6 +2521,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-2-question-38",
+        "explanationUrl": "https://scrumprep.com/answering-the-most-important-thing-a-product-owner-can-do-is/",
         "number": 38,
         "origin": "Exam Bruno",
         "question": "The most important thing a Product Owner can do is:\n\n(choose the best answer)",
@@ -2873,6 +2904,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-3-question-50",
+        "explanationUrl": "https://scrumprep.com/answering-a-user-satisfaction-gap-exists-when-there-is-a-difference-between-2/",
         "number": 50,
         "origin": "PSPOII-Questions.xlsx",
         "question": "The user satisfaction gap is the difference between … (choose the best two answers)",
@@ -3037,6 +3069,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-3-question-55",
+        "explanationUrl": "https://scrumprep.com/answering-what-is-a-benefit-of-frequent-product-releases/",
         "number": 55,
         "origin": "PSPOII-Questions.xlsx",
         "question": "Why does Agile insist on frequent product releases? (choose the best option)",
@@ -3286,6 +3319,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-3-question-62",
+        "explanationUrl": "https://scrumprep.com/answering-who-is-accountable-for-tracking-the-remaining-work-toward-the-sprint-goal-2/",
         "number": 62,
         "origin": "image (28).png",
         "question": "Who is responsible for tracking the remaining work for the Increment in the Sprint?\n\n(choose the best answer)",
@@ -3319,6 +3353,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-3-question-63",
+        "explanationUrl": "https://scrumprep.com/answering-you-work-as-a-product-owner-for-a-small-company-and-your-scrum-team-employee-retention-rate-has-been-falling-data-from-exit-interviews-suggests-that-the-developers-are/",
         "number": 63,
         "origin": "image (27).png",
         "question": "You work as a Product Owner for a small company and your Scrum Team employee retention rate has been falling. Data from exit interviews suggests that the Developers are:\n- Frustrated by interruptions and low-value meetings.\n- Feel that their work is not \"meaningful.\"\n\nYou need to address this quickly, since the cost to train new Developers is very high in a small organization like yours.\n\nTo increase the likelihood of improving the retention rate, what additional measurements should you consider when determining improvements?\n\n(choose the best answer)",
@@ -3348,6 +3383,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-3-question-64",
+        "explanationUrl": "https://scrumprep.com/answering-which-of-the-following-is-required-by-scrum/",
         "number": 64,
         "origin": "image (25).png",
         "question": "Which of the following is required by Scrum?\n\n(choose all that apply)",
@@ -3383,6 +3419,7 @@ const PSPO_EXAMS = {
         "id": "exam-3-question-65",
         "number": 65,
         "origin": "image (31).png",
+        "explanationUrl": "https://scrumprep.com/answering-what-percent-of-the-time-should-a-product-owner-dedicate-to-the-scrum-team/",
         "question": "What percent of the time should a Product Owner dedicate to the Scrum Team?\n\n(choose the best two answers)",
         "options": [
           {
@@ -3419,6 +3456,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-3-question-66",
+        "explanationUrl": "https://scrumprep.com/answering-which-of-the-following-are-the-developers-not-responsible-for/",
         "number": 66,
         "origin": "image (30).png",
         "question": "Which of the following are the Developers NOT responsible for?\n\n(choose the best answer)",
@@ -3452,6 +3490,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-3-question-67",
+        "explanationUrl": "https://scrumprep.com/answering-your-products-current-value-is-low-and-your-most-recent-three-releases-have-failed-to-improve-the-current-value-but-the-unrealized-value-of-the-product-is-high/",
         "number": 67,
         "origin": "image (5).jpg",
         "question": "Your product's Current Value is low and your most recent three releases have failed to improve the Current Value, but the Unrealized Value of the product is high.\n- Your product cost ratio is 85%, meaning that you have a very low capacity to deliver new features.\n- Your time-to-market is also quite long.\n\nAs a Product Owner focused on the long-term viability of your product, which strategy should you pursue?\n\n(choose the best answer)",
@@ -3542,6 +3581,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-3-question-70",
+        "explanationUrl": "https://scrumprep.com/answering-what-things-might-a-scrum-product-owner-focus-on-to-ensure-the-product-delivers-value/",
         "number": 70,
         "origin": "Capture d'écran 2026-10-16 170629.png",
         "question": "What things might a Product Owner focus on to ensure the product is useful and delivers value?\n\n(choose all that apply)",
@@ -3577,6 +3617,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-3-question-71",
+        "explanationUrl": "https://scrumprep.com/answering-which-of-the-following-activities-should-a-product-owner-never-do/",
         "number": 71,
         "origin": "Capture d'écran 2026-10-16 172240.png",
         "question": "Which question does the Scrum Guide say the Developers must answer at the Daily Scrum?\n\n(choose the best answer)",
@@ -3641,6 +3682,7 @@ const PSPO_EXAMS = {
         "id": "exam-3-question-73",
         "number": 73,
         "origin": "image (32).png",
+        "explanationUrl": "https://scrumprep.com/answering-what-are-the-accountabilities-of-a-tester-on-a-scrum-team/",
         "question": "What are the accountabilities of a Tester on a Scrum Team?\n\n(choose the best two answers)",
         "options": [
           {
@@ -3675,6 +3717,7 @@ const PSPO_EXAMS = {
         "id": "exam-3-question-74",
         "number": 74,
         "origin": "image.png",
+        "explanationUrl": "https://scrumprep.com/answering-which-of-the-following-would-likely-be-the-least-effective-way-to-enhance-the-agility-of-your-future-product-development/",
         "question": "Which of the following would likely be the least effective way to enhance the agility of your future product development?\n\n(choose the least effective approach)",
         "options": [
           {
@@ -3708,6 +3751,7 @@ const PSPO_EXAMS = {
     "questions": [
       {
         "id": "exam-photo-question-1",
+        "explanationUrl": "https://scrumprep.com/answering-your-products-nearest-competitor-has-lower-market-share-but-has-higher-customer-satisfaction-though-they-lack-some-key-features-of-your-product-you-are-losing-market-share-to-them-as/",
         "number": 1,
         "origin": "phototest.jpg",
         "question": "Your product's nearest competitor has lower market share, but has higher customer satisfaction, though they lack some key features of your product. You are losing market share to them as customers discover them. They release 3 times faster than you, which is helping them to win customers. What should you do first in response?\n\n(choose the best answer)",
@@ -3740,6 +3784,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-2",
+        "explanationUrl": "https://scrumprep.com/answering-the-developers-have-struggled-to-get-all-of-their-forecasted-work-done-during-the-last-three-sprints-as-a-product-owner-what-steps-could-you-take-to-help-the-developers-improve-their-abi/",
         "number": 2,
         "origin": "phototest.jpg",
         "question": "The Developers have struggled to get all of their forecasted work done during the last three Sprints. As a Product Owner what steps could you take to help the Developers improve their ability to deliver a done Increment?\n\n(choose the best two answers)",
@@ -3774,6 +3819,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-3",
+        "explanationUrl": "https://scrumprep.com/answering-what-is-a-benefit-of-frequent-product-releases/",
         "number": 3,
         "origin": "phototest.jpg",
         "question": "What is a benefit of frequent product releases?\n\n(choose the best answer)",
@@ -3814,6 +3860,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-4",
+        "explanationUrl": "https://scrumprep.com/answering-personas-can-help-to/",
         "number": 4,
         "origin": "phototest.jpg",
         "question": "Personas can help to:\n\n(choose the best answer)",
@@ -3850,6 +3897,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-5",
+        "explanationUrl": "https://scrumprep.com/answering-you-are-the-product-owner-for-a-product-with-diverse-stakeholders-with-differing-opinions-that-sometimes-conflict/",
         "number": 5,
         "origin": "phototest.jpg",
         "question": "You are the Product Owner for a product with diverse stakeholders with differing opinions that sometimes conflict.\n\nYour Director of Marketing strongly believes that you should add a major new feature to reach a new market. Your CEO believes that the new feature is too expensive and thinks you should focus on other features to make existing customers happier. The CEO says that as Product Owner it is ultimately your decision.\n\nYou think both perspectives have merit, but you cannot do both. How should you proceed?\n\n(choose the best answer)",
@@ -3946,6 +3994,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-8",
+        "explanationUrl": "https://scrumprep.com/answering-choose-the-statement-that-best-describes-who-is-responsible-for-engaging-the-stakeholders/",
         "number": 8,
         "origin": "phototest.jpg",
         "question": "Choose the statement that best describes who is accountable for engaging the stakeholders to ensure value is delivered.\n\n(choose the best answer)",
@@ -3982,6 +4031,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-9",
+        "explanationUrl": "https://scrumprep.com/answering-which-of-the-following-are-characteristics-of-a-product-goal/",
         "number": 9,
         "origin": "phototest2.jpg",
         "question": "Which of the following are characteristics of a Product Goal?\n\n(choose all that apply)",
@@ -4028,6 +4078,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-10",
+        "explanationUrl": "https://scrumprep.com/answering-the-smallest-product-increment-that-is-valuable-enough-to-release-is-one-that/",
         "number": 10,
         "origin": "phototest2.jpg",
         "question": "The smallest product Increment that is valuable enough to release is one that:\n\n(choose the best answer)",
@@ -4060,6 +4111,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-11",
+        "explanationUrl": "https://scrumprep.com/answering-the-primary-accountability-of-a-product-owner-is/",
         "number": 11,
         "origin": "phototest2.jpg",
         "question": "The primary accountability of a Product Owner is:\n\n(choose the best answer)",
@@ -4092,6 +4144,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-12",
+        "explanationUrl": "https://scrumprep.com/answering-in-order-to-justify-the-price-increase-of-a-product-your-primary-objective-should-be-to/",
         "number": 12,
         "origin": "phototest2.jpg",
         "question": "In order to justify the price increase of a product, your primary objective should be to:\n\n(choose the best answer)",
@@ -4198,6 +4251,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-15",
+        "explanationUrl": "https://scrumprep.com/answering-as-an-investor-or-shareholder-which-of-the-following-measures-might-give-you-insight-about-whether-a-product-is-delivering-value/",
         "number": 15,
         "origin": "phototest2.jpg",
         "question": "As an investor or shareholder, which of the following measures might give you insight about whether a product is delivering value?\n\n(choose all that apply)",
@@ -4228,7 +4282,6 @@ const PSPO_EXAMS = {
         "correctAnswers": [
           "A",
           "B",
-          "C",
           "D"
         ],
         "markedAnswers": [
@@ -4282,6 +4335,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-17",
+        "explanationUrl": "https://scrumprep.com/answering-sharing-people-with-unique-skills-across-multiple-teams-will-likely-result-in-which-of-the-following-conditions/",
         "number": 17,
         "origin": "phototest3.jpg",
         "question": "Sharing people with unique skills across multiple teams will likely result in which of the following conditions?\n\n(choose the best answer)",
@@ -4314,6 +4368,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-18",
+        "explanationUrl": "https://scrumprep.com/answering-who-determines-when-it-is-appropriate-to-update-the-sprint-backlog-during-a-sprint/",
         "number": 18,
         "origin": "phototest3.jpg",
         "question": "Who determines when it is appropriate to update the Sprint Backlog during a Sprint?\n\n(choose the best answer)",
@@ -4346,6 +4401,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-19",
+        "explanationUrl": "https://scrumprep.com/answering-a-product-owner-is-needed-for-every/",
         "number": 19,
         "origin": "phototest3.jpg",
         "question": "A Product Owner is needed for every:\n\n(choose the best answer)",
@@ -4412,6 +4468,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-21",
+        "explanationUrl": "https://scrumprep.com/answering-you-are-a-product-owner-for-a-product-with-a-rapidly-declining-customer-base-one-very-influential-stakeholder-emphasizes-the-need-to-add-more-features-to-the-product-to-focus-on-captur/",
         "number": 21,
         "origin": "phototest3.jpg",
         "question": "You are a Product Owner for a product with a rapidly declining customer base.\n\nDespite data that indicates the decline is due to a shrinking market, rather than a lack of new features, an influential stakeholder insists on adding more features to attract new customers. The influential stakeholder also says that if you do not add new features you risk losing your most profitable customer.\n\nWhich two of the following actions might you take?\n\n(choose the best two answers)",
@@ -4484,6 +4541,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-23",
+        "explanationUrl": "https://scrumprep.com/answering-a-separate-product-backlog-is-needed-for-every/",
         "number": 23,
         "origin": "phototest4.jpg",
         "question": "A separate Product Backlog is needed for every:\n\n(choose the best answer)",
@@ -4520,6 +4578,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-24",
+        "explanationUrl": "https://scrumprep.com/answering-who-is-responsible-for-the-sizing-of-product-backlog-items-2/",
         "number": 24,
         "origin": "phototest4.jpg",
         "question": "Who is responsible for the sizing of Product Backlog items?\n\n(choose the best answer)",
@@ -4556,6 +4615,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-25",
+        "explanationUrl": "https://scrumprep.com/answering-the-most-important-thing-a-product-owner-can-do-is/",
         "number": 25,
         "origin": "phototest4.jpg",
         "question": "The most important thing a Product Owner can do is:\n\n(choose the best answer)",
@@ -4588,6 +4648,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-26",
+        "explanationUrl": "https://scrumprep.com/answering-which-of-the-following-statements-is-true-about-the-product-vision/",
         "number": 26,
         "origin": "phototest4.jpg",
         "question": "Which of the following statements is true about the Product Vision?\n\n(choose the best answer)",
@@ -4624,6 +4685,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-27",
+        "explanationUrl": "https://scrumprep.com/answering-you-started-measuring-product-feature-usage-in-your-last-release-you-are-surprised-to-learn-that-a-sizable-percentage-of-the-features-you-thought-were-very-important-are-never-or-rarely/",
         "number": 27,
         "origin": "phototest4.jpg",
         "question": "You started measuring product feature usage in your last release. You are surprised to learn that a sizable percentage of the features you thought were very important are never or rarely used.\n\nWhich of the following actions could you take to further evaluate this unexpected result?\n\n(choose all that apply)",
@@ -4734,6 +4796,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-30",
+        "explanationUrl": "https://scrumprep.com/answering-a-sprint-forecast-is/",
         "number": 30,
         "origin": "phototest5.jpg",
         "question": "A Sprint forecast is:\n\n(choose the best answer)",
@@ -4806,6 +4869,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-32",
+        "explanationUrl": "https://scrumprep.com/answering-you-are-a-product-owner-at-a-small-company-with-a-single-product-you-have-authority-over-pricing-promotion-and-how-much-is-invested-in-new-features-or-capabilities-your-product-has/",
         "number": 32,
         "origin": "phototest5.jpg",
         "question": "You are the Product Owner at a small company with a single product. You have authority over pricing, promotion, and how much is invested in new features or capabilities. Your product has:\n- High Current Value - as indicated by high customer satisfaction.\n- High Unrealized Value - as indicated by low market share.\n\nUsing those two data points, what is the first action you should take to increase the business performance of the product?\n\n(choose the best answer)",
@@ -4838,6 +4902,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-33",
+        "explanationUrl": "https://scrumprep.com/answering-managing-a-product-backlog-involves-which-of-the-following-activities/",
         "number": 33,
         "origin": "phototest5.jpg",
         "question": "Managing a Product Backlog involves which of the following activities?\n\n(choose all that apply)",
@@ -4924,6 +4989,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-35",
+        "explanationUrl": "https://scrumprep.com/answering-which-of-the-following-might-the-scrum-team-discuss-during-a-sprint-retrospective/",
         "number": 35,
         "origin": "phototest5.jpg",
         "question": "Which of the following might the Scrum Team discuss during a Sprint Retrospective?\n\n(choose the best answer)",
@@ -5020,6 +5086,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-38",
+        "explanationUrl": "https://scrumprep.com/answering-you-have-been-a-product-owner-at-a-new-company-for-a-few-weeks-it-has-become-clear-to-you-that-many-people-both-inside-and-outside-the-scrum-team-expect-close-involvement-in-the-decisi/",
         "number": 38,
         "origin": "phototest6.jpg",
         "question": "You have been a Product Owner at a new company for a few weeks. It has become clear to you that many people, both inside and outside the Scrum Team, expect close involvement in the decisions that you, as a Product Owner, are accountable for.\n\nAs a result, you find that it takes too long to make decisions. Which of the following are reasonable options you could take?\n\n(choose the best three answers)",
@@ -5060,6 +5127,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-39",
+        "explanationUrl": "https://scrumprep.com/answering-if-burndown-charts-are-used-to-visualize-progress-what-do-they-track-3/",
         "number": 39,
         "origin": "phototest6.jpg",
         "question": "If burndown charts are used to visualize progress, what do they track?\n\n(choose the best answer)",
@@ -5092,6 +5160,7 @@ const PSPO_EXAMS = {
       },
       {
         "id": "exam-photo-question-40",
+        "explanationUrl": "https://scrumprep.com/answering-your-stakeholders-are-very-demanding-and-each-of-them-has-at-least-one-feature-that-they-say-is-essential-for-the-next-release-as-the-product-owner-you-have-validated-that-the-feature-re/",
         "number": 40,
         "origin": "phototest6.jpg",
         "question": "Your stakeholders are very demanding and each of them has at least one feature that they say is essential for the next release. As the Product Owner, you have validated that the feature requests are all valid requests and would likely add value to your product. What should you do?\n\n(choose the best answer)",

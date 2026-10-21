@@ -297,6 +297,7 @@
         },
         {
           "id": "exam-3-question-50",
+          "explanationUrl": "https://scrumprep.com/answering-a-user-satisfaction-gap-exists-when-there-is-a-difference-between-2/",
           "number": 50,
           "origin": "PSPOII-Questions.xlsx",
           "question": "The user satisfaction gap is the difference between … (choose the best two answers)",
@@ -461,6 +462,7 @@
         },
         {
           "id": "exam-3-question-55",
+          "explanationUrl": "https://scrumprep.com/answering-what-is-a-benefit-of-frequent-product-releases/",
           "number": 55,
           "origin": "PSPOII-Questions.xlsx",
           "question": "Why does Agile insist on frequent product releases? (choose the best option)",
@@ -695,6 +697,7 @@
         },
         {
           "id": "exam-3-question-62",
+          "explanationUrl": "https://scrumprep.com/answering-who-is-accountable-for-tracking-the-remaining-work-toward-the-sprint-goal-2/",
           "number": 62,
           "origin": "image (28).png",
           "question": "Who is responsible for tracking the remaining work for the Increment in the Sprint?\n\n(choose the best answer)",
@@ -711,6 +714,7 @@
         },
         {
           "id": "exam-3-question-63",
+          "explanationUrl": "https://scrumprep.com/answering-you-work-as-a-product-owner-for-a-small-company-and-your-scrum-team-employee-retention-rate-has-been-falling-data-from-exit-interviews-suggests-that-the-developers-are/",
           "number": 63,
           "origin": "image (27).png",
           "question": "You work as a Product Owner for a small company and your Scrum Team employee retention rate has been falling. Data from exit interviews suggests that the Developers are:\n- Frustrated by interruptions and low-value meetings.\n- Feel that their work is not \"meaningful.\"\n\nYou need to address this quickly, since the cost to train new Developers is very high in a small organization like yours.\n\nTo increase the likelihood of improving the retention rate, what additional measurements should you consider when determining improvements?\n\n(choose the best answer)",
@@ -726,6 +730,7 @@
         },
         {
           "id": "exam-3-question-64",
+          "explanationUrl": "https://scrumprep.com/answering-which-of-the-following-is-required-by-scrum/",
           "number": 64,
           "origin": "image (25).png",
           "question": "Which of the following is required by Scrum?\n\n(choose all that apply)",
@@ -744,6 +749,7 @@
           "id": "exam-3-question-65",
           "number": 65,
           "origin": "image (31).png",
+          "explanationUrl": "https://scrumprep.com/answering-what-percent-of-the-time-should-a-product-owner-dedicate-to-the-scrum-team/",
           "question": "What percent of the time should a Product Owner dedicate to the Scrum Team?\n\n(choose the best two answers)",
           "options": [
             { "id": "A", "text": "Enough time to avoid the waste that is created by delaying answers to the Developers." },
@@ -759,6 +765,7 @@
         },
         {
           "id": "exam-3-question-66",
+          "explanationUrl": "https://scrumprep.com/answering-which-of-the-following-are-the-developers-not-responsible-for/",
           "number": 66,
           "origin": "image (30).png",
           "question": "Which of the following are the Developers NOT responsible for?\n\n(choose the best answer)",
@@ -775,6 +782,7 @@
         },
         {
           "id": "exam-3-question-67",
+          "explanationUrl": "https://scrumprep.com/answering-your-products-current-value-is-low-and-your-most-recent-three-releases-have-failed-to-improve-the-current-value-but-the-unrealized-value-of-the-product-is-high/",
           "number": 67,
           "origin": "image (5).jpg",
           "question": "Your product's Current Value is low and your most recent three releases have failed to improve the Current Value, but the Unrealized Value of the product is high.\n- Your product cost ratio is 85%, meaning that you have a very low capacity to deliver new features.\n- Your time-to-market is also quite long.\n\nAs a Product Owner focused on the long-term viability of your product, which strategy should you pursue?\n\n(choose the best answer)",
@@ -820,6 +828,7 @@
         },
         {
           "id": "exam-3-question-70",
+          "explanationUrl": "https://scrumprep.com/answering-what-things-might-a-scrum-product-owner-focus-on-to-ensure-the-product-delivers-value/",
           "number": 70,
           "origin": "Capture d'\u00e9cran 2026-10-16 170629.png",
           "question": "What things might a Product Owner focus on to ensure the product is useful and delivers value?\n\n(choose all that apply)",
@@ -836,6 +845,7 @@
         },
         {
           "id": "exam-3-question-71",
+          "explanationUrl": "https://scrumprep.com/answering-which-of-the-following-activities-should-a-product-owner-never-do/",
           "number": 71,
           "origin": "Capture d'\u00e9cran 2026-10-16 172240.png",
           "question": "Which question does the Scrum Guide say the Developers must answer at the Daily Scrum?\n\n(choose the best answer)",
@@ -869,6 +879,7 @@
           "id": "exam-3-question-73",
           "number": 73,
           "origin": "image (32).png",
+          "explanationUrl": "https://scrumprep.com/answering-what-are-the-accountabilities-of-a-tester-on-a-scrum-team/",
           "question": "What are the accountabilities of a Tester on a Scrum Team?\n\n(choose the best two answers)",
           "options": [
             { "id": "A", "text": "Finding bugs to assure quality." },
@@ -885,6 +896,7 @@
           "id": "exam-3-question-74",
           "number": 74,
           "origin": "image.png",
+          "explanationUrl": "https://scrumprep.com/answering-which-of-the-following-would-likely-be-the-least-effective-way-to-enhance-the-agility-of-your-future-product-development/",
           "question": "Which of the following would likely be the least effective way to enhance the agility of your future product development?\n\n(choose the least effective approach)",
           "options": [
             { "id": "A", "text": "Consider whether there is a significantly large enough market for your product." },

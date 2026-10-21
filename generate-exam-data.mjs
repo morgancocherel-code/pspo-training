@@ -44,6 +44,16 @@ for (const { number, id } of sources) {
     }
     questionIds.add(question.id);
 
+    if (question.explanationUrl !== undefined) {
+      if (typeof question.explanationUrl !== "string" || !URL.canParse(question.explanationUrl)) {
+        throw new Error(`${context} : lien d'explication invalide.`);
+      }
+      const url = new URL(question.explanationUrl);
+      if (url.protocol !== "https:" || url.hostname !== "scrumprep.com" || url.username || url.password || url.port) {
+        throw new Error(`${context} : le lien d'explication doit pointer vers https://scrumprep.com/.`);
+      }
+    }
+
     const optionIds = new Set();
     for (const option of question.options) {
       if (option.id !== String.fromCharCode(65 + optionIds.size)) {

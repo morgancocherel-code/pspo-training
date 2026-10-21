@@ -1205,6 +1205,7 @@
         },
         {
           "id": "exam-2-question-2",
+          "explanationUrl": "https://scrumprep.com/answering-a-sprint-forecast-is/",
           "number": 2,
           "origin": "Exam Bruno",
           "question": "A Sprint forecast is:\n\n(choose the best answer)",
@@ -1234,6 +1235,7 @@
         },
         {
           "id": "exam-2-question-3",
+          "explanationUrl": "https://scrumprep.com/answering-what-is-a-benefit-of-frequent-product-releases/",
           "number": 3,
           "origin": "Udemy",
           "question": "Why does Agile insist on frequent product releases? (choose the best option)",
@@ -1305,6 +1307,7 @@
         },
         {
           "id": "exam-2-question-5",
+          "explanationUrl": "https://scrumprep.com/answering-you-are-the-product-owner-for-a-product-with-diverse-stakeholders-with-differing-opinions-that-sometimes-conflict/",
           "number": 5,
           "origin": "Exam Bruno",
           "question": "You are the Product Owner for a product with diverse stakeholders with differing opinions that\nsometimes conflict.\n\nYour Director of Marketing strongly believes that you should add a major new feature to reach a\nnew market. Your CEO believes that the new feature is too expensive and thinks you should\nfocus on other features to make existing customers happier. The CEO says that as Product\nOwner it is ultimately your decision.\n\nYou think both perspectives have merit, but you cannot do both. How should you proceed?\n\n(choose the best answer)",
@@ -1367,6 +1370,7 @@
         },
         {
           "id": "exam-2-question-7",
+          "explanationUrl": "https://scrumprep.com/answering-what-is-the-role-of-the-product-owner-in-crafting-the-sprint-goal/",
           "number": 7,
           "origin": "Exam Bruno",
           "question": "What is the role of the Product Owner in crafting the Sprint Goal?\n\n(choose the best answer)",
@@ -1400,6 +1404,7 @@
         },
         {
           "id": "exam-2-question-8",
+          "explanationUrl": "https://scrumprep.com/answering-what-might-indicate-to-a-product-owner-that-they-need-to-work-more-with-the-scrum-team-2/",
           "number": 8,
           "origin": "Exam Bruno",
           "question": "What might indicate to a Product Owner that they need to work more with the Scrum Team?\n\n(choose the best answer)",
@@ -1487,6 +1492,7 @@
         },
         {
           "id": "exam-2-question-11",
+          "explanationUrl": "https://scrumprep.com/answering-which-of-the-following-statements-is-true-about-the-product-vision/",
           "number": 11,
           "origin": "Exam Bruno",
           "question": "Which of the following statements is true about the Product Vision?\n\n(choose the best answer)",
@@ -1520,6 +1526,7 @@
         },
         {
           "id": "exam-2-question-12",
+          "explanationUrl": "https://scrumprep.com/answering-you-are-a-product-owner-for-a-product-with-a-rapidly-declining-customer-base-one-very-influential-stakeholder-emphasizes-the-need-to-add-more-features-to-the-product-to-focus-on-captur/",
           "number": 12,
           "origin": "Exam Bruno",
           "question": "You are a Product Owner for a product with a rapidly declining customer base.\n\nDespite data that indicates the decline is due to a shrinking market, rather than a lack of new\nfeatures, an influential stakeholder insists on adding more features to attract new customers.\nThe influential stakeholder also says that if you do not add new features you risk losing your\nmost profitable customer.\n\nWhich two of the following actions might you take?\n\n(choose the best two answers)",
@@ -1585,6 +1592,7 @@
         },
         {
           "id": "exam-2-question-14",
+          "explanationUrl": "https://scrumprep.com/answering-who-is-accountable-for-maintaining-and-communicating-the-product-goal/",
           "number": 14,
           "origin": "Exam Bruno",
           "question": "Who is accountable for maintaining and communicating the Product Goal?\n\n(choose the best answer)",
@@ -1618,6 +1626,7 @@
         },
         {
           "id": "exam-2-question-15",
+          "explanationUrl": "https://scrumprep.com/answering-when-the-product-owner-is-too-busy-to-work-with-all-of-the-teams-in-a-multi-team-product-development-effort-which-strategy-will-help-them/",
           "number": 15,
           "origin": "Exam Bruno",
           "question": "When the Product Owner is too busy to work with all of the teams in a multi-team product\ndevelopment effort, which strategy will help them?\n\n(choose the best answer)",
@@ -1651,6 +1660,7 @@
         },
         {
           "id": "exam-2-question-16",
+          "explanationUrl": "https://scrumprep.com/answering-you-started-measuring-product-feature-usage-in-your-last-release-you-are-surprised-to-learn-that-a-sizable-percentage-of-the-features-you-thought-were-very-important-are-never-or-rarely/",
           "number": 16,
           "origin": "Exam Bruno",
           "question": "You started measuring product feature usage in your last release. You are surprised to learn\nthat a sizable percentage of the features you thought were very important are never or rarely\nused.\n\nWhich of the following actions could you take to further evaluate this unexpected result?\n\n(choose all that apply)",
@@ -1683,6 +1693,7 @@
         },
         {
           "id": "exam-2-question-17",
+          "explanationUrl": "https://scrumprep.com/answering-when-should-the-product-owner-update-the-project-plan-2/",
           "number": 17,
           "origin": "Exam Bruno",
           "question": "When should the Product Owner update the project plan?\n\n(choose the best answer)",
@@ -1712,6 +1723,7 @@
         },
         {
           "id": "exam-2-question-18",
+          "explanationUrl": "https://scrumprep.com/answering-your-executive-leadership-team-believes-that-your-product-can-achieve-higher-market-share/",
           "number": 18,
           "origin": "Exam Bruno",
           "question": "Your executive leadership team believes that your product can achieve higher market share.\n\n. The Sales Leader is pressuring you to reduce the price of the product to attract more\ncustomers.\n. The Director of Finance is concerned that reducing the price will merely reduce the\nproduct's profitability.\n\nWhat sources of information should you consider when deciding whether to drop the price as\nthe Sales Leader is suggesting?\n\n(choose the best four answers)",
@@ -1752,6 +1764,7 @@
         },
         {
           "id": "exam-2-question-19",
+          "explanationUrl": "https://scrumprep.com/answering-which-of-the-following-statements-about-the-product-backlog-are-true/",
           "number": 19,
           "origin": "Exam Bruno",
           "question": "Which of the following statements about the Product Backlog are true?\n\n(choose the best two answers)",
@@ -1790,6 +1803,7 @@
         },
         {
           "id": "exam-2-question-20",
+          "explanationUrl": "https://scrumprep.com/answering-you-are-a-product-owner-for-a-product-that-publishes-customer-usage-rates-by-feature/",
           "number": 20,
           "origin": "Exam Bruno",
           "question": "You are a Product Owner for a product that publishes customer usage rates by feature.\n\nAn influential stakeholder does not believe the data showing the usage rates, and insists that a\nparticular feature is essential, despite data showing low usage rates. The stakeholder believes\nthat measuring feature usage is a waste of time.\n\nAs Product Owner you have confirmed that the data is accurate and believe that the data is\nvaluable to help you and your team. What should you do?\n\n(choose the best answer)",
@@ -1844,6 +1858,7 @@
         },
         {
           "id": "exam-2-question-22",
+          "explanationUrl": "https://scrumprep.com/answering-your-stakeholders-are-very-demanding-and-each-of-them-has-at-least-one-feature-that-they-say-is-essential-for-the-next-release-as-the-product-owner-you-have-validated-that-the-feature-re/",
           "number": 22,
           "origin": "Exam Bruno",
           "question": "Your stakeholders are very demanding and each of them has at least one feature that they say\nis essential for the next release. As the Product Owner, you have validated that the feature\nrequests are all valid requests and would likely add value to your product. What should you do?\n\n(choose the best answer)",
@@ -1960,6 +1975,7 @@
         },
         {
           "id": "exam-2-question-26",
+          "explanationUrl": "https://scrumprep.com/answering-what-are-the-attributes-of-a-good-product-vision-and-strategy/",
           "number": 26,
           "origin": "Exam Bruno",
           "question": "What are the attributes of a good Product Vision and Strategy?\n\n(choose all that apply)",
@@ -2096,6 +2112,7 @@
         },
         {
           "id": "exam-2-question-30",
+          "explanationUrl": "https://scrumprep.com/answering-you-have-more-ideas-for-new-products-than-you-have-money-to-invest-what-should-you-do/",
           "number": 30,
           "origin": "Exam Bruno",
           "question": "You have more ideas for new products than you have money to invest. What should you do?\n\n(choose the best answer)",
@@ -2125,6 +2142,7 @@
         },
         {
           "id": "exam-2-question-31",
+          "explanationUrl": "https://scrumprep.com/answering-complete-this-sentence-the-more-uncertain-you-are-about-customer-needs-or-market-desires-____________/",
           "number": 31,
           "origin": "Exam Bruno",
           "question": "Complete this sentence: The more uncertain you are about customer needs or market desires\n\n(choose the best two answers)",
@@ -2155,6 +2173,7 @@
         },
         {
           "id": "exam-2-question-32",
+          "explanationUrl": "https://scrumprep.com/answering-organizations-should-reduce-their-investment-in-a-product-when-the-products/",
           "number": 32,
           "origin": "Exam Bruno",
           "question": "Organizations should reduce their investment in a product when the product's:\n\n(choose the best answer)",
@@ -2188,6 +2207,7 @@
         },
         {
           "id": "exam-2-question-33",
+          "explanationUrl": "https://scrumprep.com/answering-how-small-should-a-ready-product-backlog-item-be-2/",
           "number": 33,
           "origin": "Exam Bruno",
           "question": "How small should a \"ready\" Product Backlog item be?\n\n(choose the best answer)",
@@ -2324,6 +2344,7 @@
         },
         {
           "id": "exam-2-question-37",
+          "explanationUrl": "https://scrumprep.com/answering-if-a-product-owner-finds-themselves-with-more-work-to-do-than-they-can-give-attention-to-what-strategy-can-help-them-achieve-the-things-that-need-to-be-done/",
           "number": 37,
           "origin": "Exam Bruno",
           "question": "What strategy can help a Product Owner who is stretched too thin to do all the things they need\nto do?\n\n(choose the best answer)",
@@ -2357,6 +2378,7 @@
         },
         {
           "id": "exam-2-question-38",
+          "explanationUrl": "https://scrumprep.com/answering-the-most-important-thing-a-product-owner-can-do-is/",
           "number": 38,
           "origin": "Exam Bruno",
           "question": "The most important thing a Product Owner can do is:\n\n(choose the best answer)",
