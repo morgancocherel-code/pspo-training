@@ -189,6 +189,15 @@
     }
 
     const question = exam.questions[questionIndex];
+    if (question.requiredAnswerCount !== null && selected.length !== question.requiredAnswerCount) {
+      const expected = question.requiredAnswerCount;
+      const missing = expected - selected.length;
+      answerError.textContent = `Sélectionnez ${expected} réponse${expected > 1 ? "s" : ""}.` +
+        (missing > 0 ? ` Il vous manque ${missing} réponse${missing > 1 ? "s" : ""}.` : "");
+      answerError.hidden = false;
+      return;
+    }
+
     const isCorrect = isCorrectAnswer(question, selected);
     validated = true;
     responses[questionIndex] = { selected, validated: true };
